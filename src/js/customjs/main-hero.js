@@ -1,7 +1,7 @@
 var paramsHero1 = {
     container: document.getElementById('lottie'),
     renderer: 'svg',
-    path : 'wp-content/themes/charlanderson/src/assets/hero1.json',
+    path : 'wp-content/themes/abwebsolutions/src/assets/hero1.json',
     loop: true,
     autoplay: true,
 };
