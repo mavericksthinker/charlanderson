@@ -393,7 +393,7 @@ if ( is_front_page() ) {
                         <div class="blog-section__content">
                             <div>
                                 <img class="blog__image animate slide-left"
-                                     data-src="<?php echo get_template_directory_uri(); ?>/img/blogs/blog3.jpg"
+                                     data-src="<?php echo get_template_directory_uri(); ?>/img/blogs/blogs3.jpg"
                                      alt="Ideas for Kids part 2"
                                 >
                             </div>
@@ -421,7 +421,7 @@ if ( is_front_page() ) {
                         <div class="blog-section__content">
                             <div>
                                 <img class="blog__image animate slide-left"
-                                     data-src="<?php echo get_template_directory_uri(); ?>/img/blogs/blog4.jpg"
+                                     data-src="<?php echo get_template_directory_uri(); ?>/img/blogs/blogs4.jpg"
                                      alt="Ideas for Kids part 1"
                                 >
                             </div>
