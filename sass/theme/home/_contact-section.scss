@@ -117,16 +117,15 @@
 }
 .contact-form__content-heading {
   font-family: "Apple Chancery", "Roboto", "Poppins", sans-serif;
-  font-size: 14px;
   @media screen and (max-width: $small){
-    font-size: 10px;
+    font-size: 14px;
   }
 }
 .contact-form__content-footer {
   font-family: "Apple Chancery", "Roboto", "Poppins", sans-serif;
-  font-size: 10px;
+  font-size: 14px;
   @media screen and (max-width: $small) {
-    font-size: 8px;
+    font-size: 12px;
   }
 }
 .contact-form__container {
@@ -163,14 +162,14 @@
   width: 100%!important;
   height: 100%!important;
   padding-top: 30px!important;
-  font-size: 16px!important;
+  font-size: 18px!important;
   border: none!important;
   background: transparent!important;
   outline: none!important;
   color: transparent!important;
 
   @media screen and (max-width: $small) {
-    font-size: 12px!important;
+    font-size: 15px!important;
     padding-top: 24px!important;
   }
   &:focus, &:valid {

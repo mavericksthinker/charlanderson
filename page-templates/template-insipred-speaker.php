@@ -36,7 +36,7 @@ if ( is_front_page() ) {
         <div class="about-body">
             <div class="about-section-body">
                 <figure>
-                    <img class="about-image-left animate slide-left"
+                    <img class="coach-image-left animate slide-left"
                          data-src="<?php echo get_template_directory_uri(); ?>/img/coach/coach1.png"
                          alt="About Charla"
                     >
@@ -58,7 +58,7 @@ if ( is_front_page() ) {
                     and the best in their workplaces, resulting in a win/win/win attitude.
                 </p>
                 <figure>
-                    <img class="about-image-right animate slide-right"
+                    <img class="coach-image-right animate slide-right"
                          data-src="<?php echo get_template_directory_uri(); ?>/img/coach/coach2.png"
                          alt="About Charla"
                     >
