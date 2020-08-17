@@ -1,21 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="bd312b3b-6d78-4ff6-a4b4-7cf289e17646" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../../../.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/theme.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/theme.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/theme.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/theme.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/theme.min.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/css/theme.min.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/fsevents/build/Release/.node" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/fsevents/build/Release/.node" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/fsevents/build/Release/fse.node" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/fsevents/build/Release/fse.node" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/fsevents/build/Release/obj.target/fse/fsevents.o" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/fsevents/build/Release/obj.target/fse/fsevents.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/gulp/node_modules/gulp-cli/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/gulp/node_modules/gulp-cli/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/gulp/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/gulp/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/interpret/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/interpret/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/lodash/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/lodash/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sass/theme/youtube/_youtube.scss" beforeDir="false" afterPath="$PROJECT_DIR$/sass/theme/youtube/_youtube.scss" afterDir="false" />
-    </list>
+    <list default="true" id="bd312b3b-6d78-4ff6-a4b4-7cf289e17646" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,7 +23,7 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../.." />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1eMPfzlLjjQpaUEybPo8j7qnrt8" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -47,7 +33,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="js.buildTools.gulp.gulp_package_dir" value="$PROJECT_DIR$/node_modules/gulp" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/img/author" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="list.type.of.created.stylesheet" value="Sass" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
@@ -134,7 +120,8 @@
       <workItem from="1597299568220" duration="22490000" />
       <workItem from="1597480606437" duration="12554000" />
       <workItem from="1597550895181" duration="3234000" />
-      <workItem from="1597655572180" duration="580000" />
+      <workItem from="1597655572180" duration="1045000" />
+      <workItem from="1597657024067" duration="247000" />
     </task>
     <servers />
   </component>
