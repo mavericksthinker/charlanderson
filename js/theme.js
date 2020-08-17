@@ -24632,7 +24632,7 @@ typeof navigator !== "undefined" && function (root, factory) {
 var paramsHero1 = {
   container: document.getElementById('lottie'),
   renderer: 'svg',
-  path: 'wp-content/themes/abwebsolutions/src/assets/hero1.json',
+  path: 'wp-content/themes/charlanderson/src/assets/hero1.json',
   loop: true,
   autoplay: true
 };
@@ -24701,7 +24701,8 @@ const headingObserverOptions = {
   threshold: .3
 };
 const imageObserverOptions = {
-  threshold: 0
+  threshold: 0,
+  rootMargin: "-50px 0px 0px 0px"
 };
 const footerObserverOptions = {
   threshold: .6

@@ -53,14 +53,14 @@ if ( is_front_page() ) {
                     </figure>
                     <div class="contact-page__content">
                         <div class="contact-form__container contact-form__container-contact-page">
-                            <div role="form" class="wpcf7" style="margin: 0!important;width: 100%" id="wpcf7-f101-o1" lang="en-US" dir="ltr">
+                            <div role="form" class="wpcf7" style="margin: 0!important;width: 100%" id="wpcf7-f61-o1" lang="en-US" dir="ltr">
                                 <div class="screen-reader-response" role="alert" aria-live="polite"></div>
-                                <form action="/contact-charla/#wpcf7-f101-o1" method="post" class="wpcf7-form init" novalidate="novalidate">
+                                <form action="/contact-charla/#wpcf7-f61-o1" method="post" class="wpcf7-form init" novalidate="novalidate">
                                     <div style="display: none;">
-                                        <input type="hidden" name="_wpcf7" value="101">
+                                        <input type="hidden" name="_wpcf7" value="61">
                                         <input type="hidden" name="_wpcf7_version" value="5.2">
                                         <input type="hidden" name="_wpcf7_locale" value="en_US">
-                                        <input type="hidden" name="_wpcf7_unit_tag" value="wpcf7-f101-o1">
+                                        <input type="hidden" name="_wpcf7_unit_tag" value="wpcf7-f61-o1">
                                         <input type="hidden" name="_wpcf7_container_post" value="0">
                                         <input type="hidden" name="_wpcf7_posted_data_hash" value="">
                                         <input type="hidden" name="_wpcf7_recaptcha_response" value="">

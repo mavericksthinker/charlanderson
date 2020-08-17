@@ -19,6 +19,7 @@ const headingObserverOptions = {
 
 const imageObserverOptions = {
     threshold: 0,
+    rootMargin: "-50px 0px 0px 0px"
 };
 
 const footerObserverOptions = {

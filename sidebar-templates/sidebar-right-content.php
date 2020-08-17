@@ -29,7 +29,7 @@ defined( 'ABSPATH' ) || exit;
 
     <span class="mb-2"><?php echo get_the_author_meta( 'description', $author_id ); ?>
 
-    <div class="footer-social-links mt-5">
+    <div class="footer-social-links mt-5" style="width: 100%; justify-content: center">
         <div class="footer-social-media-icons">
                 <a class="footer-social-media-icons__image"
                    href="https://www.facebook.com/CharlaArnold"
