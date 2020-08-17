@@ -1,0 +1,171 @@
+.choices-page__books,
+.choices-page__products,
+.choices-page__affiliates,
+.choices-page__faves,
+.choices-page__charities {
+  padding-bottom: 5rem;
+  @media screen and (max-width: 840px) {
+    padding-bottom: 3rem;
+  }
+}
+.choices-page__books {
+  position: relative;
+  background: linear-gradient(#FEFEFE, #A5C0C9);
+}
+.choices-page__products {
+  background: linear-gradient(#A5C0C9, #7FAFBF);
+}
+.choices-page__affiliates {
+  background: linear-gradient(#7FAFBF, #448799);
+}
+.choices-page__faves {
+  background: linear-gradient(#448799, #FAEBD6);
+}
+.choices-page__charities {
+  background: linear-gradient(#FAEBD6, #FCD9C3);
+}
+.choices-page__paragraph {
+  background: linear-gradient(#FCD9C3, #FCD9C3);
+}
+.choices-page__paragraph-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 90%;
+  padding: 3rem;
+  margin: 0 auto;
+}
+.choices-page__paragraph-container__text {
+  width: 100%;
+  color: $teal-90;
+  line-height: 1.7em;
+  font-family: 'Apple Chancery', 'Roboto', sans-serif;
+  text-align: center;
+  font-size: 28px;
+  margin-bottom: 4rem;
+  padding-bottom: 3rem;
+  @media screen and (max-width: $xxlarge) {
+    font-size: 24px;
+  }
+  @media screen and (max-width: $xmedium) {
+    font-size: 20px;
+  }
+  @media screen and (max-width: 840px) {
+    margin-bottom: 2rem;
+  }
+  @media screen and (max-width: $medium) {
+    padding-bottom: 0;
+    margin-bottom: 1.5rem;
+  }
+}
+.choices-section {
+  height: 100vh;
+  position: relative;
+  background: linear-gradient(#FEFEFE, #A5C0C9);
+}
+.choices__hero-section__image {
+  height: 100%;
+  width: 100%;
+  background-size: cover;
+  background-image: url('../img/about/about_charla_bg.png');
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+.choices-page-container {
+  width: 85%;
+  text-align: center;
+  display: flex;
+  background: white;
+  border-radius: 10px;
+  height: 65vh;
+  justify-content: space-evenly;
+  align-items: center;
+  margin: 4rem 0 6rem 0;
+  padding: 3rem;
+  @media screen and (max-width: $xlarge) {
+    height: 50vh;
+  }
+  @media screen and (max-width: 840px) {
+    height: auto;
+    flex-direction: column;
+    align-items: center;
+    width: 95%;
+    margin: 3rem 0 6rem 0;
+  }
+  @media screen and (max-width: $small) {
+    width: 110%;
+  }
+}
+.choices-body {
+  width: 100%;
+  padding: 4rem 2rem 0 2rem;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  @media screen and (max-width: 840px) {
+    padding: 5rem 3.5rem 0  3.5rem;
+  }
+}
+.choices-container {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+.choices-container__body {
+  width: 50%;
+  margin-bottom: 2.5rem;
+  @media screen and (max-width: 840px) {
+    width: 90%;
+  }
+}
+.choices-container__image {
+  width: 40%;
+}
+.choices-paragraph {
+  width: 100%;
+}
+.choices-section-body {
+  width: 100%;
+  text-align: center;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  @media screen and (max-width: 840px) {
+    flex-direction: column;
+    width: 100%;
+    margin: 3rem 0 0 0;
+  }
+}
+.choices-page__heading, .choices-page__body {
+  font-family: "Apple Chancery", "Roboto", "Poppins", sans-serif;
+  color: black;
+}
+.choices-page__heading {
+  margin-bottom: 2rem;
+  font-size: 42px;
+  color: $teal-90;
+}
+.choice-page__button {
+  z-index: 2;
+}
+.purchase-group {
+  display: flex;
+  width: 60%;
+  justify-content: center;
+  align-items: center;
+  @media screen and (max-width: 840px) {
+    flex-direction: column;
+  }
+}
+.purchase-button {
+  margin-right: 2rem;
+
+  @media screen and (max-width: 840px) {
+    margin-right: 0;
+    margin-bottom: 2rem;
+  }
+}

@@ -1,0 +1,222 @@
+.blog-page {
+  background: linear-gradient(#FEFEFE, #A5C0C9, #7FAFBF, #FAEBD6, #FCD9C3);
+}
+.blog-page__hero-section__image-blogs {
+  height: 100%;
+  width: 100%;
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+.blog-page__hero-section__image-blogs {
+  background-image: url('../img/blogs/blogs.png');
+}
+div#content:focus {
+  outline: none;
+}
+div#content {
+  //margin-top: 5rem;
+}
+.row {
+  @media screen and (max-width: 840px) {
+    margin: 0;
+  }
+}
+.row , .blog-lists {
+  width: 100%;
+  display: flex;
+}
+.blog-lists {
+  justify-content: center;
+  align-items: center;
+}
+.blog-lists {
+  margin-top: 5rem;
+}
+.status-publish {
+  margin-top: 5rem;
+}
+.single-blog-body__container {
+  width: 90%;
+  margin: 0 auto;
+}
+.single-blog-body {
+  .navigation {
+    position: relative;
+    z-index: 0;
+    padding: 0;
+
+    @media screen and (max-width: 840px) {
+      padding: 0 1rem;
+    }
+  }
+  .status-publish {
+    margin-top: 2.5rem;
+  }
+  .row {
+    width: 100%;
+    margin: 3rem auto 4rem auto;
+
+    @media screen and (max-width: 840px) {
+      margin: 1rem auto 2.5rem auto;
+    }
+  }
+}
+.nav-links {
+  margin-bottom: 4rem;
+}
+.page-link {
+  color: black;
+  border: none;
+  background: transparent;
+  margin-right: 1rem;
+  &:focus {
+    outline: none!important;
+  }
+}
+.page-item.active .page-link {
+  background: teal;
+  color: white;
+}
+.blog-site-main {
+  width: 100vw;
+  margin: 0 auto;
+}
+.blog {
+overflow-x: hidden
+}
+.blog-page-container {
+  width: 85%;
+  height: 100%;
+  text-align: center;
+  display: flex;
+  background: white;
+  border-radius: 10px;
+  justify-content: space-evenly;
+  align-items: center;
+  margin: 0 auto;
+  padding: 3rem 3rem 0 3rem;
+
+  @media screen and (max-width: 840px) {
+    height: auto;
+    flex-direction: column;
+    align-items: center;
+    width: 88%;
+    padding: 7rem 2rem 0 2rem;
+  }
+  p {
+    padding-bottom: 2rem;
+    @media screen and (max-width: 840px) {
+      font-size: 14px;
+    }
+  }
+}
+.wp-post-image {
+  border-radius: 18px;
+  box-shadow: 3px 5px 22px #999;
+}
+.understrap-read-more-link {
+  border-radius: 30px;
+  margin-top: 3rem;
+  font-size: 16px;
+  background: none;
+  color: $teal-90;
+  border: 1px solid teal;
+  transition: 0.2s linear all;
+
+  &:hover {
+    background: teal;
+    color: $accent;
+  }
+
+  @media screen and (max-width: 840px) {
+    margin-top: 0;
+  }
+}
+.blog-container {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+.blog-container__body {
+  width: 50%;
+  //margin-bottom: 2.5rem;
+  padding: 2rem 0;
+  @media screen and (max-width: 840px) {
+    width: 90%;
+  }
+}
+.blog-page__header {
+  margin-bottom: 3rem;
+  @media screen and (max-width: 840px) {
+    margin-bottom: 1rem;
+  }
+}
+.blog-page__body {
+  font-family: "Apple Chancery", "Roboto", "Poppins", sans-serif;
+  color: black;
+  margin: 1rem 0;
+}
+.blog-page {
+  position: relative;
+}
+.updated, .entry-date, .url {
+  color: teal!important;
+}
+.blog-paragraph-right {
+  width: 50%;
+  font-family: "Apple Chancery", "Roboto", "Poppins", sans-serif;
+  font-size: 20px;
+  letter-spacing: 1px;
+  color: rgba(0, 0, 0, 0.6);
+  @media screen and (max-width: $xlarge) {
+    font-size: 18px;
+  }
+  @media screen and (max-width: $large) {
+    font-size: 15px;
+  }
+  @media screen and (max-width: $xmedium) {
+    margin-left: 4rem;
+  }
+  @media screen and (max-width: 840px) {
+    font-size: 14px;
+    margin-left: 0;
+    width: 100%;
+    margin-top: 1rem;
+  }
+}
+
+// Categories
+.archive-lists {
+  display: flex;
+  align-items: center;
+  li {
+    margin:0 1rem ;
+    a {
+      font-family: "Apple Chancery", "Roboto", "Poppins", sans-serif;
+      color: teal;
+    }
+  }
+  @media screen and (max-width: 840px) {
+    flex-direction: column;
+  }
+}
+.archive-section__header {
+  font-family: "Apple Chancery", "Roboto", "Poppins", sans-serif;
+  color: black;
+  @media screen and (max-width: 840px) {
+    font-size: 16px;
+  }
+}
+.archive-section {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  padding: 2rem;
+
+  @media screen and (max-width: 840px) {
+    align-items: center;
+  }
+}

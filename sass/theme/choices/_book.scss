@@ -1,0 +1,90 @@
+.book-page__hero-section__image-books,
+.book-page__hero-section__image-products,
+.book-page__hero-section__image-affiliates,
+.book-page__hero-section__image-faves,
+.book-page__hero-section__image-charities,
+.charity-page__section-2 {
+  height: 100%;
+  width: 100%;
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+.book-page__hero-section__image-books {
+  background-image: url('../img/choices/books.jpg');
+}
+.book-page__hero-section__image-products {
+  background-image: url('../img/choices/products.jpg');
+}
+.book-page__hero-section__image-affiliates {
+  background-image: url('../img/choices/affiliates.jpg');
+}
+.book-page__hero-section__image-faves {
+  background-image: url('../img/choices/faves.jpg');
+}
+.book-page__hero-section__image-charities {
+  background-image: url("../img/choices/charities.jpg");
+}
+.book-page__hero-header__text {
+  color: $accent;
+  font-size: 90px;
+  @media screen and (max-width: $medium) {
+    font-size: 75px;
+  }
+  @media screen and (max-width: $small) {
+    font-size: 65px;
+  }
+}
+.books-page__section-1,
+.books-page__section-2,
+.books-page__section-3 {
+  padding-bottom: 5rem;
+  @media screen and (max-width: 840px) {
+    padding-bottom: 0;
+  }
+}
+.books-page__section-1 {
+  position: relative;
+  background: linear-gradient(#FEFEFE, #A5C0C9, #7FAFBF);
+}
+.books-page__section-2 {
+  background: linear-gradient(#7FAFBF, #FAEBD6);
+}
+.charity-page__section-2 {
+  background: linear-gradient(#7FAFBF, #FAEBD6, #FCD9C3);
+}
+.books-page__section-3 {
+  background: linear-gradient(#FAEBD6, #FCD9C3);
+}
+.books-page__section-4 {
+  background: linear-gradient(#FCD9C3, #FCD9C3);
+  padding-bottom: 4rem;
+  @media screen and (max-width: $xmedium) {
+    padding-bottom: 1rem;
+  }
+}
+.choices-section__container__header,
+.choices-section__container__sub-header{
+  font-family: "ScrapbookerScriptW00-Rg", "Apple Chancery", "Roboto", "Poppins", sans-serif;
+  width: 95%;
+}
+.choices-section__container__header {
+  font-size: 50px;
+  color: white;
+  @media screen and (max-width: $xmedium) {
+    font-size: 30px;
+  }
+}
+.choices-section__container__sub-header {
+  font-size: 40px;
+  color: $accent;
+  @media screen and (max-width: $xmedium) {
+    font-size: 20px;
+  }
+}
+.choices-carousel__image {
+  max-height: 320px;
+  border-radius: 10px;
+  box-shadow: 0 3px 20px rgba(0, 0, 0, 0.2);
+}

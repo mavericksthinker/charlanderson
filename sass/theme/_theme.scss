@@ -1,0 +1,214 @@
+// This is an empty scss file for your custom styles - Please add your super duper awesome mega design styles here
+@import '_theme_variables';
+@import '_glider';
+@import 'home/_nav';
+@import 'home/_mega-menu';
+@import 'home/_hero-slider';
+@import 'home/_about-section';
+@import 'home/_service';
+@import 'home/_testimonials';
+@import 'home/_blogs-section';
+@import 'home/_contact-section';
+@import 'home/_footer';
+@import 'about/_about-page';
+@import 'choices/_choices-page';
+@import 'choices/_book';
+@import 'yestimonies/_yestimonies';
+@import 'contact/_contact';
+@import 'privacy/_privacy';
+@import 'youtube/_youtube';
+@import 'coach/_coach';
+@import 'blog/_blog-page';
+@import 'blog/_single-blog';
+@import 'sidebar/_right-sidebar';
+@import 'author/_author';
+
+@font-face {
+  font-family: 'FontAwesome';
+  src: url("../fonts/fontawesome-webfont.eot?v=4.7.0");
+  src: url("../fonts/fontawesome-webfont.eot?#iefix&v=4.7.0") format("embedded-opentype"), url("../fonts/fontawesome-webfont.woff2?v=4.7.0") format("woff2"), url("../fonts/fontawesome-webfont.woff?v=4.7.0") format("woff"), url("../fonts/fontawesome-webfont.ttf?v=4.7.0") format("truetype"), url("../fonts/fontawesome-webfont.svg?v=4.7.0#fontawesomeregular") format("svg");
+  font-weight: normal;
+  font-style: normal; }
+
+@font-face {font-family: "ScrapbookerScriptW00-Rg";
+  src: url("../fonts/Scrapbooker/scrapbooker.eot"); /* IE9*/
+  src: url("../fonts/Scrapbooker/scrapbooker.eot?#iefix") format("embedded-opentype"), /* IE6-IE8 */
+  url("../fonts/Scrapbooker/scrapbooker.woff2") format("woff2"), /* chrome firefox */
+  url("../fonts/Scrapbooker/scrapbooker.woff") format("woff"), /* chrome firefox */
+  url("../fonts/Scrapbooker/scrapbooker.ttf") format("truetype"), /* chrome firefox opera Safari, Android, iOS 4.2+*/
+  url("../fonts/Scrapbooker/scrapbooker.svg#ScrapbookerScriptW00-Rg") format("svg"); /* iOS 4.1- */
+}
+@font-face {font-family: "Apple Chancery";
+  src: url("../fonts/AppleChancery/AppleChancery.eot"); /* IE9*/
+  src: url("../fonts/AppleChancery/AppleChancery.eot?#iefix") format("embedded-opentype"), /* IE6-IE8 */
+  url("../fonts/AppleChancery/AppleChancery.woff2") format("woff2"), /* chrome firefox */
+  url("../fonts/AppleChancery/AppleChancery.woff") format("woff"), /* chrome firefox */
+  url("../fonts/AppleChancery/AppleChancery.ttf") format("truetype"), /* chrome firefox opera Safari, Android, iOS 4.2+*/
+  url("../fonts/AppleChancery/AppleChancery.svg#Apple Chancery") format("svg"); /* iOS 4.1- */
+}
+html{
+  -webkit-font-smoothing :antialiased;
+}
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+a, a:hover{
+  text-underline: none;
+}
+body{
+  font-size: 18px;
+  overflow-x: hidden;
+}
+p, span , a {
+  letter-spacing: 1px;
+}
+p {
+  line-height: 1.7em;
+  @media screen and (max-width: $medium) {
+    line-height: 1.5em;
+  }
+}
+ul li {
+  list-style:none;
+  margin: 0;
+  padding: 0;
+}
+h1 {
+  font-family: 'ScrapbookerScriptW00-Rg', sans-serif;
+}
+h2, p{
+  font-family: "Apple Chancery", "Roboto", 'Poppins', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+h3 {
+  font-family: "Roboto", 'Poppins', sans-serif;
+}
+.body {
+  --nav-color: tranparent;
+  position: relative;
+}
+.hidden {
+  visibility: hidden;
+}
+.visible {
+  visibility: visible;
+}
+.preloader {
+  transform: scale(2, 2);
+  @media screen and (max-width: $medium) {
+    transform: scale(1, 1);
+  }
+}
+.animate {
+  -webkit-animation-duration: 1s;
+  animation-duration: 1s;
+  -webkit-animation-fill-mode: forwards;
+  animation-fill-mode: forwards;
+}
+.main-body {
+  overflow: hidden;
+}
+/*==== FADE IN UP ===*/
+@-webkit-keyframes fadeInUp {
+  from {
+    opacity: 0;
+    -webkit-transform: translate3d(0, 50%, 0);
+    transform: translate3d(0, 50%, 0);
+  }
+
+  to {
+    opacity: 1;
+    -webkit-transform: none;
+    transform: none;
+  }
+}
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    -webkit-transform: translate3d(0, 50%, 0);
+    transform: translate3d(0, 50%, 0);
+  }
+
+  to {
+    opacity: 1;
+    -webkit-transform: none;
+    transform: none;
+  }
+}
+.heading,
+.slide-left,
+.slide-right {
+  opacity: 0;
+}
+
+.fadeInUp {
+  -webkit-animation-name: fadeInUp;
+  animation-name: fadeInUp;
+}
+
+/*=== FADE IN LEFT ===*/
+@-webkit-keyframes fadeInLeft {
+  from {
+    opacity: 0;
+    -webkit-transform: translate3d(-10%, 0, 0);
+    transform: translate3d(-10%, 0, 0);
+  }
+
+  to {
+    opacity: 1;
+    -webkit-transform: none;
+    transform: none;
+  }
+}
+@keyframes fadeInLeft {
+  from {
+    opacity: 0;
+    -webkit-transform: translate3d(-10%, 0, 0);
+    transform: translate3d(-10%, 0, 0);
+  }
+
+  to {
+    opacity: 1;
+    -webkit-transform: none;
+    transform: none;
+  }
+}
+.fadeInLeft {
+  -webkit-animation-name: fadeInLeft;
+  animation-name: fadeInLeft;
+}
+
+/*==== FADE IN RIGHT ===*/
+@-webkit-keyframes fadeInRight {
+  from {
+    opacity: 0;
+    -webkit-transform: translate3d(10%, 0, 0);
+    transform: translate3d(10%, 0, 0);
+  }
+
+  to {
+    opacity: 1;
+    -webkit-transform: none;
+    transform: none;
+  }
+}
+@keyframes fadeInRight {
+  from {
+    opacity: 0;
+    -webkit-transform: translate3d(10%, 0, 0);
+    transform: translate3d(10%, 0, 0);
+  }
+
+  to {
+    opacity: 1;
+    -webkit-transform: none;
+    transform: none;
+  }
+}
+.fadeInRight {
+  -webkit-animation-name: fadeInRight;
+  animation-name: fadeInRight;
+}

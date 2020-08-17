@@ -1,0 +1,102 @@
+.privacy-page-section {
+  height: 100vh;
+  margin-top: -9.3vh;
+  letter-spacing: 2px;
+  //margin-bottom: 3rem;
+  @media screen and (max-width: $small){
+    margin-top: -5vh;
+    //margin-bottom: 1.5rem;
+  }
+}
+.privacy-page__section1,
+.privacy-page__section2,
+.privacy-page__section3,
+.privacy-page__section4 {
+  position: relative;
+}
+.privacy-page__section1 {
+  background: linear-gradient(#FEFEFE, #A5C0C9);
+}
+.privacy-page__section2 {
+  background: linear-gradient(#A5C0C9, #7FAFBF);
+}
+.privacy-page__section3 {
+  background: linear-gradient(#7FAFBF, #FAEBD6);
+}
+.privacy-page__section4 {
+  background: linear-gradient(#FAEBD6, #FCD9C3);
+}
+.privacy-page-body {
+  width: 100%;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  margin: 2rem 0 4rem 0;
+  @media screen and (max-width: 840px) {
+    align-items: center;
+    width: 100%;
+    margin: 1rem 0 0 0;
+  }
+}
+.privacy-policy__body {
+  width: 100%;
+  padding: 0 2rem 0 2rem;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  @media screen and (max-width: 840px) {
+    padding: 3rem 2rem 0 2rem;
+  }
+}
+.bold {
+  font-weight: 500;
+  color: $teal-90!important;
+  font-size: 40px!important;
+
+  @media screen and (max-width: $large) {
+    font-size: 35px!important;
+  }
+  @media screen and (max-width: $xmedium) {
+    margin-left: 4rem;
+  }
+  @media screen and (max-width: 840px) {
+    font-size: 25px!important;
+    padding: 0 1rem!important;
+  }
+}
+.privacy-page__paragraph-section {
+  width: 90%;
+  font-family: "Apple Chancery", "Roboto", "Poppins", sans-serif;
+  letter-spacing: 2px;
+  color: rgba(0, 0, 0, 0.6);
+  @media screen and (max-width: $xlarge) {
+    font-size: 20px;
+  }
+  @media screen and (max-width: $large) {
+    font-size: 18px;
+  }
+  @media screen and (max-width: $xmedium) {
+    font-size: 16px;
+    margin-left: 4rem;
+  }
+  @media screen and (max-width: 840px) {
+    font-size: 14px;
+    margin-left: 0;
+    width: 100%;
+    margin-top: 1rem;
+  }
+  @media screen and (max-width: $medium) {
+    padding: 1rem!important;
+  }
+}
+.privacy-page__paragraph-section {
+  padding: 3rem;
+
+  @media screen and (max-width: 840px) {
+    padding: 3rem 1rem 3rem 1rem;
+  }
+}

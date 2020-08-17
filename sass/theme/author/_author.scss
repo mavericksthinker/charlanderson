@@ -1,0 +1,56 @@
+.author-page__hero-section__image-blogs {
+  height: 100%;
+  width: 100%;
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+.author-page__hero-section__image-blogs {
+  background-image: url('../img/author/author.jpg');
+}
+.author-main {
+  font-family: "Apple Chancery", "Roboto", "Poppins", sans-serif;
+  background: linear-gradient(#FEFEFE, #FAEBD6, #FCD9C3);
+  padding: 5rem;
+  letter-spacing: 1.5px;
+
+  @media screen and (max-width: 840px) {
+    padding: 2rem;
+  }
+}
+.author-header {
+
+  img {
+    border-radius: 10px;
+    box-shadow: 3px 5px 22px #999;
+    width: 140px;
+    height: 140px;
+  }
+
+  dt {
+    margin-top: 3rem;
+    font-size: 24px;
+    color: teal;
+  }
+  dd {
+    margin-top: 1rem;
+    margin-bottom: 3rem;
+  }
+  @media screen and (max-width: 840px) {
+    text-align: center;
+  }
+}
+.author-blog__list {
+  display: flex;
+  margin-top: 1.5rem;
+  a {
+    color: teal;
+    margin-right: 1rem;
+  }
+
+  @media screen and (max-width: 840px) {
+    text-align: center;
+    flex-direction: column;
+  }
+}

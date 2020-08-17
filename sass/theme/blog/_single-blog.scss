@@ -1,0 +1,35 @@
+
+.single-blog-body {
+  background: linear-gradient(#FEFEFE, #A5C0C9, #7FAFBF, #FAEBD6, #FCD9C3);
+  letter-spacing: 1.5px;
+  text-wrap: normal;
+
+  .wp-post-image {
+    margin-top: 2rem;
+    margin-bottom: 4rem;
+  }
+ ol li {
+   margin: 0 2rem;
+ }
+  img {
+    border-radius: 18px;
+    box-shadow: 3px 5px 22px #999;
+  }
+  .post-navigation {
+    background: transparent;
+    a {
+      &:hover {
+        text-decoration: none;
+      }
+    }
+  }
+}
+.entry-header {
+  margin-bottom: 2rem;
+}
+.entry-title {
+  a {
+    color: teal;
+    text-decoration: none;
+  }
+}

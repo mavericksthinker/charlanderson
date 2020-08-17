@@ -1,0 +1,34 @@
+// Use this file to overwrite the basic Bootstrap variables and add your own variables
+// To overwrite a Bootstrap variable you don´t have to touch the Bootstrap folder.
+// Just copy a variable from src/sass/bootstrap4/_variables.scss, paste it here and edit the value.
+
+
+$primary: #3387a2; // Orange color
+$orange: #d95204; // Orange color
+$teal: #3387a2; // Teal color
+$teal-10: #A5C0C9;
+$teal-30: #8BB6C4;
+$teal-50: #699DAC;
+$teal-90: #168284;
+$primary-10: #FAEBD6;
+$primary-30: #FCD9C3;
+$primary-50: #FDB8A1;
+$primary-70: #FCB8A1;
+$primary-80: #FCB9A2;
+$primary-90: #F5A584;
+$accent: #fefff9;
+$secondary-accent-10: #FFFFF6;
+$paragraph: #F9FCFD;
+$paragraph-secondary: rgba(0, 0, 0 , 0.61);
+
+$tl: 0.6s; // transition length
+
+/* breakpoints */
+$xsmall :400px;
+$small : 576px;
+$medium : 768px;
+$xmedium : 900px;
+$large : 952px;
+$xlarge : 1200px;
+$xxlarge : 1400px;
+$xxxlarge :1600px;

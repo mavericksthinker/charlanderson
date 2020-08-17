@@ -1,0 +1,58 @@
+.coach-page__section1 {
+  position: relative;
+  background: linear-gradient(#FEFEFE, #A5C0C9);
+}
+.coach-page__section2 {
+  position: relative;
+  background: linear-gradient(#A5C0C9, #7FAFBF);
+}
+.video-section {
+  display: block;
+  position: relative;
+  background: linear-gradient(#7FAFBF, #FAEBD6);
+}
+.speaker-video-section {
+  display: block;
+  position: relative;
+  background: linear-gradient(#7FAFBF, #FCD9C3);
+}
+.coach-page__paragraph {
+  background: linear-gradient(#FAEBD6, #FCD9C3);
+}
+.coach-body {
+  width: 100%;
+  padding: 0 2rem;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.coach-section-body {
+  width: 100%;
+  text-align: center;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin: 4rem 0 8rem 0;
+  @media screen and (max-width: 840px) {
+    flex-direction: column;
+    align-items: center;
+    margin: 3rem 0 0 0;
+  }
+}
+.coach-page__image {
+  position: absolute;
+  right: 0;
+  bottom: -9rem;
+  width: 400px;
+  opacity: .09;
+  transition: transform 0.7s cubic-bezier(0.77, 0, 0.175, 1) 0.1s,opacity 0.7s ease-in-out 0.1s,
+  -webkit-transform 0.7s cubic-bezier(0.77, 0, 0.175, 1) 0.1s;
+  @media screen and (max-width: $large) {
+    width: 350px;
+  }
+  @media screen and (max-width: $medium) {
+    width: 300px;
+  }
+}

@@ -1,0 +1,294 @@
+.navigation {
+  position: sticky;
+  background: var(--nav-color);
+  top: 0;
+  z-index: 999;
+  backdrop-filter: blur(5px);
+  background: rgba(white, 0.7);
+}
+.main-navigation {
+  min-height: 8vh;
+  width: 90%;
+  text-align: center;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 0 auto;
+  padding-top: .5rem;
+  padding-bottom: .5rem;
+
+  @media screen and (max-width: $small){
+    min-height: 4vh;
+    padding-top: .35rem;
+    padding-bottom: .35rem;
+  }
+}
+.navigation-scrolled {
+  background: rgba(white, 1);
+  box-shadow: 0 3px 20px rgba(black, 0.2);
+  transition: 0.6s ease-in-out ;
+}
+.logo{
+  max-width: 150px;
+  z-index: 30;
+  @media screen and (max-width: $small){
+    max-width: 100px;
+  }
+}
+.search-input__form {
+  width: 100%;
+  @media screen and (max-width: $xmedium) {
+    width: 90%;
+  }
+}
+.menu_items {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  width: 100%;
+
+  .search_box {
+    position: relative;
+    width: 30%;
+    max-width: 45px;
+    border: .000001px solid $teal-10;
+    height: 35px;
+    overflow: hidden;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    border-radius: 50px;
+    -webkit-border-radius:50px;
+    -moz-border-radius:50px;
+    transition: 0.4s ease-in-out ;
+
+    @media screen and (max-width: $small){
+      height: 25px;
+      max-width: 25px;
+    }
+
+    .search_box__input {
+      display: block;
+      appearance: none;
+      width: 100%;
+      //height: 33px;
+      border: none;
+      outline: none;
+      border-radius: 50px;
+      -webkit-border-radius:50px;
+      -moz-border-radius:50px;
+      //padding: 0 0 0 1rem;
+      font-size: 16px;
+      cursor: pointer;
+      color: transparent;
+      background: transparent;
+      align-items: center;
+
+      &::placeholder {
+        color: transparent;
+      }
+      @media screen and (max-width: $medium){
+        font-size: 12px;
+      }
+      @media screen and (max-width: $small){
+        font-size: 10px;
+      }
+    }
+    .search_box__icon {
+      position: absolute;
+      right: calc( 30px / 2 );
+      top: 50%;
+      transform: translate(50%, -50%);
+      width: 20px;
+      height: 20px;
+      pointer-events: none;
+      path {
+        fill : $teal;
+      }
+
+      @media screen and (max-width: $small){
+        width: 15px;
+        height: 15px;
+      }
+  }
+    .close {
+      width: 8px;
+      display: none;
+      path {
+        fill: $teal-30;
+    }
+  }
+    &:focus-within {
+      max-width: 200px;
+      padding: .5rem 1.5rem .5rem 1.5rem;
+      border: 1px solid $teal-50;
+      background: transparent;
+      box-shadow: 0 3px 20px rgba(black, 0.2);
+
+      @media screen and (max-width: $medium) {
+        padding: .5rem 1.5rem .5rem .5rem;
+      }
+      .search_box__input {
+        color: $teal-90;
+
+        &::placeholder {
+          color: rgba(0, 0, 0, 0.4);
+      }
+    }
+      .search_box__icon {
+        pointer-events: all;
+        cursor: pointer;
+    }
+      .close {
+        display: block;
+    }
+      .search {
+        display: none;
+    }
+      path {
+        fill: $teal-10;
+    }
+  }
+}
+  @media screen and (max-width: $medium) {
+  .search_box, .menu_items {
+    width: 55%;
+    margin-left: 1rem;
+  }
+}
+  .button__call-to-action {
+    border-radius: 50px;
+    font-size: 1.2rem;
+    text-align: center;
+    cursor: pointer;
+    -webkit-border-radius:50px;
+    -moz-border-radius:50px;
+    text-decoration: none;
+    width: auto;
+    margin: .5rem .5rem .5rem 2rem;
+    padding: .5rem 1.5rem .5rem 1.5rem;
+    line-height: 32px;
+    color: $teal-90;
+    transform: scale(0.99, 0.99);
+    font-family: "Apple Chancery", "Roboto", "Poppins", sans-serif;
+    box-shadow: 0 3px 20px rgba(black, 0.2);
+    transition: 0.2s ease-in transform;
+
+    @media screen and (max-width: $large) {
+      font-size: 1.1rem;
+      padding: 0 .5rem 0 .5rem;
+    }
+    @media screen and (max-width: $xmedium) {
+      font-size: .8rem;
+      margin: .5rem .2rem .5rem 2rem;
+    }
+    @media screen and (max-width: $small) {
+      font-size: .5rem;
+    }
+  }
+   .button__menu {
+    font-size: 1.3rem;
+    text-align: center;
+    cursor: pointer;
+  }
+  .button__call-to-action__appointment {
+    border: 1px solid $teal-90;
+    transition: 0.2s ease-in all;
+    @media screen and (max-width: $small) {
+      display: none;
+    }
+    &:hover{
+      background: $teal-90;
+      color: $accent;
+  }
+}
+  .button__call-to-action__contact {
+    transition: 0.2s ease-in all;
+    transform: scale(0.98,0.95);
+    @media screen and (max-width: 700px) {
+      display: none;
+    }
+    &:hover{
+      transform: scale(1 , 1);
+    }
+}
+  .button__menu {
+    width: 5%;
+    height: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: flex-end;
+    cursor: pointer;
+    z-index: 30;
+
+    @media screen and (max-width: $xmedium) {
+        margin-left: 1rem;
+    }
+    @media screen and (max-width: $medium) {
+        margin-bottom: .1rem;
+    }
+    @media screen and (max-width: $small) {
+      margin-left: 2rem;
+      margin-bottom: .1rem;
+    }
+    .line1, .line2, .line3 {
+      display: block;
+      height: 3.25px;
+      border: none;
+      border-radius: 30px;
+      -webkit-border-radius:30px;
+      -moz-border-radius:30px;
+      -webkit-transform-origin: 3.5px 50%;
+      -ms-transform-origin: 3.5px 50%;
+      transform-origin: 3.5px 50%;
+      -webkit-animation-fill-mode: both;
+      animation-fill-mode: both;
+      transition: .25s ease-in-out;
+      @media not all and (min-resolution:.001dpcm) {
+        -webkit-transform-origin: 6.5px 50%;
+        -ms-transform-origin: 6.5px 50%;
+        transform-origin: 6.5px 50%;
+      }
+      @media screen and (max-width: $small) {
+        height: 2.6px;
+      }
+  }
+    .line1 {
+      width: 1.5rem;
+  }
+    .line3 {
+      width: 1.1rem;
+  }
+}
+  .burger {
+    .line2 {
+      width: 1.3rem;
+  }
+}
+  .color__teal {
+    background-color: $teal-90;
+  }
+  .color__back {
+    background-color: rgba(0, 0, 0, 0.8);
+  }
+  .color__accent{
+    background-color: $accent;
+  }
+  .button__menu_transition {
+    .line1 {
+      -webkit-transform: rotate(45deg);
+      -ms-transform: rotate(45deg);
+      transform: rotate(45deg)
+    }
+    .line2 {
+      width: 1.5rem;
+      -webkit-transform: rotate(-45deg);
+      -ms-transform: rotate(-45deg);
+      transform: rotate(-45deg)
+    }
+      .line3 {
+        display: none;
+    }
+  }
+}

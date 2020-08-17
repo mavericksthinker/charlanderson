@@ -1,0 +1,267 @@
+.contact-section {
+  position: relative;
+  background: linear-gradient(#FCD9C3, #FDB8A1);
+  padding-bottom: 4rem;
+  @media screen and (max-width: $xmedium) {
+    padding-bottom: 1rem;
+  }
+}
+.home-contact {
+  width: 100%;
+  padding: 5rem;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  @media screen and (max-width: 840px) {
+    padding: 0 1.5rem 1.5rem 1.5rem;
+  }
+}
+.contact-section__logo {
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: 400px;
+  opacity: .09;
+  transition: transform 0.7s cubic-bezier(0.77, 0, 0.175, 1) 0.1s,opacity 0.7s ease-in-out 0.1s,
+  -webkit-transform 0.7s cubic-bezier(0.77, 0, 0.175, 1) 0.1s;
+  @media screen and (max-width: 840px) {
+    top: 30%;
+  }
+  @media screen and (max-width: $medium) {
+    top: 10%;
+  }
+}
+.contact-section__header {
+  width: 100%;
+  color: $teal-90;
+  font-family: 'ScrapbookerScriptW00-Rg', 'Apple Chancery', 'Roboto', sans-serif;
+  font-size: 60px;
+  @media screen and (max-width: $xlarge) {
+    font-size: 50px;
+  }
+  @media screen and (max-width: $large) {
+    font-size: 40px;
+  }
+  @media screen and (max-width: 840px) {
+    font-size: 32px;
+    margin-bottom: 2rem;
+  }
+  @media screen and (max-width: $medium) {
+    margin-bottom: 1.5rem;
+  }
+}
+.contact-section__paragraph {
+  font-size: 13px;
+  color: rgba($teal-90, 0.8);
+  margin-bottom: 3rem;
+  @media screen and (max-width: $medium){
+    font-size: 10px;
+  }
+  @media screen and (max-width: $small){
+    padding: 0 2rem 0 2rem;
+    font-size: 8px;
+  }
+}
+.contact-section__body {
+  width: 100%;
+  text-align: start;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-top: 4rem;
+  @media screen and (max-width: 840px) {
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    margin-top: 1.5rem;
+  }
+}
+.contact-section__image {
+  max-width: 520px;
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  @media screen and (max-width: $xxlarge) {
+    max-width: 450px;
+  }
+  @media screen and (max-width: $xlarge) {
+    max-width: 420px;
+  }
+  @media screen and (max-width: $xlarge) {
+    max-width: 380px;
+  }
+  @media screen and (max-width: $xmedium) {
+    max-width: 350px;
+  }
+  @media screen and (max-width: $medium) {
+    max-width: 300px;
+  }
+  @media screen and (max-width: $small) {
+    max-width: 240px;
+  }
+}
+.contact-form__content {
+  width: 100%;
+  padding: 3rem;
+  margin-left: 5rem;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  @media screen and (max-width: $small) {
+    margin-left: 0;
+    padding-top: 1.5rem;
+  }
+}
+.contact-form__content-heading {
+  font-family: "Apple Chancery", "Roboto", "Poppins", sans-serif;
+  font-size: 14px;
+  @media screen and (max-width: $small){
+    font-size: 10px;
+  }
+}
+.contact-form__content-footer {
+  font-family: "Apple Chancery", "Roboto", "Poppins", sans-serif;
+  font-size: 10px;
+  @media screen and (max-width: $small) {
+    font-size: 8px;
+  }
+}
+.contact-form__container {
+  z-index: 30;
+  width: 100%;
+}
+.wpcf7 {
+  padding-top: 1.5rem;
+}
+.contact-form__label {
+  font-family: "Apple Chancery", "Roboto", "Poppins", sans-serif;
+  font-size: 12px;
+}
+.required {
+  color: red;
+}
+.wpcf7-text {
+  width: 100%;
+}
+.form {
+  width: 100%;
+  position: relative;
+  height: 60px;
+  margin-bottom: 2.5rem;
+  overflow: hidden;
+  @media screen and (max-width: $small) {
+    height: 45px;
+  }
+}
+.wpcf7-response-output {
+  color: red;
+}
+.contact-input-form {
+  width: 100%!important;
+  height: 100%!important;
+  padding-top: 30px!important;
+  font-size: 16px!important;
+  border: none!important;
+  background: transparent!important;
+  outline: none!important;
+  color: transparent!important;
+
+  @media screen and (max-width: $small) {
+    font-size: 12px!important;
+    padding-top: 24px!important;
+  }
+  &:focus, &:valid {
+    color: rgba(black, 0.8)!important;
+  }
+  &:focus + .form-label .content-name,
+  &:valid + .form-label .content-name {
+    transition: all 0.3s ease;
+    transform: translateY(-90%)!important;
+    font-size: 18px;
+    color: $teal;
+    .star {
+      display: inline-block;
+    }
+    @media screen and (max-width: $small) {
+      font-size: 12px;
+    }
+  }
+  &:focus + .form-label::after,
+  &:valid + .form-label::after{
+    transform: translateX(0%);
+    transition: all 0.3s ease;
+  }
+}
+.email-field {
+  padding-right: 7rem!important;
+  @media screen and (max-width: $small) {
+    padding-right: 6rem!important;
+  }
+}
+.form-label {
+  position: absolute;
+  top: 0;
+  left:0;
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+  border-bottom: 1px solid rgba(white, 1);
+  transition: all 0.3s ease;
+}
+.star {
+  display: none;
+}
+.form-label::after {
+  content: '';
+  position: absolute;
+  left: 0;
+  bottom: -1px;
+  height: 100%;
+  width: 100%;
+  border-bottom: 1px solid $teal-90;
+  transform: translateX(-100%);
+}
+.content-name {
+  position: absolute;
+  bottom: 5px;
+  left: 0;
+  transition: all 0.3s ease;
+  font-family: "Apple Chancery", "Roboto", "Poppins", sans-serif;
+  @media screen and (max-width: $small) {
+    font-size: 12px;
+  }
+}
+.home-contact-submit {
+  position: absolute;
+  z-index: 29;
+  top: 40%;
+  width: auto!important;
+  border: none!important;
+  background: transparent;
+  font-size: 16px!important;
+  font-family: "Apple Chancery", "Roboto", "Poppins", sans-serif;
+  right: 2px;
+  color: black!important;
+  outline: none!important;
+  &:hover, &:focus {
+    background: transparent!important;
+    outline: none!important;
+    appearance: none!important;
+  }
+  @media screen and (max-width: $small) {
+    font-size: 12px!important;
+  }
+}
+.wpcf7-response-output {
+  border: none!important;
+  margin: 0!important;
+  padding: 0 0 .5rem 0!important;
+  font-size: 13px!important;
+  font-family: 'Apple Chancery', 'Roboto', 'Poppins', sans-serif;
+  @media screen and (max-width: $small) {
+    font-size: 10px!important;
+  }
+}

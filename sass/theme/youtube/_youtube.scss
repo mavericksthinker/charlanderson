@@ -1,0 +1,129 @@
+.youtube-page__section1 {
+  height: 80vh;
+  margin-top: -9.3vh;
+  @media screen and (max-width: $small){
+    margin-top: -5vh;
+  }
+}
+.youtube-page__hero-image {
+  height: 100%;
+  width: 100%;
+  background-size: cover;
+  background-image:  url('../img/youtube/youtube-bg.png');
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+.youtube-body__section {
+  background: linear-gradient(#ffffff, #F9EAD6, #FCD9C3);
+}
+.youtube-page__header {
+  width: 90%;
+  margin: 0 auto 3rem auto;
+  padding: 5rem 5rem 0 5rem;
+
+  @media screen and (max-width: 840px) {
+    width: 100%;
+    padding: 5rem 2rem 0 2rem;
+  }
+}
+.youtube-page__header-body {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.youtube-page__header-body__left {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  @media screen and (max-width: 840px) {
+    flex-direction: column;
+  }
+}
+.youtube-page__header-body__left__label {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+.youtube-page__header-body__left__image {
+  max-width: 75px;
+  border-radius: 50px;
+  margin-right: 2rem;
+  @media screen and (max-width: 840px) {
+    max-width: 50px;
+    margin-right: 0;
+    margin-bottom: 1rem;
+  }
+}
+.youtube-page__header-body__left__label-name {
+  font-family: "Apple Chancery", "Roboto", "Poppins", sans-serif;
+  @media screen and (max-width: 840px) {
+    font-size: 12px;
+  }
+}
+.youtube-page__header-body__left__label-description {
+  font-family: "Apple Chancery", "Roboto", "Poppins", sans-serif;
+  font-size: 12px;
+  color: $paragraph-secondary;
+  @media screen and (max-width: 840px) {
+    font-size: 8px;
+  }
+}
+.youtube-page-section {
+  position: relative;
+  width: 100vw;
+}
+.youtube-body {
+  margin: 0 auto;
+  width: 86%;
+  padding: 4rem 2rem 0 2rem;
+  text-align: center;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-wrap: wrap;
+  overflow-x: hidden;
+}
+.youtube-body__container {
+  height: 250px;
+  max-width: 300px;
+  margin: 0 2.5rem 5rem 0;
+  border-radius: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  z-index: 31;
+
+  @media screen and (max-width: 840px) {
+    max-width: 240px;
+  }
+}
+.youtube-body__container__image {
+  max-width: 300px;
+  border-radius: 12px;
+  min-height: 190px;
+
+  @media screen and (max-width: 840px) {
+    max-width: 260px;
+  }
+}
+.youtube-body__container-link {
+  &:hover {
+    text-decoration: none;
+  }
+}
+.youtube-body__container__paragraph {
+  font-family: "Apple Chancery", "Roboto", "Poppins", sans-serif;
+  font-size: 16px;
+  color : rgba(black, .6);
+  transform: scale(0.98, 0.99);
+  max-width: 90%;
+  margin-top: 1.5rem;
+  transition: .2s ease all;
+
+  &:hover {
+    color : rgba(teal, 1);
+    transform: scale(1, 1);
+  }
+}
