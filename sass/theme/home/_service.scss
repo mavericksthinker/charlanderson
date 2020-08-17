@@ -35,11 +35,11 @@
   }
 }
 .service-section__header {
-  @media screen and (max-width: $xmedium){
+  @media screen and (max-width: $xmedium) {
     font-size: 30px;
   }
-  @media screen and (max-width: $medium){
-    font-size: 24px;
+  @media screen and (max-width: $medium) {
+    font-size: 28px;
   }
 }
 .service-section__paragraph {
