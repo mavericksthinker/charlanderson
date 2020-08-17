@@ -384,7 +384,7 @@ if ( is_front_page() ) {
                                 </p>
                                 <a class="button__read-more button__read-more__service blogs-section__button slide-right animate"
                                    style="z-index: 29; margin-top: 3rem; color: rgba(0, 0, 0 , 0.61)"
-                                   href="<?php echo esc_url( home_url( '/' ) ); ?>"
+                                   href="<?php echo esc_url( home_url( '/motivational/split-second-transformation' ) ); ?>"
                                 >
                                     Explore
                                 </a>
@@ -393,7 +393,7 @@ if ( is_front_page() ) {
                         <div class="blog-section__content">
                             <div>
                                 <img class="blog__image animate slide-left"
-                                     data-src="<?php echo get_template_directory_uri(); ?>/img/blogs/blog2.png"
+                                     data-src="<?php echo get_template_directory_uri(); ?>/img/blogs/blog3.png"
                                      alt="Courageous Coach"
                                 >
                             </div>
@@ -401,21 +401,18 @@ if ( is_front_page() ) {
                                 <h3 class="service-section__container__header blogs-section__container__header slide-right animate"
                                     style="color: rgba(0, 0, 0, 1)"
                                 >
-                                    Split-Second Transformation
+                                    Birthday <Party></Party>
                                 </h3>
                                 <p class="service-section__container__paragraph blogs-section__paragraph slide-right animate"
                                    style="color: rgba(0, 0, 0 , 0.61)"
                                 >
-                                    Words matter. 
-                                    You’ve heard it, but do you really believe it?   
-                                    Actually, you Create your life with your words. 
-                                    I’ll give you some simple tests to begin proving it to yourself. 
-                                    When you say the words, “I’m so tired” or “I’m beat” or “I’m exhausted”, which you probably are at that moment…   
-                                    If you change that one word to “I’m refreshed” or “I’m energized” or “I’m pumped!”, something kind of magical happens. 
+                                    It’s been decades since I hosted my own children’s birthday parties!
+                                    Yet, with my privilege to now host my precious GrandBlessings occasionally,
+                                    it brought to mind some of the truly inspired ideas that I used for planning parties.
                                 </p>
                                 <a class="button__read-more button__read-more__service blogs-section__button slide-right animate"
                                    style="z-index: 29; margin-top: 3rem; color: rgba(0, 0, 0 , 0.61)"
-                                   href="<?php echo esc_url( home_url( '/' ) ); ?>"
+                                   href="<?php echo esc_url( home_url( '/ideas-for-kids/birthday-party' ) ); ?>"
                                 >
                                     Explore
                                 </a>
@@ -424,7 +421,7 @@ if ( is_front_page() ) {
                         <div class="blog-section__content">
                             <div>
                                 <img class="blog__image animate slide-left"
-                                     data-src="<?php echo get_template_directory_uri(); ?>/img/blogs/blog1.png"
+                                     data-src="<?php echo get_template_directory_uri(); ?>/img/blogs/blog4.png"
                                      alt="Courageous Coach"
                                 >
                             </div>
@@ -432,21 +429,16 @@ if ( is_front_page() ) {
                                 <h3 class="service-section__container__header blogs-section__container__header slide-right animate"
                                     style="color: rgba(0, 0, 0, 1)"
                                 >
-                                    Split-Second Transformation
+                                    Ideas for Kids, Part-1
                                 </h3>
                                 <p class="service-section__container__paragraph blogs-section__paragraph slide-right animate"
                                    style="color: rgba(0, 0, 0 , 0.61)"
                                 >
-                                    Words matter. 
-                                    You’ve heard it, but do you really believe it?   
-                                    Actually, you Create your life with your words. 
-                                    I’ll give you some simple tests to begin proving it to yourself. 
-                                    When you say the words, “I’m so tired” or “I’m beat” or “I’m exhausted”, which you probably are at that moment…   
-                                    If you change that one word to “I’m refreshed” or “I’m energized” or “I’m pumped!”, something kind of magical happens. 
+                                    Recently, two of my GrandBlessings, almost 8 & 10 years old, stayed with me for a week for the first time (they are a relatively new addition to our family 🥰).
                                 </p>
                                 <a class="button__read-more button__read-more__service blogs-section__button slide-right animate"
                                    style="z-index: 29; margin-top: 3rem; color: rgba(0, 0, 0 , 0.61)"
-                                   href="<?php echo esc_url( home_url( '/' ) ); ?>"
+                                   href="<?php echo esc_url( home_url( '/ideas-for-kids/ideas-for-kids-part-1' ) ); ?>"
                                 >
                                     Explore
                                 </a>
