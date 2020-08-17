@@ -70,17 +70,14 @@
   @media screen and (max-width: $xxlarge) {
     font-size: 40px;
   }
-  @media screen and (max-width: $xlarge) {
-    font-size: 30px;
-  }
   @media screen and (max-width: $large) {
-    font-size: 25px;
+    font-size: 35px;
+    margin-bottom: 2rem;
   }
   @media screen and (max-width: $xmedium) {
-    font-size: 20px;
-  }
-  @media screen and (max-width: 840px) {
-    margin-bottom: 2rem;
+    margin-bottom: 0;
+    padding-bottom: 1.5rem;
+    font-size: 32px;
   }
   @media screen and (max-width: $medium) {
     padding-bottom: 0;

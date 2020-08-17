@@ -123,7 +123,6 @@
   min-height: 400px;
   @media screen and (max-width: $large) {
     width: 415px;
-    min-height: 345px;
   }
 }
 .cloud9-item {
@@ -170,8 +169,8 @@
 }
 .yestimonial-section__explore-button {
     border: 1px solid teal; color: #168284;
+    margin-top: 12rem!important;
+  @media screen and (max-width: $medium) {
     margin-top: 6rem!important;
-  @media screen and (max-width: $small){
-    margin-top: 1.5rem!important;
   }
 }
