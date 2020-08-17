@@ -393,15 +393,15 @@ if ( is_front_page() ) {
                         <div class="blog-section__content">
                             <div>
                                 <img class="blog__image animate slide-left"
-                                     data-src="<?php echo get_template_directory_uri(); ?>/img/blogs/blog3.png"
-                                     alt="Courageous Coach"
+                                     data-src="<?php echo get_template_directory_uri(); ?>/img/blogs/blog3.jpg"
+                                     alt="Ideas for Kids part 2"
                                 >
                             </div>
                             <div class="service-section__container blogs-section__container__block">
                                 <h3 class="service-section__container__header blogs-section__container__header slide-right animate"
                                     style="color: rgba(0, 0, 0, 1)"
                                 >
-                                    Birthday <Party></Party>
+                                    Birthday Party
                                 </h3>
                                 <p class="service-section__container__paragraph blogs-section__paragraph slide-right animate"
                                    style="color: rgba(0, 0, 0 , 0.61)"
@@ -421,8 +421,8 @@ if ( is_front_page() ) {
                         <div class="blog-section__content">
                             <div>
                                 <img class="blog__image animate slide-left"
-                                     data-src="<?php echo get_template_directory_uri(); ?>/img/blogs/blog4.png"
-                                     alt="Courageous Coach"
+                                     data-src="<?php echo get_template_directory_uri(); ?>/img/blogs/blog4.jpg"
+                                     alt="Ideas for Kids part 1"
                                 >
                             </div>
                             <div class="service-section__container blogs-section__container__block">
@@ -434,7 +434,8 @@ if ( is_front_page() ) {
                                 <p class="service-section__container__paragraph blogs-section__paragraph slide-right animate"
                                    style="color: rgba(0, 0, 0 , 0.61)"
                                 >
-                                    Recently, two of my GrandBlessings, almost 8 & 10 years old, stayed with me for a week for the first time (they are a relatively new addition to our family 🥰).
+                                    Recently, two of my GrandBlessings, almost 8 & 10 years old, stayed with me for a week
+                                    for the first time (they are a relatively new addition to our family 🥰).
                                 </p>
                                 <a class="button__read-more button__read-more__service blogs-section__button slide-right animate"
                                    style="z-index: 29; margin-top: 3rem; color: rgba(0, 0, 0 , 0.61)"
