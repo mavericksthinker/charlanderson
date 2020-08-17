@@ -28,12 +28,14 @@ if ( is_front_page() ) {
                                     <h1 class="hero-header__text animate fadeInUp">Charla Anderson</h1>
                                 </div>
                                 <a class="call-to-action__button header animate"
-                                   style="z-index: 29; margin-top: 3rem; color: rgba(0, 0, 0 , 1);"
+                                   style="z-index: 29; margin-top: 3rem; color: white;border: 1px solid white"
                                    href="<?php echo esc_url( home_url( '/about-charla' ) ); ?>"
                                 >
                                     Explore
                                 </a>
-                                <p class="hero-footer__text">Your COURAGEOUS Coach ~ Your INSPIRED Speaker ~ Published Author</p>
+                                <p class="hero-footer__text"
+                                   style="color: white;"
+                                >Your COURAGEOUS Coach ~ Your INSPIRED Speaker ~ Published Author</p>
                             </div>
                         </div>
                     </div>
