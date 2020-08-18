@@ -93,7 +93,7 @@ $container = get_theme_mod( 'understrap_container_type' );
                     </div>
                 <a class="button__call-to-action button__call-to-action__contact" href="<?php echo esc_url( home_url( '/contact-charla' ) ); ?>">Connect With Charla</a>
 
-                <a class="button__call-to-action button__call-to-action__appointment" href="https://letsmeet.io/charlaanderson/50-minute-discovery-call">Set An Appointment </a>
+                <a class="button__call-to-action button__call-to-action__appointment" href="https://letsmeet.io/charlaanderson/30-min-fb-or-li-call">Set An Appointment </a>
 
                 <div class="button__menu burger">
                     <div id="line" class="line1 color__teal"></div>
@@ -121,11 +121,11 @@ $container = get_theme_mod( 'understrap_container_type' );
                 <div class="social-media">
                     <a class="social-media__links" href="https://www.facebook.com/CharlaArnold" target="_blank">Facebook</a>
                     <a class="social-media__links" href="https://www.linkedin.com/in/charlaa/" target="_blank">Linked In</a>
-                    <a class="social-media__links" href="https://www.youtube.com/channel/UCRqjTKOQS5ImL7k707TIAAg" target="_blank">Youtube</a>
+                    <a class="social-media__links" href="https://www.youtube.com/channel/UCRqjTKOQS5ImL7k707TIAAg" target="_blank">YouTube</a>
                     <a class="social-media__links" href="https://twitter.com/charlaashow" target="_blank">Twitter</a>
-                    <a class="social-media__links" href="https://twitter.com/charlaashow" target="_blank">Instagram</a>
-                    <a class="social-media__links" href="https://twitter.com/charlaashow" target="_blank">Pinterest</a>
-                    <a class="social-media__links" href="https://twitter.com/charlaashow" target="_blank">Email</a>
+                    <a class="social-media__links" href="https://www.instagram.com/theyeslady/" target="_blank">Instagram</a>
+                    <a class="social-media__links" href="https://www.pinterest.com/CharlaAShow/" target="_blank">Pinterest</a>
+                    <a class="social-media__links" href="mailto:Charla@CharlaAnderson.com" target="_blank">Email</a>
                 </div>
             </div>
         </div>
@@ -153,7 +153,7 @@ $container = get_theme_mod( 'understrap_container_type' );
                target="_blank"
             >
                 <img data-src="<?php echo get_template_directory_uri(); ?>/img/social-media-icons/youtube.png"
-                     alt="Youtube"
+                     alt="YouTube"
                 >
             </a>
             <a class="social-media-icons__image"

@@ -35,7 +35,7 @@ if ( is_front_page() ) {
                                 </a>
                                 <p class="hero-footer__text"
                                    style="color: white;"
-                                >Your COURAGEOUS Coach ~ Your INSPIRED Speaker ~ Published Author</p>
+                                >Your courageous Coach ~ Your inspired Speaker ~ Published Author</p>
                             </div>
                         </div>
                     </div>
@@ -54,7 +54,7 @@ if ( is_front_page() ) {
                                 <p class="hero-footer__text"
                                    style="color: white;"
                                 >
-                                    Your COURAGEOUS Coach ~ Your INSPIRED Speaker ~ Published Author
+                                    Your courageous Coach ~ Your inspired Speaker ~ Published Author
                                 </p>
                             </div>
                         </div>
@@ -74,7 +74,7 @@ if ( is_front_page() ) {
                                 <p class="hero-footer__text"
                                     style="color: white;"
                                 >
-                                    Your COURAGEOUS Coach ~ Your INSPIRED Speaker ~ Published Author
+                                    Your courageous Coach ~ Your inspired Speaker ~ Published Author
                                 </p>
                             </div>
                         </div>

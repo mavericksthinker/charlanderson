@@ -159,6 +159,42 @@
   color: red;
 }
 .contact-input-form {
+   width: 100%!important;
+   height: 100%!important;
+   padding-top: 30px!important;
+   font-size: 18px!important;
+   border: none!important;
+   background: transparent!important;
+   outline: none!important;
+   color: transparent!important;
+   .star {
+     display: inline-block;
+   }
+   @media screen and (max-width: $small) {
+     font-size: 15px!important;
+     padding-top: 24px!important;
+   }
+   &:focus, &:valid {
+     color: rgba(black, 0.8)!important;
+   }
+   &:focus + .form-label .content-name,
+   &:valid + .form-label .content-name {
+     transition: all 0.3s ease;
+     transform: translateY(-90%)!important;
+     font-size: 18px;
+     color: $teal;
+
+     @media screen and (max-width: $small) {
+       font-size: 12px;
+     }
+   }
+   &:focus + .form-label::after,
+   &:valid + .form-label::after{
+     transform: translateX(0%);
+     transition: all 0.3s ease;
+   }
+ }
+.contact-input-form__without-validity {
   width: 100%!important;
   height: 100%!important;
   padding-top: 30px!important;
@@ -167,29 +203,29 @@
   background: transparent!important;
   outline: none!important;
   color: transparent!important;
-
+  .star {
+    display: inline-block;
+  }
   @media screen and (max-width: $small) {
     font-size: 15px!important;
     padding-top: 24px!important;
   }
-  &:focus, &:valid {
+  &:focus, &:not([value]) {
     color: rgba(black, 0.8)!important;
   }
   &:focus + .form-label .content-name,
-  &:valid + .form-label .content-name {
+  &:not([value]) + .form-label .content-name {
     transition: all 0.3s ease;
     transform: translateY(-90%)!important;
     font-size: 18px;
     color: $teal;
-    .star {
-      display: inline-block;
-    }
+
     @media screen and (max-width: $small) {
       font-size: 12px;
     }
   }
   &:focus + .form-label::after,
-  &:valid + .form-label::after{
+  &:not([value]) + .form-label::after {
     transform: translateX(0%);
     transition: all 0.3s ease;
   }
@@ -209,9 +245,6 @@
   pointer-events: none;
   border-bottom: 1px solid rgba(white, 1);
   transition: all 0.3s ease;
-}
-.star {
-  display: none;
 }
 .form-label::after {
   content: '';

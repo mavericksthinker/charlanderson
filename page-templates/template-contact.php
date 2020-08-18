@@ -100,10 +100,25 @@ if ( is_front_page() ) {
                                                class="contact-input-form wpcf7-form-control wpcf7-text wpcf7-validates-as-		required"
                                                aria-required="true"
                                                aria-invalid="false"
+                                               value=""
                                                required
                                         >
                                         <label class="form-label">
                                             <span class="content-name">Subject</span>
+                                        </label>
+                                    </div>
+                                    <div class="form">
+                                        <input type="text"
+                                               name="zip-code"
+                                               size="10"
+                                               class="contact-input-form wpcf7-form-control wpcf7-text wpcf7-validates-as-		required"
+                                               aria-required="true"
+                                               aria-invalid="false"
+                                               value=""
+                                               required
+                                        >
+                                        <label class="form-label">
+                                            <span class="content-name">ZipCode</span>
                                         </label>
                                     </div>
                                     <p><label class="your-message"> Message <span class="required"> *</span><br>
@@ -133,7 +148,10 @@ if ( is_front_page() ) {
                                             </div>
                                         </noscript>
                                     </div>
-                                    <input type="submit" value="Send" class="submit-button__contact-page">
+                                    <input type="submit"
+                                           value="Send"
+                                           class="submit-button__contact-page"
+                                           style='font-size: 1.6rem; font-family: "Apple Chancery", "Roboto", "Poppins", sans-serif'>
                                     <span class="ajax-loader"></span>
                                 </form>
                             </div>

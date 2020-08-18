@@ -53,7 +53,7 @@ defined( 'ABSPATH' ) || exit;
                    target="_blank"
                 >
                     <img data-src="<?php echo get_template_directory_uri(); ?>/img/social-media-icons/youtube.png"
-                         alt="Youtube"
+                         alt="YouTube"
                     >
                 </a>
                 <a class="footer-social-media-icons__image"
