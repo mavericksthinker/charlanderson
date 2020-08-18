@@ -165,7 +165,7 @@ $container = get_theme_mod( 'understrap_container_type' );
                 >
             </a>
             <a class="social-media-icons__image"
-               href="https://twitter.com/charlaashow"
+               href="https://www.instagram.com/theyeslady/"
                target="_blank"
             >
                 <img data-src="<?php echo get_template_directory_uri(); ?>/img/social-media-icons/instagram.png"
@@ -173,7 +173,7 @@ $container = get_theme_mod( 'understrap_container_type' );
                 >
             </a>
             <a class="social-media-icons__image"
-               href="https://twitter.com/charlaashow"
+               href="https://www.pinterest.com/CharlaAShow/"
                target="_blank"
             >
                 <img data-src="<?php echo get_template_directory_uri(); ?>/img/social-media-icons/pinterest.png"
@@ -181,7 +181,7 @@ $container = get_theme_mod( 'understrap_container_type' );
                 >
             </a>
             <a class="social-media-icons__image"
-               href="https://twitter.com/charlaashow"
+               href="mailto:Charla@CharlaAnderson.com"
                target="_blank"
             >
                 <img data-src="<?php echo get_template_directory_uri(); ?>/img/social-media-icons/email.png"
