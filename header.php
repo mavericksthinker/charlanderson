@@ -30,12 +30,15 @@ $container = get_theme_mod( 'understrap_container_type' );
     <meta property="og:url" content="https://www.charlaanderson.com/" />
     <meta property="og:site_name" content="Charla Anderson" />
     <meta property="article:modified_time" content="2020-07-07T10:14:34+00:00" />
-    <meta property="og:image" content="<?php echo get_template_directory_uri(); ?>/img/miscellaneous/logo.png" />
+    <meta property="og:image" content="<?php echo get_template_directory_uri(); ?>/img/miscellaneous/charla-fb-cover.jpg" />
 	<link rel="profile" href="http://gmpg.org/xfn/11">
     <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
     <meta property="og:image:width" content="2644" />
     <meta property="og:image:height" content="1486" />
-    <link rel="shortcut icon" type="image/x-icon" href="<?php echo get_template_directory_uri(); ?>/img/miscellaneous/logo.png"/>
+    <link rel="shortcut icon"
+          type="image/x-icon"
+          href="<?php echo get_template_directory_uri(); ?>/img/miscellaneous/charla-fb-cover.jpg"
+    />
 	<?php wp_head(); ?>
 </head>
 
