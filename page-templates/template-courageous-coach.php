@@ -18,7 +18,7 @@ if ( is_front_page() ) {
 }
 ?>
     <section class="about__hero-section hero">
-        <div class="about__hero-section__image">
+        <div class="coach-page__hero-section__image">
             <h1 class="header-text animate fadeInUp">Your Courageous Coach</h1>
         </div>
         <div class="header-scroll-for-more">

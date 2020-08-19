@@ -58,7 +58,7 @@
 }
 .coach-image-right,
 .coach-image-left {
-  max-width: 300px;
+  max-width: 500px;
   //max-height: 320px;
   border-radius: 10px;
   background-size: cover;
@@ -74,4 +74,13 @@
   //  margin-top: 1rem;
   //  margin-bottom: 2.5rem;
   //}
+}
+.coach-page__hero-section__image {
+  height: 100%;
+  width: 100%;
+  background-size: cover;
+  background-image: url('../img/coach/coach-bg.jpg');
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
 }

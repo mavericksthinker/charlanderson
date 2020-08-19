@@ -15,7 +15,7 @@ const menuBarToggle = () => {
         line2.classList.toggle('color__teal');
         burger.classList.toggle('button__menu_transition');
         setTimeout(function () {
-            logo.classList.toggle('bg-white');
+            logo.classList.toggle('bcg-white');
         }, 200);
         line1.classList.toggle('color__accent');
         line2.classList.toggle('color__accent');
