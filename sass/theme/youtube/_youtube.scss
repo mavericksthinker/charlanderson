@@ -9,7 +9,7 @@
   height: 100%;
   width: 100%;
   background-size: cover;
-  background-image:  url('../img/youtube/youtube-bg1.png');
+  background-image:  url('../img/youtube/youtube-bg.png');
   background-position: center center;
   background-repeat: no-repeat;
   background-attachment: fixed;
@@ -46,8 +46,8 @@
   flex-direction: column;
 }
 .youtube-page__header-body__left__image {
-  max-width: 240px;
   margin-right: 2rem;
+  max-width: 240px;
 
   @media screen and (max-width: 840px) {
     max-width: 140px;

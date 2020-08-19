@@ -26,6 +26,10 @@ if ( is_front_page() ) {
                             <div class="caption text-center">
                                 <div class="hero-header">
                                     <h1 class="hero-header__text animate fadeInUp">Charla Anderson</h1>
+                                    <p class="hero-footer__text"
+                                       style="color: white;"
+                                    >Your courageous Coach ~ Your inspired Speaker ~ Published Author
+                                    </p>
                                 </div>
                                 <a class="call-to-action__button header animate"
                                    style="z-index: 29; margin-top: 3rem; color: white;border: 1px solid white"
@@ -33,9 +37,6 @@ if ( is_front_page() ) {
                                 >
                                     Explore
                                 </a>
-                                <p class="hero-footer__text"
-                                   style="color: white;"
-                                >Your courageous Coach ~ Your inspired Speaker ~ Published Author</p>
                             </div>
                         </div>
                     </div>
@@ -44,6 +45,11 @@ if ( is_front_page() ) {
                             <div class="caption text-center">
                                 <div class="hero-header">
                                     <h1 class="hero-header__text" style="color: #FFFFEB">Your Courageous Coach</h1>
+                                    <p class="hero-footer__text"
+                                       style="color: white;"
+                                    >
+                                        Your courageous Coach ~ Your inspired Speaker ~ Published Author
+                                    </p>
                                 </div>
                                 <a class="call-to-action__button header animate"
                                    style="z-index: 29; margin-top: 3rem; color: white; border: 1px solid white"
@@ -51,11 +57,6 @@ if ( is_front_page() ) {
                                 >
                                     Explore
                                 </a>
-                                <p class="hero-footer__text"
-                                   style="color: white;"
-                                >
-                                    Your courageous Coach ~ Your inspired Speaker ~ Published Author
-                                </p>
                             </div>
                         </div>
                     </div>
@@ -64,6 +65,11 @@ if ( is_front_page() ) {
                             <div class="caption text-center">
                                 <div class="hero-header">
                                     <h1 class="hero-header__text" style="color: #FFFFEB">Your Inspired Speaker</h1>
+                                    <p class="hero-footer__text"
+                                       style="color: white;"
+                                    >
+                                        Your courageous Coach ~ Your inspired Speaker ~ Published Author
+                                    </p>
                                 </div>
                                 <a class="call-to-action__button header animate"
                                    style="z-index: 29; margin-top: 3rem;  color: white; border: 1px solid white"
@@ -71,19 +77,12 @@ if ( is_front_page() ) {
                                 >
                                     Explore
                                 </a>
-                                <p class="hero-footer__text"
-                                    style="color: white;"
-                                >
-                                    Your courageous Coach ~ Your inspired Speaker ~ Published Author
-                                </p>
                             </div>
                         </div>
                     </div>
                     <div class="header-scroll-for-more">
                         <div class="header-scroll-for-more__container">
-                            <span class="header-scroll-for-more__line">
-
-                            </span>
+                            <span class="header-scroll-for-more__line"></span>
                             <span class="header-scroll-for-more__text"> Scroll for more</span>
                         </div>
                     </div>

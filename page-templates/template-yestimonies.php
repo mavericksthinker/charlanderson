@@ -20,7 +20,7 @@ if ( is_front_page() ) {
     <main class="main-body">
         <section class="about__hero-section hero">
             <div class="yestimonies__hero-section__image">
-                <h1 class="header-text animate fadeInUp">YEStimonies</h1>
+                <h1 class="header-text animate fadeInUp">YES-timonies</h1>
             </div>
             <div class="header-scroll-for-more">
                 <div class="header-scroll-for-more__container">
