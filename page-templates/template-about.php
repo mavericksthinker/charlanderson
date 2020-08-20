@@ -94,7 +94,7 @@ if ( is_front_page() ) {
                         >
                     </figure>
                     <p class="about-paragraph-right animate slide-right">
-                        With my ‘YOUR Courageous Coach’ program, I encourage those harboring deep or subtle discontent,
+                        With my ‘your COURAGEOUS Coach’ program, I encourage those harboring deep or subtle discontent,
                         discouragement, or fear to find their Courage, and learn to step into their Authority,
                         resulting in living a life of complete Peace, which means Prosperity, in every aspect of the word. 
                         Because I can see exactly Who You ARE, I will help you develop the confidence to step into the life
