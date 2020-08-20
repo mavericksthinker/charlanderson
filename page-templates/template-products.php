@@ -60,6 +60,7 @@ if ( is_front_page() ) {
                         </p>
                         <a class="about__button__read-more about__button__read-more__about choice-page__button animate slide-right"
                            href="https://www.zurvita.com/charla/en/us/"
+                           target="_blank"
                         >
                             Get In Touch
                         </a>
@@ -77,6 +78,7 @@ if ( is_front_page() ) {
                         </p>
                         <a class="about__button__read-more about__button__read-more__about choice-page__button animate slide-left"
                            href="https://www.ziglar.com/?a=85053&c=99"
+                           target="_blank"
                         >
                             Get In Touch
                         </a>
@@ -107,6 +109,7 @@ if ( is_front_page() ) {
                         </p>
                         <a class="about__button__read-more about__button__read-more__about choice-page__button animate slide-right"
                            href="<?php echo get_template_directory_uri(); ?>/src/assets/product_download.pdf"
+                           target="_blank"
                         >
                             Download
                         </a>

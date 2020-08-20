@@ -73,7 +73,6 @@ $container = get_theme_mod( 'understrap_container_type' );
                                        value="Download"
                                        class="wpcf7-form-control wpcf7-submit home-contact-submit"
                                 >
-                                <span class="ajax-loader"></span>
                             </div>
                             <span class="wpcf7-form-control-wrap charlas-declaration-152">
                                         <input type="hidden"
@@ -147,7 +146,7 @@ $container = get_theme_mod( 'understrap_container_type' );
                    target="_blank"
                 >
                     <img data-src="<?php echo get_template_directory_uri(); ?>/img/social-media-icons/linkedin.png"
-                         alt="Linked In"
+                         alt="LinkedIn"
                     >
                 </a>
                 <a class="footer-social-media-icons__image"

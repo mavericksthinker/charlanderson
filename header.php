@@ -123,7 +123,7 @@ $container = get_theme_mod( 'understrap_container_type' );
             <div class="mega-menu__footer mega-menu__footer__translate-y">
                 <div class="social-media">
                     <a class="social-media__links" href="https://www.facebook.com/CharlaArnold" target="_blank">Facebook</a>
-                    <a class="social-media__links" href="https://www.linkedin.com/in/charlaa/" target="_blank">Linked In</a>
+                    <a class="social-media__links" href="https://www.linkedin.com/in/charlaa/" target="_blank">LinkedIn</a>
                     <a class="social-media__links" href="https://www.youtube.com/channel/UCRqjTKOQS5ImL7k707TIAAg" target="_blank">YouTube</a>
                     <a class="social-media__links" href="https://twitter.com/charlaashow" target="_blank">Twitter</a>
                     <a class="social-media__links" href="https://www.instagram.com/theyeslady/" target="_blank">Instagram</a>
@@ -148,7 +148,7 @@ $container = get_theme_mod( 'understrap_container_type' );
                target="_blank"
             >
                 <img data-src="<?php echo get_template_directory_uri(); ?>/img/social-media-icons/linkedin.png"
-                     alt="Linked In"
+                     alt="LinkedIn"
                 >
             </a>
             <a class="social-media-icons__image"

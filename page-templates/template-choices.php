@@ -51,11 +51,13 @@ if ( is_front_page() ) {
                         <div class="purchase-group">
                             <a class="about__button__read-more about__button__read-more__about choice-page__button purchase-button animate slide-right"
                                href="https://amzn.to/2JSGeUl"
+                               target="_blank"
                             >
                                 Book
                             </a>
                             <a class="about__button__read-more about__button__read-more__about choice-page__button animate slide-right"
                                href="http://amzn.to/2BwA5ut"
+                               target="_blank"
                             >
                                 Kindle
                             </a>
@@ -81,6 +83,7 @@ if ( is_front_page() ) {
                         </p>
                         <a class="about__button__read-more about__button__read-more__about choice-page__button animate slide-left"
                            href="https://www.zurvita.com/charla/en/us/"
+                           target="_blank"
                         >
                             Explore
                         </a>
@@ -120,6 +123,7 @@ if ( is_front_page() ) {
                         </p>
                         <a class="about__button__read-more about__button__read-more__about choice-page__button animate slide-right"
                            href="https://gizmohrideshare.com/"
+                           target="_blank"
                         >
                             Explore
                         </a>
@@ -149,6 +153,7 @@ if ( is_front_page() ) {
                         </p>
                         <a class="about__button__read-more about__button__read-more__about choice-page__button animate slide-left"
                            href="https://www.facebook.com/ABWebSolutions.DigitalMarketing/"
+                           target="_blank"
                         >
                             Reach Out
                         </a>
@@ -187,6 +192,7 @@ if ( is_front_page() ) {
                         </p>
                         <a class="about__button__read-more about__button__read-more__about choice-page__button animate slide-right"
                            href="https://www.fwhope.org/"
+                           target="_blank"
                         >
                             Reach Out
                         </a>

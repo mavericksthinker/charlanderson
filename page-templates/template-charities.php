@@ -59,6 +59,7 @@ if ( is_front_page() ) {
                         </p>
                         <a class="about__button__read-more about__button__read-more__about choice-page__button animate slide-right"
                            href="https://www.fwhope.org/"
+                           target="_blank"
                         >
                             Reach Out
                         </a>
@@ -76,6 +77,7 @@ if ( is_front_page() ) {
                         </p>
                         <a class="about__button__read-more about__button__read-more__about choice-page__button animate slide-left"
                            href="https://www.cenikor.org"
+                           target="_blank"
                         >
                             Get In Touch
                         </a>

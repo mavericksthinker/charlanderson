@@ -42,6 +42,7 @@ if ( is_front_page() ) {
                     <div class="youtube-page__header-body__right">
                         <a class="about__button__read-more about__button__read-more__about"
                            href="https://www.youtube.com/channel/UCRqjTKOQS5ImL7k707TIAAg"
+                           target="_blank"
                         >
                             Subscribe
                         </a>

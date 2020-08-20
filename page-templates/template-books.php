@@ -57,11 +57,13 @@ if ( is_front_page() ) {
                         <div class="purchase-group">
                             <a class="about__button__read-more about__button__read-more__about choice-page__button purchase-button animate slide-right"
                                href="https://amzn.to/2JSGeUl"
+                               target="_blank"
                             >
                                 Book
                             </a>
                             <a class="about__button__read-more about__button__read-more__about choice-page__button animate slide-right"
                                href="http://amzn.to/2BwA5ut"
+                               target="_blank"
                             >
                                 Kindle
                             </a>

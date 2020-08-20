@@ -104,11 +104,11 @@ if ( is_front_page() ) {
                         </div>
                         <div class="yestimonies-page__body-content">
                             <img class="yestimonies-page__image"
-                                 data-src="<?php echo get_template_directory_uri(); ?>/img/yestimonies/yestimonies6.png"
+                                 data-src="<?php echo get_template_directory_uri(); ?>/img/yestimonies/yestimony-default.jpg"
                             >
                             <div class="yestimonial-page__content__body">
-                                <h5 class="yestimonies-content__header">Wisconsin</h5>
-                                <span class="yestimonies-content__title">CRW</span>
+                                <h5 class="yestimonies-content__header">CRW</h5>
+                                <span class="yestimonies-content__title">WI</span>
                                 <p class="yestimonies-content__description">
                                     I wanted to thank you for your incredible enthusiasm regarding the program
                                     we are all involved with! I think your enthusiasm is contagious- as
@@ -122,7 +122,7 @@ if ( is_front_page() ) {
                         </div>
                         <div class="yestimonies-page__body-content">
                             <img class="yestimonies-page__image"
-                                 data-src="<?php echo get_template_directory_uri(); ?>/img/yestimonies/yestimonies4.jpg"
+                                 data-src="<?php echo get_template_directory_uri(); ?>/img/yestimonies/yestimony-default.jpg"
                             >
                             <div class="yestimonial-page__content__body">
                                 <h5 class="yestimonies-content__header">Barb S</h5>
@@ -138,7 +138,7 @@ if ( is_front_page() ) {
                         </div>
                         <div class="yestimonies-page__body-content">
                             <img class="yestimonies-page__image"
-                                 data-src="<?php echo get_template_directory_uri(); ?>/img/yestimonies/yestimonies4.jpg"
+                                 data-src="<?php echo get_template_directory_uri(); ?>/img/yestimonies/yestimony-default.jpg"
                             >
                             <div class="yestimonial-page__content__body">
                                 <h5 class="yestimonies-content__header">Christi S</h5>
@@ -154,7 +154,7 @@ if ( is_front_page() ) {
                         </div>
                         <div class="yestimonies-page__body-content">
                             <img class="yestimonies-page__image"
-                                 data-src="<?php echo get_template_directory_uri(); ?>/img/yestimonies/yestimonies4.jpg"
+                                 data-src="<?php echo get_template_directory_uri(); ?>/img/yestimonies/yestimony-default.jpg"
                             >
                             <div class="yestimonial-page__content__body">
                                 <h5 class="yestimonies-content__header">Kathy W</h5>
@@ -171,10 +171,10 @@ if ( is_front_page() ) {
                         </div>
                         <div class="yestimonies-page__body-content">
                             <img class="yestimonies-page__image"
-                                 data-src="<?php echo get_template_directory_uri(); ?>/img/yestimonies/yestimonies4.jpg"
+                                 data-src="<?php echo get_template_directory_uri(); ?>/img/yestimonies/yestimony-default.jpg"
                             >
                             <div class="yestimonial-page__content__body">
-                                <h5 class="yestimonies-content__header">Ron Fenn</h5>
+                                <h5 class="yestimonies-content__header">Ron</h5>
                                 <span class="yestimonies-content__title">UT</span>
                                 <p class="yestimonies-content__description">
                                     I have known Charla since 2014. I am very happy to become acquainted with and follow her.

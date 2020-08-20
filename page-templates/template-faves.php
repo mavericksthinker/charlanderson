@@ -63,6 +63,7 @@ if ( is_front_page() ) {
                         </p>
                         <a class="about__button__read-more about__button__read-more__about choice-page__button animate slide-right"
                            href="https://www.facebook.com/ABWebSolutions.DigitalMarketing/"
+                           target="_blank"
                         >
                             Reach Out
                         </a>
@@ -80,6 +81,7 @@ if ( is_front_page() ) {
                         </p>
                         <a class="about__button__read-more about__button__read-more__about choice-page__button animate slide-left"
                            href="https://brillianceincommerce.com/go/85/"
+                           target="_blank"
                         >
                             Get In Touch
                         </a>
@@ -110,6 +112,7 @@ if ( is_front_page() ) {
                         </p>
                         <a class="about__button__read-more about__button__read-more__about choice-page__button animate slide-right"
                            href="https://www.Grid365.com"
+                           target="_blank"
                         >
                             Explore
                         </a>

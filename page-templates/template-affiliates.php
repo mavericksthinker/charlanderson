@@ -58,6 +58,7 @@ if ( is_front_page() ) {
                         </p>
                         <a class="about__button__read-more about__button__read-more__about choice-page__button animate slide-right"
                            href="https://gizmohrideshare.com/"
+                           target="_blank"
                         >
                             Get In Touch
                         </a>
@@ -71,10 +72,15 @@ if ( is_front_page() ) {
                     <div class="choices-container choices-container__body">
                         <h2 class="choices-page__body animate slide-left">ORU™ Change The World, Starting With YOURS! </h2>
                         <p class="about-paragraph-right choices-paragraph animate slide-left">
-                            ORU™ is a global Reciprocal Economic lifestyle experience, offering numerous free and premium software benefits.ORU TV; Secure Social Media; Communication; MarketPlace; Travel; Rx. Subscribe, Participate, get Paid Everyday!  ONLY $5.95/month, Premium.  FREE Lite membership.  GET PAID
+                            ORU™ is a new global Reciprocal Economy, offering numerous software benefits:  ORU News;
+                            ORU TV; Secure Social Media; Secure Communication; MarketPlace; Discount Travel; Discount Rx.
+                            Subscribe, Participate, get Paid Everyday!  ONLY $5.95/month, Premium.  FREE Lite membership.
+                            GET PAID daily just for using the benefits!
+                            Use Code:  CHA8961 to register.
                         </p>
                         <a class="about__button__read-more about__button__read-more__about choice-page__button animate slide-left"
-                           href="https://www.ziglar.com/?a=85053&c=99"
+                           href="https://www.orumarketplace.com/"
+                           target="_blank"
                         >
                             Get In Touch
                         </a>
@@ -103,9 +109,10 @@ if ( is_front_page() ) {
                             QUANTUM Supremacy  Wearable Technology; Cellular Rejuvenation; Higher Energy and Performance; 5G Protection
                         </p>
                         <a class="about__button__read-more about__button__read-more__about choice-page__button animate slide-right"
-                           href="#"
+                           href="https://quantumsupremacylife.com/?n=CharlaAnderson&u=Charla%20Anderson&i=13017
+"                          target="_blank"
                         >
-                            Purchase
+                            Explore
                         </a>
                     </div>
                 </div>
