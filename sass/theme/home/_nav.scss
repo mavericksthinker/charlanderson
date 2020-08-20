@@ -296,5 +296,11 @@
   background: white;
 }
 .logo-image {
-  max-width: 140%
+  max-width: 140%;
+  @media screen and (max-width : $medium) {
+    max-width: 110%;
+  }
+  @media screen and (max-width : $small) {
+    max-width: 100%;
+  }
 }

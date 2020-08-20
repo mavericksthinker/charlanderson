@@ -27,7 +27,7 @@ if ( is_front_page() ) {
                                 <div class="hero-header">
                                     <h1 class="hero-header__text animate fadeInUp">Charla Anderson</h1>
                                     <p class="hero-footer__text"
-                                       style="color: white;"
+                                       style="color: black;"
                                     >Your courageous Coach ~ Your inspired Speaker ~ Published Author
                                     </p>
                                 </div>
@@ -95,7 +95,7 @@ if ( is_front_page() ) {
 <!--                        </a>-->
 <!--                    </div>-->
                 </div>
-                <a class="carousel-control-prev" href="#image-carousel" role="button" data-slide="prev">
+                <a class="carousel-control-prev" style="z-index: 29" href="#image-carousel" role="button" data-slide="prev">
                     <span class="carousel-control-prev-icon" aria-hidden="true"></span>
                     <span class="sr-only">Previous</span>
                 </a>

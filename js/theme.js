@@ -24639,7 +24639,7 @@ var paramsHero1 = {
 var paramsHero2 = {
   container: document.getElementById('lottie1'),
   renderer: 'svg',
-  path: 'wp-content/themes/abwebsolutions/src/assets/hero2.json',
+  path: 'wp-content/themes/abwebsolutions/src/assets/data4.json',
   loop: true,
   autoplay: true
 };
