@@ -81,7 +81,7 @@
   justify-content: space-evenly;
   align-items: center;
   @media screen and (max-width: 840px) {
-    padding: 5rem 2rem 0 2rem;
+    padding: 2rem 2rem 0 2rem;
   }
 }
 .coach-page-paragraph-left,
@@ -147,4 +147,9 @@
 }
 .speaker-page__hero-section__image {
   background-image: url('../img/speaker/speaker-bg.jpg');
+}
+.speaker-button {
+  @media screen and (max-width: 840px) {
+    margin-bottom: 4rem;
+  }
 }
