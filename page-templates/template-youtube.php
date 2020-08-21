@@ -19,7 +19,8 @@ if ( is_front_page() ) {
 ?>
     <main class="main-body">
         <section class="youtube-page__section1 hero">
-            <div class="youtube-page__hero-image"></div>
+            <div class="youtube-page__hero-image">
+            </div>
             <div class="header-scroll-for-more">
                 <div class="header-scroll-for-more__container">
                     <span class="header-scroll-for-more__line"></span>

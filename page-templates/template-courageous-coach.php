@@ -70,14 +70,15 @@ if ( is_front_page() ) {
     <section class="video-section">
         <div class="youtube">
             <h6 class="section-youtube__header heading animate">Tom Ziglar/Charla Stronger video</h6>
-            <iframe class="featured-youtube"
-                    src="<?php echo get_template_directory_uri(); ?>/img/coach/courageous-coach.mp4"
+            <video class="featured-youtube"
                     width="77%"
                     height="515px"
-                    frameborder="0" allow="accelerometer; encrypted-media; gyroscope; picture-in-picture"
-                    allowfullscreen
+                   controls="true"
             >
-            </iframe>
+                <source src="<?php echo get_template_directory_uri(); ?>/img/coach/courageous-coach.mp4"
+                        type="video/mp4"
+                />
+            </video>
             <a class="about__button__read-more about__button__read-more__about"
                href="https://letsmeet.io/charlaanderson/50-minute-discovery-call"
                style="margin-top: 5rem"
