@@ -43,12 +43,12 @@
   }
 }
 .service-section__paragraph {
-  font-size: 13px;
+  font-size: 16px;
   color: rgba($accent, 0.8);
-  @media screen and (max-width: $medium){
+  @media screen and (max-width: $medium) {
     font-size: 10px;
   }
-  @media screen and (max-width: $small){
+  @media screen and (max-width: $small) {
     padding: 0 2rem 0 2rem;
     font-size: 8px;
   }

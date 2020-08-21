@@ -122,7 +122,6 @@ if ( is_front_page() ) {
                     <p class="about-paragraph animate slide-right">
                         JOY is my lifestyle, wellness is my passion, encouragement is my gift…to you! My purpose is to share the message of unconditional Love and to fill you with the inspiration and motivation that will move you to find the JOY you deserve.  Are you ready to leave a Legacy of Intentional Significance?
                         I’m a Ziglar Legacy Certified Trainer, serial entrepreneur, author of “Candy Bar Hugs~It Doesn’t Take Much To Make A Difference!”, Your INSPIRED Speaker, Your COURAGEOUS Coach, wellness advocate, world traveler, Fort Worth ambassador, former 34 year flight-attendant with a plethora of life experiences to inspire your journey through life.  My mission is to Love people through these unsteady times, to live in complete Peace.
-                        Living each moment as it comes, I AM Outrageously Optimistic & Outrageously Courageous in ‘Bold Faith NO fear!’ I am here to make a difference in your life. I am here to encourage you. I am here to remind you of WHO YOU ARE, which is perfect, exactly as you are!
                     </p>
                 </div>
                 <a class="button__read-more button__read-more__about about-section__button"
@@ -377,9 +376,7 @@ if ( is_front_page() ) {
                                     Words matter. 
                                     You’ve heard it, but do you really believe it?   
                                     Actually, you Create your life with your words. 
-                                    I’ll give you some simple tests to begin proving it to yourself. 
-                                    When you say the words, “I’m so tired” or “I’m beat” or “I’m exhausted”, which you probably are at that moment…   
-                                    If you change that one word to “I’m refreshed” or “I’m energized” or “I’m pumped!”, something kind of magical happens. 
+                                    I’ll give you some simple tests to begin proving it to yourself....
                                 </p>
                                 <a class="button__read-more button__read-more__service blogs-section__button slide-right animate"
                                    style="z-index: 29; margin-top: 3rem; color: rgba(0, 0, 0 , 0.61)"

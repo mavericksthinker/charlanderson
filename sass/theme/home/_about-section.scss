@@ -122,14 +122,14 @@
   @media screen and (max-width: $xlarge) {
     font-size: 18px;
   }
-  @media screen and (max-width: $large) {
-    font-size: 15px;
-  }
+  //@media screen and (max-width: $large) {
+  //  font-size: 15px;
+  //}
   @media screen and (max-width: $xmedium) {
     margin-left: 4rem;
   }
   @media screen and (max-width: 840px) {
-    font-size: 14px;
+    //font-size: 16px;
     margin-left: 0;
     width: 100%;
     margin-top: 3rem;
