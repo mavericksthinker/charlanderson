@@ -59,7 +59,7 @@ if ( is_front_page() ) {
                    href="https://www.youtube.com/watch?v=IDBhaRbWgd4"
                    target="_blank"
                 >
-                    <img data-src="<?php echo get_template_directory_uri(); ?>/img/coach/coach-yt1.png"
+                    <img data-src="<?php echo get_template_directory_uri(); ?>/img/youtube/youtube-thumbnail1.jpg"
                          alt="Your Courageous Coach"
                          class="youtube-body__container__image"
                     >
