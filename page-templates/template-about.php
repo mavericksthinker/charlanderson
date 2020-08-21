@@ -42,7 +42,7 @@ if ( is_front_page() ) {
                              alt="About Charla"
                         >
                     </figure>
-                    <p class="about-paragraph-right animate slide-right">
+                    <p class="about-paragraph-right animate slide-right" >
                         JOY is my lifestyle, wellness is my passion, encouragement is my gift…to you! My purpose is to share the message of unconditional Love and to fill you with the inspiration and motivation that will move you to find the JOY you deserve.  Are you ready to leave a Legacy of Intentional Significance?
                         I’m a Ziglar Legacy Certified Trainer, serial entrepreneur, author of “Candy Bar Hugs~It Doesn’t Take Much To Make A Difference!”, Your INSPIRED Speaker, Your COURAGEOUS Coach, wellness advocate, world traveler, Fort Worth ambassador, former 34 year flight-attendant with a plethora of life experiences to inspire your journey through life.  My mission is to Love people through these unsteady times, to live in complete Peace.
                         Living each moment as it comes, I AM Outrageously Optimistic & Outrageously Courageous in ‘Bold Faith NO fear!’ I am here to make a difference in your life. I am here to encourage you. I am here to remind you of WHO YOU ARE, which is perfect, exactly as you are!
@@ -58,7 +58,7 @@ if ( is_front_page() ) {
                     How We Got Started
                 </h2>
                 <div class="about-section-body">
-                    <p class="about-paragraph-left animate slide-left">
+                    <p class="about-paragraph-left animate slide-left" style="color: white">
                         After 34 incredible years as a flight-attendant for Delta AirLines, raising 3+3 kids, the pool house, mission trip Mom & never a dull moment, I knew I would definitely keep busy.  I joined a wonderful mlm, Zurvita, in 2008, & I am still loving that company & the unequaled Zeal Wellness product keeps me energized, focused & healthy every day.  I began networking, meeting people, & acting on my saying of: "When intriguing opportunities present themselves, & you say YES, things show up!"
                         I jumped into my own radio show, TV shows, traveled, hosted events, & everything in between.  Getting my Ziglar Legacy Certification was a huge blessing, & I began considering Speaking & Coaching.  I self published my first book, “Candy Bar Hugs~It Doesn’t Take Much To Make A Difference!”, with two more books in the works.  Now, Candy Bar Hugs is a pay-it-forward type movement.
                         My mission is to "Leave the world a better place" by Loving each person I encounter, unconditionally, & letting my light shine.  I am Outrageously Optimistic & Outrageously Courageous. I Choose JOY!  I Choose Love!  And I choose to bless You, and watch you Smile.
@@ -82,11 +82,11 @@ if ( is_front_page() ) {
                 <div class="about-section-body">
                     <figure>
                         <img class="about-image-left animate slide-left"
-                             data-src="<?php echo get_template_directory_uri(); ?>/img/coach/coach-bg.jpg"
+                             data-src="<?php echo get_template_directory_uri(); ?>/img/about/coach-about-bg.jpg"
                              alt="Your Courageous Coach"
                         >
                     </figure>
-                    <p class="about-paragraph-right animate slide-right">
+                    <p class="about-paragraph-right animate slide-right" style="color: white">
                         With my ‘your COURAGEOUS Coach’ program, I encourage those harboring deep or subtle discontent,
                         discouragement, or fear to find their Courage, and learn to step into their Authority,
                         resulting in living a life of complete Peace, which means Prosperity, in every aspect of the word. 
@@ -110,7 +110,7 @@ if ( is_front_page() ) {
                     Your Inspired Speaker
                 </h2>
                 <div class="about-section-body">
-                    <p class="about-paragraph-left animate slide-left">
+                    <p class="about-paragraph-left animate slide-left" style="color: white">
                         As a published author, speaker, coach, Ziglar Legacy Certified trainer, retired 34 year flight attendant,
                         and serial entrepreneur, as well as a radio & TV host, Charla has a plethora of life experiences,
                         training, humor, and wisdom which will enrich, entertain, and encourage your audience, team or group.
