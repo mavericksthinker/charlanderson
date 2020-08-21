@@ -269,7 +269,7 @@ if ( is_front_page() ) {
         </section>
         <section class="home-testimonial">
             <div class="testimonial-slider-container">
-                <h4 class="testimonies-header heading animate" style="color: #FFFFEB">YEStimonies</h4>
+                <h4 class="testimonies-header heading animate" style="color: #FFFFEB">YES-timonies</h4>
                 <div class="testimonial-body">
                     <div id="home-testimonial-slider" >
                         <div class="cloud9-item">
