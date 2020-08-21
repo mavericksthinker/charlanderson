@@ -71,9 +71,9 @@ if ( is_front_page() ) {
         <div class="youtube">
             <h6 class="section-youtube__header heading animate">Tom Ziglar/Charla Stronger video</h6>
             <iframe class="featured-youtube"
-                    width="80%"
+                    src="<?php echo get_template_directory_uri(); ?>/img/coach/courageous-coach.mp4"
+                    width="77%"
                     height="515px"
-                    src="https://ssrweb.zoom.us/cmr/replay/2020/03/25/311168593/934F629C-C68A-44F2-87A6-A3DC82CAF786/GMT20200325-221647_Stronger--_1760x900.mp4?response-content-type=video%2Fmp4&response-cache-control=max-age%3D0%2Cs-maxage%3D86400&data=c8dd449bc923b2f59df8b00c7afdf17d2f33e52bf953963260c1878feab81671&s001=yes&cid=us02&fid=upAsc-D7rj03G9OUtASDB_EvW467Jqish3Ue-_ENnka3B3JXYVWkb-ZAMOoutN1GFUcWDfda8lKAb4KW&s002=_dN5eqrs_3luBtWQuR6HBP99R9u8KqvkjHUC1KNN6AcdF6lAIpb6NbyIeg&Policy=eyJTdGF0ZW1lbnQiOiBbeyJSZXNvdXJjZSI6Imh0dHBzOi8vc3Nyd2ViLnpvb20udXMvY21yL3JlcGxheS8yMDIwLzAzLzI1LzMxMTE2ODU5My85MzRGNjI5Qy1DNjhBLTQ0RjItODdBNi1BM0RDODJDQUY3ODYvR01UMjAyMDAzMjUtMjIxNjQ3X1N0cm9uZ2VyLS1fMTc2MHg5MDAubXA0P3Jlc3BvbnNlLWNvbnRlbnQtdHlwZT12aWRlbyUyRm1wNCZyZXNwb25zZS1jYWNoZS1jb250cm9sPW1heC1hZ2UlM0QwJTJDcy1tYXhhZ2UlM0Q4NjQwMCZkYXRhPWM4ZGQ0NDliYzkyM2IyZjU5ZGY4YjAwYzdhZmRmMTdkMmYzM2U1MmJmOTUzOTYzMjYwYzE4NzhmZWFiODE2NzEmczAwMT15ZXMmY2lkPXVzMDImZmlkPXVwQXNjLUQ3cmowM0c5T1V0QVNEQl9Fdlc0NjdKcWlzaDNVZS1fRU5ua2EzQjNKWFlWV2tiLVpBTU9vdXROMUdGVWNXRGZkYThsS0FiNEtXJnMwMDI9X2RONWVxcnNfM2x1QnRXUXVSNkhCUDk5Ujl1OEtxdmtqSFVDMUtOTjZBY2RGNmxBSXBiNk5ieUllZyIsIkNvbmRpdGlvbiI6eyJEYXRlTGVzc1RoYW4iOnsiQVdTOkVwb2NoVGltZSI6MTU5NzA3NTg1NX19fV19&Signature=fOxgreYrFMxzcsAcGHLGiyM3umGzMuKYQhbLfgbG7HKLRoMw9bT7fGyCTVgBr3LaQOJFwKiwg0q-2lj64mDRvAFMRvryOwQLN5lpcGMP6MyLSzHFIsnuBPwLemznveWDncPSn2MAlm9Nsh4PuR1Xh~b~VIQ-Oc2Kg97fC9enTCH6BZJj8jZWzY3VsL1lNYodEE38bEKR9M8pc3fkP6jEfKEqVbfrT34ipTSEczsVSgpzKzkWnZTUZ5vuA1l9~Vte7XmHkn4IiusSZDww2m6K7y7qqRBDeyRtvpAPg9JBmoF56bQ4r5obk86-qZa2YR2ZAipN9RESue4WOt6lj~fL2g__&Key-Pair-Id=APKAJFHNSLHYCGFYQGIA"
                     frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
                     allowfullscreen
             >
