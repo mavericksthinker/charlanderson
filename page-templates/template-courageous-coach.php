@@ -20,7 +20,7 @@ if ( is_front_page() ) {
     <section class="about__hero-section hero">
         <div class="coach-page__hero-section__image">
             <div class="hero-header">
-                <h1 class="hero-header__text animate fadeInUp">Your Courageous Coach</h1>
+                <h1 class="coach-page-header__text animate fadeInUp">Your Courageous Coach</h1>
             </div>
         </div>
         <div class="header-scroll-for-more">
@@ -35,15 +35,15 @@ if ( is_front_page() ) {
              style="opacity: 0.04; z-index: 29"
              data-src="<?php echo get_template_directory_uri(); ?>/img/miscellaneous/logo_background.png"
              alt="Charla Anderson">
-        <div class="about-body">
+        <div class="coach-page__body">
             <div class="about-section-body">
                 <figure>
                     <img class="coach-image-left animate slide-left"
-                         data-src="<?php echo get_template_directory_uri(); ?>/img/coach/coach1.jpg"
+                         data-src="<?php echo get_template_directory_uri(); ?>/img/coach/coach-image2.jpg"
                          alt="About Charla"
                     >
                 </figure>
-                <p class="about-paragraph-right animate slide-right">
+                <p class="coach-page-paragraph-right animate slide-right">
                     With my ‘your COURAGEOUS Coach’ program, I encourage those harboring deep or subtle discontent,
                     discouragement, or fear to find their Courage, and learn to step into their Authority,
                     resulting in living a life of complete Peace, which means Prosperity, in every aspect of the word.
@@ -54,13 +54,13 @@ if ( is_front_page() ) {
     <section class="coach-page__section2">
         <div class="coach-body">
             <div class="coach-section-body">
-                <p class="about-paragraph-left animate slide-left">
+                <p class="coach-page-paragraph-left animate slide-left">
                     Who You ARE, I will help you develop the confidence to step into the life you desire and deserve,
                     ultimately leaving a beautiful Legacy of Intentional Significance in your community and your family.
                 </p>
                 <figure>
                     <img class="coach-image-right animate slide-right"
-                         data-src="<?php echo get_template_directory_uri(); ?>/img/coach/coach2.png"
+                         data-src="<?php echo get_template_directory_uri(); ?>/img/coach/coach-image3.jpg"
                          alt="About Charla"
                     >
                 </figure>
@@ -74,7 +74,7 @@ if ( is_front_page() ) {
                     src="<?php echo get_template_directory_uri(); ?>/img/coach/courageous-coach.mp4"
                     width="77%"
                     height="515px"
-                    frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                    frameborder="0" allow="accelerometer; encrypted-media; gyroscope; picture-in-picture"
                     allowfullscreen
             >
             </iframe>

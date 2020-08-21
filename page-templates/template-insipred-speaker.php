@@ -18,8 +18,10 @@ if ( is_front_page() ) {
 }
 ?>
     <section class="about__hero-section hero">
-        <div class="about__hero-section__image">
-            <h1 class="header-text animate fadeInUp">Your Inspired Speaker</h1>
+        <div class="speaker-page__hero-section__image">
+            <div class="hero-header">
+                <h1 class="coach-page-header__text animate fadeInUp">Your Inspired Speaker</h1>
+            </div>
         </div>
         <div class="header-scroll-for-more">
             <div class="header-scroll-for-more__container">
@@ -33,15 +35,15 @@ if ( is_front_page() ) {
              style="opacity: 0.04; z-index: 29"
              data-src="<?php echo get_template_directory_uri(); ?>/img/miscellaneous/logo_background.png"
              alt="Charla Anderson">
-        <div class="about-body">
+        <div class="coach-page__body">
             <div class="about-section-body">
                 <figure>
                     <img class="coach-image-left animate slide-left"
-                         data-src="<?php echo get_template_directory_uri(); ?>/img/coach/coach1.jpg"
+                         data-src="<?php echo get_template_directory_uri(); ?>/img/speaker/speaker1.png"
                          alt="About Charla"
                     >
                 </figure>
-                <p class="about-paragraph-right animate slide-right">
+                <p class="coach-page-paragraph-right animate slide-right">
                     As a published author, speaker, coach, Ziglar Legacy Certified trainer, retired 34 year flight attendant,
                     and serial entrepreneur, as well as a radio & TV host, Charla has a plethora of life experiences, training,
                     humor, and wisdom which will enrich, entertain, and encourage your audience, team or group.
@@ -52,14 +54,14 @@ if ( is_front_page() ) {
     <section class="coach-page__section2">
         <div class="coach-body">
             <div class="coach-section-body">
-                <p class="about-paragraph-left animate slide-left">
+                <p class="coach-page-paragraph-left animate slide-left">
                     Charla’s underlying message of Unconditional Love, combined with her Bold Faith Courage,
                     helps people learn to have the self-love needed to find the best in other people, the best in their situations,
                     and the best in their workplaces, resulting in a win/win/win attitude.
                 </p>
                 <figure>
                     <img class="coach-image-right animate slide-right"
-                         data-src="<?php echo get_template_directory_uri(); ?>/img/coach/coach2.png"
+                         data-src="<?php echo get_template_directory_uri(); ?>/img/speaker/speaker2.png"
                          alt="About Charla"
                     >
                 </figure>

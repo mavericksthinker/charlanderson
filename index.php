@@ -26,7 +26,9 @@ $container = get_theme_mod( 'understrap_container_type' );
 <section class="about__hero-section hero">
         <div class="blog-page__hero-section__image-blogs">
             <div class="hero-header">
-                <h1 class="book-page__hero-header__text animate fadeInUp">Charla's Blog</h1>
+                <h1 class="book-page__hero-header__text animate fadeInUp">
+                    Charla's Blog
+                </h1>
             </div>
         </div>
         <div class="header-scroll-for-more">
