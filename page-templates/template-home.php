@@ -140,6 +140,7 @@ if ( is_front_page() ) {
                         width="80%"
                         height="515px"
                         loading="lazy"
+                        sameSite="none"
                         src="https://www.youtube.com/embed/RwdThUpIT3I"
                         frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
                         allowfullscreen

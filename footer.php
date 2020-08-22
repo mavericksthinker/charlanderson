@@ -15,7 +15,7 @@ $container = get_theme_mod( 'understrap_container_type' );
 
 <?php get_template_part( 'sidebar-templates/sidebar', 'footerfull' ); ?>
 
-<section class="contact-section">
+<div class="contact-section" id="downloadFreeGift">
     <img class="contact-section__logo"
          style="opacity: 0.04; z-index: 29"
          data-src="<?php echo get_template_directory_uri(); ?>/img/miscellaneous/logo_background.png"
@@ -95,7 +95,7 @@ $container = get_theme_mod( 'understrap_container_type' );
             </div>
         </div>
     </div>
-</section>
+</div>
 <footer class="footer-wrapper" id="wrapper-footer">
     <div class="footer">
         <div class="footer-separator-top"></div>

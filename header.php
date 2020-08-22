@@ -96,7 +96,12 @@ $container = get_theme_mod( 'understrap_container_type' );
                     </div>
                 <a class="button__call-to-action button__call-to-action__contact" href="<?php echo esc_url( home_url( '/contact-charla' ) ); ?>">Connect With Charla</a>
 
-                <a class="button__call-to-action button__call-to-action__appointment" href="https://letsmeet.io/charlaanderson/30-min-fb-or-li-call">Set An Appointment </a>
+                <a class="button__call-to-action button__call-to-action__appointment"
+                   id="downloadDeclaration"
+                   href="#downloadFreeGift"
+                >
+                    Download Free Gift
+                </a>
 
                 <div class="button__menu burger">
                     <div id="line" class="line1 color__teal"></div>

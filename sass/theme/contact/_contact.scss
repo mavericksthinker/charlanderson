@@ -23,7 +23,6 @@
   color: black!important;
   outline: none!important;
   -moz-outline-color: transparent!important;
-  border: 1px solid $teal;
 
   &:hover, &:focus {
     background: $teal!important;
@@ -78,5 +77,6 @@
   width: 50%;
   @media screen and (max-width: 840px) {
     width: 90%;
+    height: 760px;
   }
 }
