@@ -74,6 +74,7 @@ if ( is_front_page() ) {
             <iframe class="featured-youtube"
                     width="80%"
                     height="515px"
+                    loading="lazy"
                     src="https://www.youtube.com/embed/RwdThUpIT3I"
                     frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
                     allowfullscreen
@@ -86,6 +87,7 @@ if ( is_front_page() ) {
             </p>
             <a class="about__button__read-more about__button__read-more__about speaker-button"
                href="<?php echo esc_url( home_url( '/youtube-channel' ) ); ?>"
+               target="_blank"
             >
                 Read More
             </a>

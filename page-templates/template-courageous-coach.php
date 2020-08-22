@@ -84,6 +84,7 @@ if ( is_front_page() ) {
             <a class="about__button__read-more about__button__read-more__about"
                href="https://letsmeet.io/charlaanderson/30-min-fb-or-li-call"
                style="margin-top: 5rem;"
+               target="_blank"
             >
                 FREE Discovery Call!
             </a>

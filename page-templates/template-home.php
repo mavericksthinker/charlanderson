@@ -139,6 +139,7 @@ if ( is_front_page() ) {
                 <iframe class="featured-youtube"
                         width="80%"
                         height="515px"
+                        loading="lazy"
                         src="https://www.youtube.com/embed/RwdThUpIT3I"
                         frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
                         allowfullscreen
@@ -149,6 +150,7 @@ if ( is_front_page() ) {
                 </p>
                 <a class="button__read-more button__view-more__youtube"
                    href="https://letsmeet.io/charlaanderson/50-minute-discovery-call"
+                   target="_blank"
                 >
                     View More
                 </a>

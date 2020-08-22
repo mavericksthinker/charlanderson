@@ -1,7 +1,7 @@
 .contact-page-section1 {
   position: relative;
-  background: linear-gradient(#F9EAD6, #FCD9C3);
-  padding: 4rem 0;
+  background: linear-gradient(#F9EAD6, #F9EAD6);
+  padding: 4rem 0 0 0;
 }
 .contact-section__body-image {
   display: flex;
@@ -64,5 +64,19 @@
   @media screen and (max-width: $small) {
     margin-left: 0;
     padding: 0;
+  }
+}
+.set-an-appointment__video-section {
+  display: block;
+  position: relative;
+  background: linear-gradient(#F9EAD6, #FCD9C3);
+}
+.set-an-appointment {
+  border:none;
+  overflow: hidden;
+  height: 700px;
+  width: 50%;
+  @media screen and (max-width: 840px) {
+    width: 90%;
   }
 }

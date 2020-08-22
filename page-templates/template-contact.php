@@ -138,10 +138,17 @@ if ( is_front_page() ) {
                                     </p>
                                     <span class="contact-form__content-footer">Privacy Ensured Always</span>
                                     <div class="wpcf7-response-output" role="alert" aria-hidden="true"></div>
-                                    <div class="wpcf7-form-control-wrap"><div data-sitekey="6LchZLoZAAAAACA6JjRudi4iivtSG2YCZzkNlKpa" class="wpcf7-form-control g-recaptcha wpcf7-recaptcha contact-recaptcha" id="contact-recaptcha"><div style="width: 304px; height: 78px;"><div><iframe src="https://www.google.com/recaptcha/api2/anchor?ar=1&amp;k=6LchZLoZAAAAACA6JjRudi4iivtSG2YCZzkNlKpa&amp;co=aHR0cDovL3dvcmRwcmVzcy50ZXN0Ojgw&amp;hl=en&amp;v=AFBwIe6h0oOL7MOVu88LHld-&amp;size=normal&amp;cb=we2p19q0ve00" width="304" height="78" role="presentation" name="a-5ov3uwgecy22" frameborder="0" scrolling="no" sandbox="allow-forms allow-popups allow-same-origin allow-scripts allow-top-navigation allow-modals allow-popups-to-escape-sandbox"></iframe></div><textarea id="g-recaptcha-response" name="g-recaptcha-response" class="g-recaptcha-response" style="width: 250px; height: 40px; border: 1px solid rgb(193, 193, 193); margin: 10px 25px; padding: 0px; resize: none; display: none;"></textarea></div><iframe style="display: none;"></iframe></div>
+                                    <div class="wpcf7-form-control-wrap"><div data-sitekey="6LchZLoZAAAAACA6JjRudi4iivtSG2YCZzkNlKpa" class="wpcf7-form-control g-recaptcha wpcf7-recaptcha contact-recaptcha" id="contact-recaptcha"><div style="width: 304px; height: 78px;">
+                                                <div>
+                                                    <iframe src="https://www.google.com/recaptcha/api2/anchor?ar=1&amp;k=6LchZLoZAAAAACA6JjRudi4iivtSG2YCZzkNlKpa&amp;co=aHR0cDovL3dvcmRwcmVzcy50ZXN0Ojgw&amp;hl=en&amp;v=AFBwIe6h0oOL7MOVu88LHld-&amp;size=normal&amp;cb=we2p19q0ve00" width="304" height="78" role="presentation" name="a-5ov3uwgecy22" frameborder="0" scrolling="no" sandbox="allow-forms allow-popups allow-same-origin allow-scripts allow-top-navigation allow-modals allow-popups-to-escape-sandbox"></iframe></div><textarea id="g-recaptcha-response" name="g-recaptcha-response" class="g-recaptcha-response" style="width: 250px; height: 40px; border: 1px solid rgb(193, 193, 193); margin: 10px 25px; padding: 0px; resize: none; display: none;"></textarea></div><iframe style="display: none;"></iframe></div>
                                         <noscript>
                                             <div class="grecaptcha-noscript">
-                                                <iframe src="https://www.google.com/recaptcha/api/fallback?k=6LchZLoZAAAAACA6JjRudi4iivtSG2YCZzkNlKpa" frameborder="0" scrolling="no" width="300" height="430">
+                                                <iframe src="https://www.google.com/recaptcha/api/fallback?k=6LchZLoZAAAAACA6JjRudi4iivtSG2YCZzkNlKpa"
+                                                        frameborder="0"
+                                                        scrolling="no"
+                                                        width="300"
+                                                        height="430"
+                                                >
                                                 </iframe>
                                                 <textarea name="g-recaptcha-response" rows="3" cols="40" placeholder="reCaptcha Response Here">
 		                                        </textarea>
@@ -158,6 +165,34 @@ if ( is_front_page() ) {
                         </div>
                     </div>
                 </div>
+            </div>
+        </section>
+        <section class="set-an-appointment__video-section">
+            <div class="youtube">
+                <h6 class="section-youtube__header heading animate"
+                    style="color: #3387a2"
+                >
+                    Set An Appointment
+                </h6>
+                <iframe src="https://letsmeet.io/charlaanderson/30-min-discovery-call"
+                        loading="lazy"
+                        class="set-an-appointment"
+                        name="booking"
+                        scrolling="no"
+                        frameborder="0"
+                        marginheight="0px"
+                        marginwidth="0px"
+                        referrerpolicy="unsafe-url"
+                        allowfullscreen
+                >
+                </iframe>
+                <a class="about__button__read-more about__button__read-more__about"
+                   href="https://letsmeet.io/charlaanderson/30-min-discovery-call"
+                   style="margin-top: 5rem; margin-bottom: 3rem"
+                   target="_blank"
+                >
+                    Set An Appointment
+                </a>
             </div>
         </section>
     </main>

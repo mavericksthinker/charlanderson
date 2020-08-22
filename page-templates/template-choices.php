@@ -89,10 +89,14 @@ if ( is_front_page() ) {
                         </a>
                     </div>
                     <div class="choices-container choices-container__image">
-                        <img class="about-image-left animate slide-right"
-                             data-src="<?php echo get_template_directory_uri(); ?>/img/choices/zurvita.png"
-                             alt="Zurvita"
+                        <iframe loading="lazy"
+                                class="charla-choices-page__zeal-video"
+                                src="https://www.youtube.com/embed/jvlWx1QhOsk"
+                                frameborder="0"
+                                allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                                allowfullscreen
                         >
+                        </iframe>
                     </div>
                 </div>
                 <a class="about__button__read-more about__button__read-more__about"
