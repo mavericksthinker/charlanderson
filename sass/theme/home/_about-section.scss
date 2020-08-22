@@ -60,6 +60,30 @@
     margin-bottom: 1.5rem;
   }
 }
+.section-services__header {
+  width: 100%;
+  color: $accent;
+  font-family: 'ScrapbookerScriptW00-Rg', 'Apple Chancery', 'Roboto', sans-serif;
+  font-size: 45px;
+  //margin-bottom: 4rem;
+  //padding:1rem 3rem 3rem 3rem;
+  @media screen and (max-width: $xxlarge) {
+    font-size: 40px;
+  }
+  @media screen and (max-width: $large) {
+    font-size: 35px;
+    margin-bottom: 2rem;
+  }
+  @media screen and (max-width: $xmedium) {
+    margin-bottom: 0;
+    margin-top: 0;
+    padding-bottom: 1.5rem;
+  }
+  @media screen and (max-width: $medium) {
+    padding-bottom: 0;
+    margin-bottom: 1.5rem;
+  }
+}
 .section-youtube__header {
   width: 100%;
   color: $accent;

@@ -159,7 +159,7 @@ if ( is_front_page() ) {
         </section>
         <section class="service-section">
             <div class="service">
-                <h2 class="section-youtube__header heading animate" style="color: #FFFFEB">What Is Your Heart Seeking?</h2>
+                <h2 class="section-services__header heading animate" style="color: #FFFFEB">What Is Your Heart Seeking?</h2>
                 <p class="service-section__paragraph heading animate">We Think You Can Find a Path Towards It Using One Of Our Brilliant Tools.</p>
                 <div id="service-carousel"
                      class="carousel slide carousel-fade"
