@@ -19,7 +19,7 @@ if ( is_front_page() ) {
 ?>
     <main class="main-body">
         <section class="hero-section hero">
-            <div id="image-carousel" class="carousel slide" data-ride="carousel" data-interval="10000">
+            <div id="image-carousel" class="carousel slide" data-ride="carousel" data-interval="6000">
                 <div class="carousel-inner" role="listbox">
                     <div id="lottie" class="carousel-item active">
                         <div class="carousel-captions text-center">
@@ -27,8 +27,9 @@ if ( is_front_page() ) {
                                 <div class="hero-header">
                                     <h1 class="hero-header__text animate fadeInUp">Charla Anderson</h1>
                                     <p class="hero-footer__text"
-                                       style="color: black;"
-                                    >Your courageous Coach ~ Your inspired Speaker ~ Published Author
+                                       style="color: #d95204;"
+                                    >
+                                        Your COURAGEOUS Coach ~ Your INSPIRED Speaker ~ Published Author
                                     </p>
                                 </div>
                                 <a class="call-to-action__button header animate"
@@ -48,7 +49,7 @@ if ( is_front_page() ) {
                                     <p class="hero-footer__text"
                                        style="color: white;"
                                     >
-                                        Your courageous Coach ~ Your inspired Speaker ~ Published Author
+                                        Your COURAGEOUS Coach ~ Your INSPIRED Speaker ~ Published Author
                                     </p>
                                 </div>
                                 <a class="call-to-action__button header animate"
@@ -68,7 +69,7 @@ if ( is_front_page() ) {
                                     <p class="hero-footer__text"
                                        style="color: white;"
                                     >
-                                        Your courageous Coach ~ Your inspired Speaker ~ Published Author
+                                        Your COURAGEOUS Coach ~ Your INSPIRED Speaker ~ Published Author
                                     </p>
                                 </div>
                                 <a class="call-to-action__button header animate"

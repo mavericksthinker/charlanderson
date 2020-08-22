@@ -44,7 +44,7 @@ if ( is_front_page() ) {
                     >
                 </figure>
                 <p class="coach-page-paragraph-right animate slide-right">
-                    With my ‘your COURAGEOUS Coach’ program, I encourage those harboring deep or subtle discontent,
+                    With my ‘Your COURAGEOUS Coach’ program, I encourage those harboring deep or subtle discontent,
                     discouragement, or fear to find their Courage, and learn to step into their Authority,
                     resulting in living a life of complete Peace, which means Prosperity, in every aspect of the word.
                 </p>
@@ -56,6 +56,8 @@ if ( is_front_page() ) {
             <div class="coach-section-body">
                 <p class="coach-page-paragraph-left animate slide-left">
                     Who You ARE, I will help you develop the confidence to step into the life you desire and deserve,
+                    ultimately leaving a beautiful Legacy of Intentional Significance in your community and your family.
+                    Because I can see exactly Who You ARE, I will help you develop the confidence to step into the life you desire and deserve,
                     ultimately leaving a beautiful Legacy of Intentional Significance in your community and your family.
                 </p>
                 <figure>
