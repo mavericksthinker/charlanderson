@@ -179,7 +179,7 @@ if ( is_front_page() ) {
         </section>
         <section class="choices-page__charities">
             <div class="about-body">
-                <h1 class="about__section-header heading animate">Charities</h1>
+                <h1 class="about__section-header heading animate">Charla’s Charities</h1>
                 <div class="choices-page-container">
                     <div class="choices-container choices-container__image">
                         <img class="about-image-left animate slide-left"

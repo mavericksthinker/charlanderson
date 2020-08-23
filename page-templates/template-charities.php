@@ -22,7 +22,7 @@ if ( is_front_page() ) {
             <div class="book-page__hero-section__image-charities">
                 <div class="hero-header">
                     <h1 class="book-page__hero-header__text animate fadeInUp">
-                        Charities
+                        Charla’s Charities
                     </h1>
                 </div>
             </div>

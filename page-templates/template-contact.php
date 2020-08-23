@@ -165,27 +165,6 @@ if ( is_front_page() ) {
                         </div>
                     </div>
                 </div>
-            </div>
-        </section>
-        <section class="set-an-appointment__video-section">
-            <div class="youtube">
-                <h6 class="section-youtube__header heading animate"
-                    style="color: #3387a2"
-                >
-                    Set An Appointment
-                </h6>
-                <iframe src="https://letsmeet.io/charlaanderson/30-min-discovery-call"
-                        loading="lazy"
-                        class="set-an-appointment"
-                        name="booking"
-                        scrolling="no"
-                        frameborder="0"
-                        marginheight="0px"
-                        marginwidth="0px"
-                        referrerpolicy="unsafe-url"
-                        allowfullscreen
-                >
-                </iframe>
                 <a class="about__button__read-more about__button__read-more__about"
                    href="https://letsmeet.io/charlaanderson/30-min-discovery-call"
                    style="margin-top: 5rem; margin-bottom: 3rem"
@@ -193,6 +172,27 @@ if ( is_front_page() ) {
                 >
                     Set An Appointment
                 </a>
+            </div>
+        </section>
+        <section class="set-an-appointment__video-section">
+            <div class="youtube">
+<!--                <h6 class="section-youtube__header heading animate"-->
+<!--                    style="color: #3387a2"-->
+<!--                >-->
+<!--                    Set An Appointment-->
+<!--                </h6>-->
+<!--                <iframe src="https://letsmeet.io/charlaanderson/30-min-discovery-call"-->
+<!--                        loading="lazy"-->
+<!--                        class="set-an-appointment"-->
+<!--                        name="booking"-->
+<!--                        scrolling="no"-->
+<!--                        frameborder="0"-->
+<!--                        marginheight="0px"-->
+<!--                        marginwidth="0px"-->
+<!--                        referrerpolicy="unsafe-url"-->
+<!--                        allowfullscreen-->
+<!--                >-->
+<!--                </iframe>-->
             </div>
         </section>
     </main>

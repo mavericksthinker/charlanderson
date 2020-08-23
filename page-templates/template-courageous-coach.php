@@ -57,7 +57,7 @@ if ( is_front_page() ) {
                 <p class="coach-page-paragraph-left animate slide-left">
                     Who You ARE, I will help you develop the confidence to step into the life you desire and deserve,
                     ultimately leaving a beautiful Legacy of Intentional Significance in your community and your family.
-                    Because I can see exactly Who You ARE, I will help you develop the confidence to step into the life you desire and deserve,
+                    <span style="letter-spacing: 2.3px">Because I Can See Exactly </span>Who You ARE, I will help you develop the confidence to step into the life you desire and deserve,
                     ultimately leaving a beautiful Legacy of Intentional Significance in your community and your family.
                 </p>
                 <figure>
