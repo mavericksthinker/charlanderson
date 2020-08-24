@@ -16,13 +16,13 @@
   justify-content: space-evenly;
 }
 .submit-button__contact-page {
-  padding: 1rem 2.5rem;
   width: max-content!important;
   border-radius: 15px!important;
   margin-top: 2.5rem!important;
-  color: black!important;
+  color: $teal!important;
   outline: none!important;
   -moz-outline-color: transparent!important;
+  box-shadow: 0 3px 20px rgba(black, 0.2);
 
   &:hover, &:focus {
     background: $teal!important;
@@ -78,5 +78,27 @@
   @media screen and (max-width: 840px) {
     width: 90%;
     height: 760px;
+  }
+}
+.catcha_button_combo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  @media screen and (max-width: 840px) {
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+  }
+}
+.catcha_button_combo__button {
+  margin-left: 2rem;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+
+  @media screen and (max-width: 840px) {
+    margin-top: 2rem;
+    margin-left: 0;
+    margin-bottom: 0;
   }
 }

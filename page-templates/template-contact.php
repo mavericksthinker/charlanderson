@@ -138,7 +138,11 @@ if ( is_front_page() ) {
                                     </p>
                                     <span class="contact-form__content-footer">Privacy Ensured Always</span>
                                     <div class="wpcf7-response-output" role="alert" aria-hidden="true"></div>
-                                    <div class="wpcf7-form-control-wrap"><div data-sitekey="6LchZLoZAAAAACA6JjRudi4iivtSG2YCZzkNlKpa" class="wpcf7-form-control g-recaptcha wpcf7-recaptcha contact-recaptcha" id="contact-recaptcha"><div style="width: 304px; height: 78px;">
+                                    <div class="wpcf7-form-control-wrap catcha_button_combo">
+                                        <div data-sitekey="6LchZLoZAAAAACA6JjRudi4iivtSG2YCZzkNlKpa"
+                                             class="wpcf7-form-control g-recaptcha wpcf7-recaptcha contact-recaptcha"
+                                             id="contact-recaptcha">
+                                            <div style="width: 304px; height: 78px;">
                                                 <div>
                                                     <iframe src="https://www.google.com/recaptcha/api2/anchor?ar=1&amp;k=6LchZLoZAAAAACA6JjRudi4iivtSG2YCZzkNlKpa&amp;co=aHR0cDovL3dvcmRwcmVzcy50ZXN0Ojgw&amp;hl=en&amp;v=AFBwIe6h0oOL7MOVu88LHld-&amp;size=normal&amp;cb=we2p19q0ve00" width="304" height="78" role="presentation" name="a-5ov3uwgecy22" frameborder="0" scrolling="no" sandbox="allow-forms allow-popups allow-same-origin allow-scripts allow-top-navigation allow-modals allow-popups-to-escape-sandbox"></iframe></div><textarea id="g-recaptcha-response" name="g-recaptcha-response" class="g-recaptcha-response" style="width: 250px; height: 40px; border: 1px solid rgb(193, 193, 193); margin: 10px 25px; padding: 0px; resize: none; display: none;"></textarea></div><iframe style="display: none;"></iframe></div>
                                         <noscript>
@@ -154,24 +158,23 @@ if ( is_front_page() ) {
 		                                        </textarea>
                                             </div>
                                         </noscript>
+                                        <a class="about__button__read-more about__button__read-more__about catcha_button_combo__button"
+                                           href="https://letsmeet.io/charlaanderson/30-min-discovery-call"
+                                           target="_blank"
+                                        >
+                                            Set An Appointment
+                                        </a>
                                     </div>
                                     <input type="submit"
-                                           value="Send"
+                                           value="Submit"
                                            class="submit-button__contact-page"
-                                           style='font-size: 1.6rem; font-family: "Apple Chancery", "Roboto", "Poppins", sans-serif'>
+                                           style='font-size: 1.3rem!important;font-family: "Apple Chancery", "Roboto", "Poppins", sans-serif'>
                                     <span class="ajax-loader"></span>
                                 </form>
                             </div>
                         </div>
                     </div>
                 </div>
-                <a class="about__button__read-more about__button__read-more__about"
-                   href="https://letsmeet.io/charlaanderson/30-min-discovery-call"
-                   style="margin-top: 5rem; margin-bottom: 3rem"
-                   target="_blank"
-                >
-                    Set An Appointment
-                </a>
             </div>
         </section>
         <section class="set-an-appointment__video-section">

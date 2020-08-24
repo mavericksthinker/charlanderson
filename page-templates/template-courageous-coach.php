@@ -55,10 +55,9 @@ if ( is_front_page() ) {
         <div class="coach-body">
             <div class="coach-section-body">
                 <p class="coach-page-paragraph-left animate slide-left">
-                    Who You ARE, I will help you develop the confidence to step into the life you desire and deserve,
-                    ultimately leaving a beautiful Legacy of Intentional Significance in your community and your family.
-                    <span style="letter-spacing: 2.3px">Because I Can See Exactly </span>Who You ARE, I will help you develop the confidence to step into the life you desire and deserve,
-                    ultimately leaving a beautiful Legacy of Intentional Significance in your community and your family.
+                    <span style="letter-spacing: 2.3px">Because I Can See Exactly </span>Who You ARE, I will help you develop the confidence
+                    to step into the life you desire and deserve, ultimately leaving a beautiful Legacy of Intentional
+                    Significance in your community and your family.
                 </p>
                 <figure>
                     <img class="coach-image-right animate slide-right"
@@ -82,7 +81,7 @@ if ( is_front_page() ) {
                 />
             </video>
             <a class="about__button__read-more about__button__read-more__about"
-               href="https://letsmeet.io/charlaanderson/30-min-fb-or-li-call"
+               href="https://letsmeet.io/charlaanderson/30-min-discovery-call"
                style="margin-top: 5rem;"
                target="_blank"
             >
