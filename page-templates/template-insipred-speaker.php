@@ -86,8 +86,7 @@ if ( is_front_page() ) {
                 When Intriguing opportunities present themselves, AND YOU SAY YES, things show up
             </p>
             <a class="about__button__read-more about__button__read-more__about speaker-button"
-               href="<?php echo esc_url( home_url( '/youtube-channel' ) ); ?>"
-               target="_blank"
+               href="<?php echo esc_url( home_url( '/about-charla' ) ); ?>"
             >
                 Read More
             </a>
