@@ -55,7 +55,7 @@ if ( is_front_page() ) {
                 <h2 class="about__section-header heading animate"
                     style="color: #FFFFEB"
                 >
-                    How We Got Started
+                    How I Got Started
                 </h2>
                 <div class="about-section-body">
                     <p class="about-paragraph-left animate slide-left" style="color: white">
