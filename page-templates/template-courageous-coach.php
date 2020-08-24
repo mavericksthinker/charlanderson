@@ -85,7 +85,7 @@ if ( is_front_page() ) {
                style="margin-top: 5rem;"
                target="_blank"
             >
-                FREE Discovery Call!
+                Set An Appointment
             </a>
         </div>
     </section>
