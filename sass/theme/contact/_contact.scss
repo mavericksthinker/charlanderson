@@ -82,7 +82,7 @@
 }
 .catcha_button_combo {
   display: flex;
-  justify-content: center;
+  justify-content: flex-start;
   align-items: center;
 
   @media screen and (max-width: 840px) {
