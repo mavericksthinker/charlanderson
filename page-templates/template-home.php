@@ -29,7 +29,7 @@ if ( is_front_page() ) {
                                     <p class="hero-footer__text"
                                        style="color: #d95204;"
                                     >
-                                        Your COURAGEOUS Coach ~ Your INSPIRED Speaker ~ Published Author
+                                        Your Courageous Coach ~ Your Inspired Speaker ~ Your Published Author
                                     </p>
                                 </div>
                                 <a class="call-to-action__button header animate"
@@ -49,7 +49,7 @@ if ( is_front_page() ) {
                                     <p class="hero-footer__text"
                                        style="color: white;"
                                     >
-                                        Your COURAGEOUS Coach ~ Your INSPIRED Speaker ~ Published Author
+                                        Your Courageous Coach ~ Your Inspired Speaker ~ Your Published Author
                                     </p>
                                 </div>
                                 <a class="call-to-action__button header animate"
@@ -69,7 +69,7 @@ if ( is_front_page() ) {
                                     <p class="hero-footer__text"
                                        style="color: white;"
                                     >
-                                        Your COURAGEOUS Coach ~ Your INSPIRED Speaker ~ Published Author
+                                        Your Courageous Coach ~ Your Inspired Speaker ~ Your Published Author
                                     </p>
                                 </div>
                                 <a class="call-to-action__button header animate"

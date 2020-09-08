@@ -73,8 +73,8 @@ if ( is_front_page() ) {
             <h6 class="section-youtube__header heading animate">Tom Ziglar/Charla Stronger video</h6>
             <video class="featured-youtube"
                     width="77%"
-                    height="515px"
-                   controls="true"
+                    controls="controls"
+                    style="box-shadow: none; outline: transparent"
             >
                 <source src="<?php echo get_template_directory_uri(); ?>/img/coach/courageous-coach.mp4"
                         type="video/mp4"
@@ -91,9 +91,7 @@ if ( is_front_page() ) {
     </section>
     <section class="coach-page__paragraph">
         <div class="choices-page__paragraph-container">
-            <p class="choices-page__paragraph-container__text"
-               style='text-transform: uppercase;'
-            >
+            <p class="choices-page__paragraph-container__text" style='font-family: "Roboto", "Poppins", sans-serif; font-weight: bold;'>
                 Courage + Authority = Peace, Prosperity, Joy, Happiness!
             </p>
         </div>
