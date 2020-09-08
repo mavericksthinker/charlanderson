@@ -45,7 +45,7 @@ if ( is_front_page() ) {
                         <div class="carousel-captions text-center">
                             <div class="caption text-center">
                                 <div class="hero-header">
-                                    <h1 class="hero-header__text" style="color: #FFFFEB">Your Courageous Coach</h1>
+                                    <h1 class="hero-header__text" style="color: #FFFFEB">Courageous Coach</h1>
                                     <p class="hero-footer__text"
                                        style="color: white;"
                                     >
@@ -65,7 +65,7 @@ if ( is_front_page() ) {
                         <div class="carousel-captions text-center">
                             <div class="caption text-center">
                                 <div class="hero-header">
-                                    <h1 class="hero-header__text" style="color: #FFFFEB">Your Inspired Speaker</h1>
+                                    <h1 class="hero-header__text" style="color: #FFFFEB">Inspired Speaker</h1>
                                     <p class="hero-footer__text"
                                        style="color: white;"
                                     >
@@ -160,7 +160,8 @@ if ( is_front_page() ) {
         <section class="service-section">
             <div class="service">
                 <h2 class="section-services__header heading animate" style="color: #FFFFEB">What Is Your Heart Seeking?</h2>
-                <p class="service-section__paragraph heading animate">We Think You Can Find a Path Towards It Using One Of Our Brilliant Tools.</p>
+                <p class="service-section__paragraph heading animate">When intriguing opportunities present themselves, and you say YES, things show up!”</p>
+                <h2 class="section-services__header heading animate" style="color: #FFFFEB; margin-top: 1.5em">YES-timonials</h2>
                 <div id="service-carousel"
                      class="carousel slide carousel-fade"
                      data-ride="carousel"
@@ -169,91 +170,58 @@ if ( is_front_page() ) {
                          role="listbox"
                     >
                         <div class="carousel-item active service-image" style="background-image: url('<?php echo get_template_directory_uri(); ?>/img/services/services-bg.png')">
-<!--                            <figure>-->
-<!--                                <img class="service__base-carousel-image"-->
-<!--                                     src="--><?php //echo get_template_directory_uri(); ?><!--/img/services/services-bg.png"-->
-<!--                                     alt="Courageous Coach"-->
-<!--                                >-->
-<!--                            </figure>-->
                             <div class="carousel-caption text-center">
                                 <div class="services">
                                     <figure>
                                         <img class="services__image animate slide-left"
-                                             data-src="<?php echo get_template_directory_uri(); ?>/img/services/service1_logo.png"
+                                             data-src="<?php echo get_template_directory_uri(); ?>/img/yestimonies/yestimonies4.jpg"
                                              alt="Courageous Coach"
                                         >
                                     </figure>
                                     <div class="service-section__container">
-                                        <h3 class="service-section__container__header slide-right animate">Courageous Coach</h3>
+                                        <h3 class="service-section__container__header slide-right animate">Lexia, TX</h3>
                                         <p class="service-section__container__paragraph slide-right animate">
-                                            Let's have a free conversation to determine if we mesh.
+                                            You’ve taught me how to be a friend, when to be a friend, and to love a friend, unconditionally! Thank you for being my Friend! 💯😘💋.
                                         </p>
-                                        <a class="button__read-more button__read-more__service explore-services__button slide-right animate"
-                                           style="z-index: 29; margin-top: 3rem"
-                                           href="<?php echo esc_url( home_url( '/courageous-coach' ) ); ?>"
-                                        >
-                                            Explore
-                                        </a>
                                     </div>
                                 </div>
                             </div>
                         </div>
                         <div class="carousel-item service-image" style="background-image: url('<?php echo get_template_directory_uri(); ?>/img/services/services-bg.png')">
-<!--                            <figure>-->
-<!--                                <img class="service__base-carousel-image"-->
-<!--                                     src="--><?php //echo get_template_directory_uri(); ?><!--/img/services/services-bg.png"-->
-<!--                                     alt="Author"-->
-<!--                                >-->
-<!--                            </figure>-->
                             <div class="carousel-caption text-center">
                                 <div class="services">
                                     <figure>
                                         <img class="services__image animate slide-left"
-                                             data-src="<?php echo get_template_directory_uri(); ?>/img/services/service2_logo.jpg"
+                                             data-src="<?php echo get_template_directory_uri(); ?>/img/yestimonies/yestimony-default.jpg"
                                              alt="Author"
                                         >
                                     </figure>
                                     <div class="service-section__container">
-                                        <h3 class="service-section__container__header slide-right animate">Published Author</h3>
+                                        <h3 class="service-section__container__header slide-right animate">Christi, DFW</h3>
                                         <p class="service-section__container__paragraph slide-right animate">
-                                            Let's have a free conversation to determine if we mesh.
+                                            Charla, I would absolutely love to meet you!
+                                            I am finding that there are more dynamic women in the Dallas-Fort Worth area then I ever knew.
                                         </p>
-                                        <a class="button__read-more button__read-more__service explore-services__button slide-right animate"
-                                           style="z-index: 29; margin-top: 3rem"
-                                           href="<?php echo esc_url( home_url( '/about-charla' ) ); ?>"
-                                        >
-                                            Explore
-                                        </a>
                                     </div>
                                 </div>
                             </div>
                         </div>
                         <div class="carousel-item service-image" style="background-image: url('<?php echo get_template_directory_uri(); ?>/img/services/services-bg.png')">
-<!--                            <figure>-->
-<!--                                <img class="service__base-carousel-image"-->
-<!--                                     src="--><?php //echo get_template_directory_uri(); ?><!--/img/services/services-bg.png"-->
-<!--                                     alt="Inspired Speaker"-->
-<!--                                >-->
-<!--                            </figure>-->
                             <div class="carousel-caption text-center">
                                 <div class="services">
                                     <figure>
                                         <img class="services__image animate slide-left"
-                                             data-src="<?php echo get_template_directory_uri(); ?>/img/services/service3_logo.png"
+                                             data-src="<?php echo get_template_directory_uri(); ?>/img/yestimonies/yestimony-default.jpg"
                                              alt="Inspired Speaker"
                                         >
                                     </figure>
                                     <div class="service-section__container">
-                                        <h3 class="service-section__container__header slide-right animate">Inspired Speaker</h3>
+                                        <h3 class="service-section__container__header slide-right animate">Ron, UT</h3>
                                         <p class="service-section__container__paragraph slide-right animate">
-                                            Invite Charla to Speak.  Online; Webinar; Keynote; Inspire.
+                                            Charla is a very intelligent, kind, caring and thoughtful woman.
+                                            I really enjoy listening to her, her program content and her guests.
+                                            She has me forever!!!
                                         </p>
-                                        <a class="button__read-more button__read-more__service explore-services__button slide-right animate"
-                                           style="z-index: 29; margin-top: 3rem"
-                                           href="<?php echo esc_url( home_url( '/inspired-speaker' ) ); ?>"
-                                        >
-                                            Explore
-                                        </a>
                                     </div>
                                 </div>
                             </div>
@@ -271,92 +239,13 @@ if ( is_front_page() ) {
                 </div>
             </div>
         </section>
-        <section class="home-testimonial">
-            <div class="testimonial-slider-container">
-                <h4 class="testimonies-header heading animate" style="color: #FFFFEB">YES-timonies</h4>
-                <div class="testimonial-body">
-                    <div id="home-testimonial-slider" >
-                        <div class="cloud9-item">
-                            <div class="testimonial-image">
-                                <img data-src="<?php echo get_template_directory_uri(); ?>/img/yestimonies/yestimonies4.jpg">
-                            </div>
-                            <div class="testimonial-info">
-                                <p class="testimonial-name">Lexia</p>
-                                <p class="testimonial-title">TX</p>
-                                <p class="testimonial-content">I first met Charla at a networking event hiding out in the kitchen 🤗! We’ve been in touch since as friends, motivational buddies, accountability partners and sooo much more!!! You’ve taught me how to be a friend, when to be a friend,
-                                    and to love a friend, unconditionally! Thank you for being my Friend! 💯😘💋.
-                                </p>
-                            </div>
-                        </div>
-                        <div class="cloud9-item">
-                            <div class="testimonial-image">
-                                <img data-src="<?php echo get_template_directory_uri(); ?>/img/yestimonies/yestimonies2.png">
-                            </div>
-                            <div class="testimonial-info">
-                                <p class="testimonial-name">Rhonda</p>
-                                <p class="testimonial-title">TX</p>
-                                <p class="testimonial-content">My friend from early childhood who has the kindest soul and most uplifting outlook much needed in these uncertain times.</p>
-                            </div>
-                        </div>
-                        <div class="cloud9-item">
-                            <div class="testimonial-image">
-                                <img data-src="<?php echo get_template_directory_uri(); ?>/img/yestimonies/yestimonies1.png">
-                            </div>
-                            <div class="testimonial-info">
-                                <p class="testimonial-name">Julie</p>
-                                <p class="testimonial-title">AZ</p>
-                                <p class="testimonial-content">A wonderful soul!</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="yestimonials">
-                        <div class="yestimonies-content">
-                            <img class="yestimonies-image"
-                                 data-src="<?php echo get_template_directory_uri(); ?>/img/yestimonies/yestimonies4.jpg"
-                            >
-                            <div class="yestimonial-content__body">
-                                <h5 class="yestimonies-content__header">Lexia</h5>
-                                <span class="yestimonies-content__title">TX</span>
-                                <p class="yestimonies-content__description">
-                                    I first met Charla at a networking event hiding out in the kitchen 🤗! We’ve been in touch since as friends, motivational buddies, accountability partners and sooo much more!!! You’ve taught me how to be a friend, when to be a friend,
-                                    and to love a friend, unconditionally! Thank you for being my Friend! 💯😘💋.
-                                </p>
-                            </div>
-                        </div>
-                        <div class="yestimonies-content">
-                            <img class="yestimonies-image"
-                                 data-src="<?php echo get_template_directory_uri(); ?>/img/yestimonies/yestimonies2.png"
-                            >
-                            <div class="yestimonial-content__body">
-                                <h5 class="yestimonies-content__header">Rhonda</h5>
-                                <span class="yestimonies-content__title">TX</span>
-                                <p class="yestimonies-content__description">
-                                    My friend from early childhood who has the kindest soul and most uplifting outlook much needed in these uncertain times.
-                                </p>
-                            </div>
-                        </div>
-                        <div class="yestimonies-content">
-                            <img class="yestimonies-image"
-                                 data-src="<?php echo get_template_directory_uri(); ?>/img/yestimonies/yestimonies1.png"
-                            >
-                            <div class="yestimonial-content__body">
-                                <h5 class="yestimonies-content__header">Julie</h5>
-                                <span class="yestimonies-content__title">AZ</span>
-                                <p class="yestimonies-content__description">
-                                    A wonderful soul!
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <a class="button__read-more button__read-more__service yestimonial-section__explore-button"
-                   href="<?php echo esc_url( home_url( '/yestimonies' ) ); ?>"
-                >
-                    View More
-                </a>
-            </div>
-        </section>
-        <section class="blogs-section">
+        <section class="blogs-section" style="display: flex; justify-content: space-between;align-items: center; flex-direction: column">
+            <a class="button__read-more button__read-more__service yestimonial-section__explore-button"
+               href="<?php echo esc_url( home_url( '/yestimonies' ) ); ?>"
+               style="margin-bottom: 1.5em"
+            >
+                View More
+            </a>
             <div class="blog-section__container">
                 <h2 class="section-header heading animate">Charla's Blog</h2>
                 <div class="glider-contain">

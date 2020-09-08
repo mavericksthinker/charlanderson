@@ -21,7 +21,7 @@ $container = get_theme_mod( 'understrap_container_type' );
          data-src="<?php echo get_template_directory_uri(); ?>/img/miscellaneous/logo_background.png"
          alt="Charla Anderson">
     <div class="home-contact">
-        <h2 class="contact-section__header heading animate">Get Charla’s Free Declarations</h2>
+        <h2 class="contact-section__header heading animate">Charla’s Declarations..</h2>
         <p class="contact-section__paragraph heading animate">For Living a Joyful Life Of Intentional Significance</p>
         <div class="contact-section__body">
             <figure>
@@ -98,36 +98,36 @@ $container = get_theme_mod( 'understrap_container_type' );
 </div>
 <footer class="footer-wrapper" id="wrapper-footer">
     <div class="footer">
-        <div class="footer-separator-top"></div>
-        <figure>
-            <img class="contact-section__image margin-bottom-3"
-                 data-src="<?php echo get_template_directory_uri(); ?>/img/miscellaneous/logo.png"
-                 alt="Contact Charla"
-            >
-        </figure>
-        <a class="button__read-more button__read-more__about about-section__button"
-           href="<?php echo esc_url( home_url( '/contact-charla' ) ); ?>"
-        >
-            Stay In Touch
-        </a>
-        <div class="footer-nav">
-            <?php
-            wp_nav_menu(array(
-                'theme_location'  => 'primary',
-                'container_class' => 'primary-menu-container',
-                'menu_class'      => 'menu-items',
-                'menu_id'         => 'main-menu'
-            ));
-            ?>
-        </div>
-        <div class="footer-bio">
-            <h2 style="margin-bottom: .5rem">Charla Anderson</h2>
-            <p>817-761-0111</p>
-        </div>
-        <div class="footer-bio">
-            <p style="margin-bottom: .5rem">209 W  2nd St #225, Fort Worth, Texas 76102</p>
-            <p>Email :  Charla@CharlaAnderson.com</p>
-        </div>
+<!--        <div class="footer-separator-top"></div>-->
+<!--        <figure>-->
+<!--            <img class="contact-section__image margin-bottom-3"-->
+<!--                 data-src="--><?php //echo get_template_directory_uri(); ?><!--/img/miscellaneous/logo.png"-->
+<!--                 alt="Contact Charla"-->
+<!--            >-->
+<!--        </figure>-->
+<!--        <a class="button__read-more button__read-more__about about-section__button"-->
+<!--           href="--><?php //echo esc_url( home_url( '/contact-charla' ) ); ?><!--"-->
+<!--        >-->
+<!--            Stay In Touch-->
+<!--        </a>-->
+<!--        <div class="footer-nav">-->
+<!--            --><?php
+//            wp_nav_menu(array(
+//                'theme_location'  => 'primary',
+//                'container_class' => 'primary-menu-container',
+//                'menu_class'      => 'menu-items',
+//                'menu_id'         => 'main-menu'
+//            ));
+//            ?>
+<!--        </div>-->
+<!--        <div class="footer-bio">-->
+<!--            <h2 style="margin-bottom: .5rem">Charla Anderson</h2>-->
+<!--            <p>817-761-0111</p>-->
+<!--        </div>-->
+<!--        <div class="footer-bio">-->
+<!--            <p style="margin-bottom: .5rem">209 W  2nd St #225, Fort Worth, Texas 76102</p>-->
+<!--            <p>Email :  Charla@CharlaAnderson.com</p>-->
+<!--        </div>-->
         <div class="footer-separator-bottom"></div>
     </div>
     <div class="footer-end">
@@ -157,30 +157,30 @@ $container = get_theme_mod( 'understrap_container_type' );
                          alt="YouTube"
                     >
                 </a>
-                <a class="footer-social-media-icons__image"
-                   href="https://twitter.com/charlaashow"
-                   target="_blank"
-                >
-                    <img data-src="<?php echo get_template_directory_uri(); ?>/img/social-media-icons/twitter.png"
-                         alt="Twitter"
-                    >
-                </a>
-                <a class="footer-social-media-icons__image"
-                   href="https://www.instagram.com/theyeslady/"
-                   target="_blank"
-                >
-                    <img data-src="<?php echo get_template_directory_uri(); ?>/img/social-media-icons/instagram.png"
-                         alt="Instagram"
-                    >
-                </a>
-                <a class="footer-social-media-icons__image"
-                   href="https://www.pinterest.com/CharlaAShow/"
-                   target="_blank"
-                >
-                    <img data-src="<?php echo get_template_directory_uri(); ?>/img/social-media-icons/pinterest.png"
-                         alt="Pinterest"
-                    >
-                </a>
+<!--                <a class="footer-social-media-icons__image"-->
+<!--                   href="https://twitter.com/charlaashow"-->
+<!--                   target="_blank"-->
+<!--                >-->
+<!--                    <img data-src="--><?php //echo get_template_directory_uri(); ?><!--/img/social-media-icons/twitter.png"-->
+<!--                         alt="Twitter"-->
+<!--                    >-->
+<!--                </a>-->
+<!--                <a class="footer-social-media-icons__image"-->
+<!--                   href="https://www.instagram.com/theyeslady/"-->
+<!--                   target="_blank"-->
+<!--                >-->
+<!--                    <img data-src="--><?php //echo get_template_directory_uri(); ?><!--/img/social-media-icons/instagram.png"-->
+<!--                         alt="Instagram"-->
+<!--                    >-->
+<!--                </a>-->
+<!--                <a class="footer-social-media-icons__image"-->
+<!--                   href="https://www.pinterest.com/CharlaAShow/"-->
+<!--                   target="_blank"-->
+<!--                >-->
+<!--                    <img data-src="--><?php //echo get_template_directory_uri(); ?><!--/img/social-media-icons/pinterest.png"-->
+<!--                         alt="Pinterest"-->
+<!--                    >-->
+<!--                </a>-->
                 <a class="footer-social-media-icons__image"
                    href="mailto:Charla@CharlaAnderson.com"
                    target="_blank"

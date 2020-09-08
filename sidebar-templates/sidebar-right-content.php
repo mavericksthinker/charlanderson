@@ -56,30 +56,30 @@ defined( 'ABSPATH' ) || exit;
                          alt="YouTube"
                     >
                 </a>
-                <a class="footer-social-media-icons__image"
-                   href="https://twitter.com/charlaashow"
-                   target="_blank"
-                >
-                    <img data-src="<?php echo get_template_directory_uri(); ?>/img/social-media-icons/twitter.png"
-                         alt="Twitter"
-                    >
-                </a>
-                <a class="footer-social-media-icons__image"
-                   href="https://twitter.com/charlaashow"
-                   target="_blank"
-                >
-                    <img data-src="<?php echo get_template_directory_uri(); ?>/img/social-media-icons/instagram.png"
-                         alt="Instagram"
-                    >
-                </a>
-                <a class="footer-social-media-icons__image"
-                   href="https://twitter.com/charlaashow"
-                   target="_blank"
-                >
-                    <img data-src="<?php echo get_template_directory_uri(); ?>/img/social-media-icons/pinterest.png"
-                         alt="Pinterest"
-                    >
-                </a>
+<!--                <a class="footer-social-media-icons__image"-->
+<!--                   href="https://twitter.com/charlaashow"-->
+<!--                   target="_blank"-->
+<!--                >-->
+<!--                    <img data-src="--><?php //echo get_template_directory_uri(); ?><!--/img/social-media-icons/twitter.png"-->
+<!--                         alt="Twitter"-->
+<!--                    >-->
+<!--                </a>-->
+<!--                <a class="footer-social-media-icons__image"-->
+<!--                   href="https://twitter.com/charlaashow"-->
+<!--                   target="_blank"-->
+<!--                >-->
+<!--                    <img data-src="--><?php //echo get_template_directory_uri(); ?><!--/img/social-media-icons/instagram.png"-->
+<!--                         alt="Instagram"-->
+<!--                    >-->
+<!--                </a>-->
+<!--                <a class="footer-social-media-icons__image"-->
+<!--                   href="https://twitter.com/charlaashow"-->
+<!--                   target="_blank"-->
+<!--                >-->
+<!--                    <img data-src="--><?php //echo get_template_directory_uri(); ?><!--/img/social-media-icons/pinterest.png"-->
+<!--                         alt="Pinterest"-->
+<!--                    >-->
+<!--                </a>-->
                 <a class="footer-social-media-icons__image"
                    href="https://twitter.com/charlaashow"
                    target="_blank"

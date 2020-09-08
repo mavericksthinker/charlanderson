@@ -61,6 +61,7 @@
     -webkit-border-radius:50px;
     -moz-border-radius:50px;
     transition: 0.4s ease-in-out ;
+    margin-left: 2rem;
 
     @media screen and (max-width: $small){
       height: 25px;
@@ -153,7 +154,7 @@
   @media screen and (max-width: $medium) {
   .search_box, .menu_items {
     width: 55%;
-    margin-left: 1rem;
+    margin-left: 2rem;
   }
 }
   .button__call-to-action {

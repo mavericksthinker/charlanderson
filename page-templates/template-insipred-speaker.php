@@ -20,7 +20,7 @@ if ( is_front_page() ) {
     <section class="about__hero-section hero">
         <div class="speaker-page__hero-section__image">
             <div class="hero-header">
-                <h1 class="coach-page-header__text animate fadeInUp">Your Inspired Speaker</h1>
+                <h1 class="coach-page-header__text animate fadeInUp">Inspired Speaker</h1>
             </div>
         </div>
         <div class="header-scroll-for-more">
@@ -70,7 +70,7 @@ if ( is_front_page() ) {
     </section>
     <section class="speaker-video-section">
         <div class="youtube">
-            <h6 class="section-youtube__header heading animate">Invite Charla to Speak.  Online; Webinar; Keynote; Inspire.</h6>
+            <h6 class="section-youtube__header heading animate">Invite Charla to Speak.  Online Webinar Keynote Inspire.</h6>
             <iframe class="featured-youtube"
                     width="80%"
                     height="515px"

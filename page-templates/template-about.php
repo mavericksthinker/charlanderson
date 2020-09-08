@@ -77,7 +77,7 @@ if ( is_front_page() ) {
                 <h2 class="about__section-header heading animate"
                     style="color: #FFFFEB"
                 >
-                    Your Courageous Coach
+                    Courageous Coach
                 </h2>
                 <div class="about-section-body">
                     <figure>
@@ -107,7 +107,7 @@ if ( is_front_page() ) {
                 <h2 class="about__section-header heading animate"
                     style="color: #FFFFEB"
                 >
-                    Your Inspired Speaker
+                    Inspired Speaker
                 </h2>
                 <div class="about-section-body">
                     <p class="about-paragraph-left animate slide-left" style="color: white">
@@ -134,7 +134,7 @@ if ( is_front_page() ) {
         </section>
         <section class="about-section__published-author">
             <div class="about-body padding-bottom-3">
-                <h2 class="about__section-header heading animate">Your Published Author</h2>
+                <h2 class="about__section-header heading animate">Published Author</h2>
                 <div class="about-section-body">
                     <figure>
                         <img class="about-image-left animate slide-left"

@@ -1,5 +1,5 @@
 .service-section {
-  background: linear-gradient(#7FAFBF, #448799);
+  background: linear-gradient(#7FAFBF, #FAEBD6);
 }
 .service {
   display: block;
@@ -64,6 +64,7 @@
   width: 95%;
   color: $accent;
   font-size: 50px;
+  margin-bottom: 1em;
   @media screen and (max-width: $xmedium) {
     font-size: 30px;
   }
@@ -118,16 +119,19 @@
   background-attachment: fixed;
 }
 .service-image {
-  height: 740px;
-  //@media screen and (max-width: 840px){
-  //  height: 650px;
-  //}
+  height: 750px;
+  @media screen and (max-width: 840px){
+    height: 650px;
+  }
 }
 .services__image {
   max-width: 300px;
-  max-height: 320px;
+  //max-height: 320px;
   border-radius: 10px;
   box-shadow: 0 3px 20px rgba(0, 0, 0, 0.2);
+  @media screen and (max-width: 840px) {
+    max-width: 200px;
+  }
 }
 .carousel-transition-y {
   .carousel-item {

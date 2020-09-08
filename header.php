@@ -58,32 +58,48 @@ $container = get_theme_mod( 'understrap_container_type' );
                 </a>
             </div>
             <div class="menu_items">
-                    <div class="search_box">
-                        <form action="<?php echo esc_url( home_url( '/' ) ); ?>"
-                              role="search"
-                              method="get"
-                              autocomplete="off"
-                              class="search-input__form"
+
+                <a class="button__call-to-action button__call-to-action__appointment"
+                   href="<?php echo esc_url( home_url( '/contact-charla' ) ); ?>"
+                   style='font-family: "Roboto", "Poppins", sans-serif;'
+                >
+                    Connect
+                </a>
+
+                <a class="button__call-to-action button__call-to-action__appointment"
+                   id="downloadDeclaration"
+                   href="#downloadFreeGift"
+                   style='font-family: "Roboto", "Poppins", sans-serif; font-weight: bold'
+                >
+                    Thank You Gift
+                </a>
+
+                <div class="search_box">
+                    <form action="<?php echo esc_url( home_url( '/' ) ); ?>"
+                          role="search"
+                          method="get"
+                          autocomplete="off"
+                          class="search-input__form"
+                    >
+                        <input type="text"
+                               name="s"
+                               spellcheck="false"
+                               id="search_box__input"
+                               class="search_box__input"
+                               placeholder="Search..."
+                               value="<?php if(isset($_GET['s'])){ echo $_GET['s']; }?>"
                         >
-                            <input type="text"
-                                   name="s"
-                                   spellcheck="false"
-                                   id="search_box__input"
-                                   class="search_box__input"
-                                   placeholder="Search..."
-                                   value="<?php if(isset($_GET['s'])){ echo $_GET['s']; }?>"
-                            >
-                            <svg class="search_box__icon search"
-                                 xmlns="http://www.w3.org/2000/svg"
-                                 viewBox="0 0 56.966 56.966"
-                            >
-                                <path d="M55.146,51.887L41.588,37.786c3.486-4.144,5.396-9.358,5.396-14.786c0-12.682-10.318-23-23-23s-23,10.318-23,23
+                        <svg class="search_box__icon search"
+                             xmlns="http://www.w3.org/2000/svg"
+                             viewBox="0 0 56.966 56.966"
+                        >
+                            <path d="M55.146,51.887L41.588,37.786c3.486-4.144,5.396-9.358,5.396-14.786c0-12.682-10.318-23-23-23s-23,10.318-23,23
             s10.318,23,23,23c4.761,0,9.298-1.436,13.177-4.162l13.661,14.208c0.571,0.593,1.339,0.92,2.162,0.92
             c0.779,0,1.518-0.297,2.079-0.837C56.255,54.982,56.293,53.08,55.146,51.887z M23.984,6c9.374,0,17,7.626,17,17s-7.626,17-17,17
             s-17-7.626-17-17S14.61,6,23.984,6z"/>
-                            </svg>
-                            <svg class="search_box__icon close" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-                                 viewBox="0 0 492 492" style="enable-background:new 0 0 492 492;" xml:space="preserve">
+                        </svg>
+                        <svg class="search_box__icon close" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+                             viewBox="0 0 492 492" style="enable-background:new 0 0 492 492;" xml:space="preserve">
                                 <path d="M300.188,246L484.14,62.04c5.06-5.064,7.852-11.82,7.86-19.024c0-7.208-2.792-13.972-7.86-19.028L468.02,7.872
                                 c-5.068-5.076-11.824-7.856-19.036-7.856c-7.2,0-13.956,2.78-19.024,7.856L246.008,191.82L62.048,7.872
                                 c-5.06-5.076-11.82-7.856-19.028-7.856c-7.2,0-13.96,2.78-19.02,7.856L7.872,23.988c-10.496,10.496-10.496,27.568,0,38.052
@@ -92,16 +108,8 @@ $container = get_theme_mod( 'understrap_container_type' );
                                 c5.068,5.072,11.824,7.856,19.024,7.856h0.008c7.204,0,13.96-2.784,19.028-7.856l16.12-16.116
                                 c5.06-5.064,7.852-11.824,7.852-19.028c0-7.204-2.792-13.96-7.852-19.028L300.188,246z"/>
                             </svg>
-                        </form>
-                    </div>
-                <a class="button__call-to-action button__call-to-action__appointment" href="<?php echo esc_url( home_url( '/contact-charla' ) ); ?>">Connect With Charla</a>
-
-                <a class="button__call-to-action button__call-to-action__appointment"
-                   id="downloadDeclaration"
-                   href="#downloadFreeGift"
-                >
-                    Download Free Gift
-                </a>
+                    </form>
+                </div>
 
                 <div class="button__menu burger">
                     <div id="line" class="line1 color__teal"></div>
@@ -164,30 +172,30 @@ $container = get_theme_mod( 'understrap_container_type' );
                      alt="YouTube"
                 >
             </a>
-            <a class="social-media-icons__image"
-               href="https://twitter.com/charlaashow"
-               target="_blank"
-            >
-                <img data-src="<?php echo get_template_directory_uri(); ?>/img/social-media-icons/twitter.png"
-                     alt="Twitter"
-                >
-            </a>
-            <a class="social-media-icons__image"
-               href="https://www.instagram.com/theyeslady/"
-               target="_blank"
-            >
-                <img data-src="<?php echo get_template_directory_uri(); ?>/img/social-media-icons/instagram.png"
-                     alt="Instagram"
-                >
-            </a>
-            <a class="social-media-icons__image"
-               href="https://www.pinterest.com/CharlaAShow/"
-               target="_blank"
-            >
-                <img data-src="<?php echo get_template_directory_uri(); ?>/img/social-media-icons/pinterest.png"
-                     alt="Pinterest"
-                >
-            </a>
+<!--            <a class="social-media-icons__image"-->
+<!--               href="https://twitter.com/charlaashow"-->
+<!--               target="_blank"-->
+<!--            >-->
+<!--                <img data-src="--><?php //echo get_template_directory_uri(); ?><!--/img/social-media-icons/twitter.png"-->
+<!--                     alt="Twitter"-->
+<!--                >-->
+<!--            </a>-->
+<!--            <a class="social-media-icons__image"-->
+<!--               href="https://www.instagram.com/theyeslady/"-->
+<!--               target="_blank"-->
+<!--            >-->
+<!--                <img data-src="--><?php //echo get_template_directory_uri(); ?><!--/img/social-media-icons/instagram.png"-->
+<!--                     alt="Instagram"-->
+<!--                >-->
+<!--            </a>-->
+<!--            <a class="social-media-icons__image"-->
+<!--               href="https://www.pinterest.com/CharlaAShow/"-->
+<!--               target="_blank"-->
+<!--            >-->
+<!--                <img data-src="--><?php //echo get_template_directory_uri(); ?><!--/img/social-media-icons/pinterest.png"-->
+<!--                     alt="Pinterest"-->
+<!--                >-->
+<!--            </a>-->
             <a class="social-media-icons__image"
                href="mailto:Charla@CharlaAnderson.com"
                target="_blank"

@@ -61,7 +61,7 @@ if ( is_front_page() ) {
                    target="_blank"
                 >
                     <img data-src="<?php echo get_template_directory_uri(); ?>/img/youtube/youtube-thumbnail1.jpg"
-                         alt="Your Courageous Coach"
+                         alt="Courageous Coach"
                          class="youtube-body__container__image"
                     >
                     <span class="youtube-body__container__paragraph">Your Courageous Coach offers Connection</span>
