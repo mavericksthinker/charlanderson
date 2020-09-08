@@ -139,6 +139,12 @@ if ( is_front_page() ) {
                                     <span class="contact-form__content-footer">Privacy Ensured Always</span>
                                     <div class="wpcf7-response-output" role="alert" aria-hidden="true"></div>
                                     <div class="wpcf7-form-control-wrap catcha_button_combo">
+                                        <a class="about__button__read-more about__button__read-more__about catcha_button_combo__button"
+                                           href="https://letsmeet.io/charlaanderson/30-min-discovery-call"
+                                           target="_blank"
+                                        >
+                                            Set An Appointment
+                                        </a>
                                         <div data-sitekey="6LchZLoZAAAAACA6JjRudi4iivtSG2YCZzkNlKpa"
                                              class="wpcf7-form-control g-recaptcha wpcf7-recaptcha contact-recaptcha"
                                              id="contact-recaptcha">
@@ -158,12 +164,6 @@ if ( is_front_page() ) {
 		                                        </textarea>
                                             </div>
                                         </noscript>
-                                        <a class="about__button__read-more about__button__read-more__about catcha_button_combo__button"
-                                           href="https://letsmeet.io/charlaanderson/30-min-discovery-call"
-                                           target="_blank"
-                                        >
-                                            Set An Appointment
-                                        </a>
                                     </div>
                                     <input type="submit"
                                            value="Submit"

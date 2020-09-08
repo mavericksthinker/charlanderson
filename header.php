@@ -94,7 +94,7 @@ $container = get_theme_mod( 'understrap_container_type' );
                             </svg>
                         </form>
                     </div>
-                <a class="button__call-to-action button__call-to-action__contact" href="<?php echo esc_url( home_url( '/contact-charla' ) ); ?>">Connect With Charla</a>
+                <a class="button__call-to-action button__call-to-action__appointment" href="<?php echo esc_url( home_url( '/contact-charla' ) ); ?>">Connect With Charla</a>
 
                 <a class="button__call-to-action button__call-to-action__appointment"
                    id="downloadDeclaration"

@@ -92,13 +92,11 @@
   }
 }
 .catcha_button_combo__button {
-  margin-left: 2rem;
+  margin-right: 2rem;
   margin-top: 2rem;
   margin-bottom: 2rem;
 
   @media screen and (max-width: 840px) {
-    margin-top: 2rem;
-    margin-left: 0;
-    margin-bottom: 0;
+    margin-right: 0;
   }
 }
