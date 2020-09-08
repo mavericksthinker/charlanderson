@@ -108,7 +108,7 @@ if ( is_front_page() ) {
                             Download the catalogue
                         </p>
                         <a class="about__button__read-more about__button__read-more__about choice-page__button animate slide-right"
-                           href="<?php echo get_template_directory_uri(); ?>/src/assets/product_download.pdf"
+                           href="https://bit.ly/34JIl8G"
                            target="_blank"
                         >
                             Download
