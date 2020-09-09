@@ -24660,6 +24660,7 @@ if (document.location.pathname === '/') {
 }
 // Custom javascript for mega menu
 const menuBarToggle = () => {
+  const body = document.querySelector('body');
   const burger = document.querySelector('.button__menu');
   const line1 = document.querySelector('.line1');
   const line2 = document.querySelector('.line2');
@@ -24675,6 +24676,7 @@ const menuBarToggle = () => {
     burger.classList.toggle('button__menu_transition');
     setTimeout(function () {
       logo.classList.toggle('bcg-white');
+      body.classList.toggle('overflow-y-none');
     }, 200);
     line1.classList.toggle('color__accent');
     line2.classList.toggle('color__accent');
@@ -24806,12 +24808,12 @@ if (lazyLoadImages) lazyLoadImages.forEach(image => {
   imageObserver.observe(image);
 });
 if (footerObserver) footerObserver.observe(footer);
-$("#home-testimonial-slider").Cloud9Carousel({
-  autoPlay: 0,
-  yRadius: -48,
-  bringToFront: true,
-  frontItemClass: 'active'
-});
+// $("#home-testimonial-slider").Cloud9Carousel( {
+//     autoPlay: 0,
+//     yRadius:-48,
+//     bringToFront: true,
+//     frontItemClass: 'active',
+// } );
 const formTextarea = document.querySelector('.form-textarea');
 if (formTextarea) formTextarea.value = '';
 window.addEventListener('load', function () {
@@ -24821,6 +24823,7 @@ window.addEventListener('load', function () {
     slidesToScroll: 1,
     draggable: true,
     dots: '.dots',
+    rewind: true,
     arrows: {
       prev: '.glider-prev',
       next: '.glider-next'

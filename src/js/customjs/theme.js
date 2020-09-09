@@ -1,9 +1,9 @@
-$("#home-testimonial-slider").Cloud9Carousel( {
-    autoPlay: 0,
-    yRadius:-48,
-    bringToFront: true,
-    frontItemClass: 'active',
-} );
+// $("#home-testimonial-slider").Cloud9Carousel( {
+//     autoPlay: 0,
+//     yRadius:-48,
+//     bringToFront: true,
+//     frontItemClass: 'active',
+// } );
 const formTextarea = document.querySelector('.form-textarea');
 if(formTextarea)
     formTextarea.value = '';
@@ -15,6 +15,7 @@ window.addEventListener('load', function(){
             slidesToScroll: 1,
             draggable: true,
             dots: '.dots',
+            rewind: true,
             arrows: {
                 prev: '.glider-prev',
                 next: '.glider-next'

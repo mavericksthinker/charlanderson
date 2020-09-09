@@ -61,7 +61,7 @@ $container = get_theme_mod( 'understrap_container_type' );
 
                 <a class="button__call-to-action button__call-to-action__appointment"
                    href="<?php echo esc_url( home_url( '/contact-charla' ) ); ?>"
-                   style='font-family: "Roboto", "Poppins", sans-serif;'
+                   style='font-family: "Apple Chancery", sans-serif; font-size: 1.4rem'
                 >
                     Connect
                 </a>

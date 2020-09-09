@@ -1,5 +1,6 @@
 // Custom javascript for mega menu
 const menuBarToggle = () => {
+    const body = document.querySelector('body');
     const burger = document.querySelector('.button__menu');
     const line1 = document.querySelector('.line1');
     const line2 = document.querySelector('.line2');
@@ -16,6 +17,7 @@ const menuBarToggle = () => {
         burger.classList.toggle('button__menu_transition');
         setTimeout(function () {
             logo.classList.toggle('bcg-white');
+            body.classList.toggle('overflow-y-none');
         }, 200);
         line1.classList.toggle('color__accent');
         line2.classList.toggle('color__accent');
