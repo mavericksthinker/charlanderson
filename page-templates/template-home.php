@@ -252,7 +252,7 @@ if ( is_front_page() ) {
                         <div class="blog-section__content">
                             <div>
                                 <img class="blog__image animate slide-left"
-                                     data-src="<?php echo get_template_directory_uri(); ?>/img/blogs/blog1.png"
+                                     data-src="<?php echo get_template_directory_uri(); ?>/img/blogs/split-second.jpg"
                                      alt="Courageous Coach"
                                 >
                             </div>
