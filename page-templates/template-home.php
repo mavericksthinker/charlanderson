@@ -112,12 +112,12 @@ if ( is_front_page() ) {
                  data-src="<?php echo get_template_directory_uri(); ?>/img/miscellaneous/logo_background.png"
                  alt="Charla Anderson">
             <div class="about">
-                <h2 class="section-header heading animate">About Charla</h2>
+                <h2 class="section-header heading animate">Meet Charla</h2>
                 <div class="section-body">
                     <figure>
                         <img class="about-image animate slide-left"
                              data-src="<?php echo get_template_directory_uri(); ?>/img/miscellaneous/About_Charla.jpg"
-                             alt="About Charla"
+                             alt="Meet Charla"
                         >
                     </figure>
                     <p class="about-paragraph animate slide-right">
@@ -247,7 +247,7 @@ if ( is_front_page() ) {
                 View More
             </a>
             <div class="blog-section__container">
-                <h2 class="section-header heading animate">Charla's Blog</h2>
+                <h2 class="section-header heading animate">Blogs and Blessings by Charla</h2>
                 <div class="glider-contain">
                     <div id="blog_carousel" class="glider">
                         <div class="blog-section__content">

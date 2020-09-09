@@ -100,7 +100,7 @@ if ( is_front_page() ) {
                     <div class="choices-container choices-container__image">
                         <img class="about-image-left animate slide-left"
                              data-src="<?php echo get_template_directory_uri(); ?>/img/choices/5g.png"
-                             alt="About Charla"
+                             alt="Meet Charla"
                         >
                     </div>
                     <div class="choices-container choices-container__body">

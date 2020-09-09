@@ -27,7 +27,7 @@ $container = get_theme_mod( 'understrap_container_type' );
         <div class="blog-page__hero-section__image-blogs">
             <div class="hero-header">
                 <h1 class="book-page__hero-header__text animate fadeInUp">
-                    Charla's Blog
+                    Blogs and Blessings by Charla
                 </h1>
             </div>
         </div>
