@@ -150,8 +150,7 @@ if ( is_front_page() ) {
                     When Intriguing opportunities present themselves, AND YOU SAY YES, things show up
                 </p>
                 <a class="button__read-more button__view-more__youtube"
-                   href="https://letsmeet.io/charlaanderson/50-minute-discovery-call"
-                   target="_blank"
+                   href="<?php echo esc_url( home_url( '/about-charla' ) ); ?>"
                 >
                     View More
                 </a>
