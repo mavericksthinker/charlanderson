@@ -120,7 +120,7 @@ if ( is_front_page() ) {
         </section>
         <section class="books-page__section-4">
             <div class="service">
-                <h2 class="service-section__header heading animate" style="color: #FFFFEB">Explore Other Choices</h2>
+                <h2 class="service-section__header heading animate" >Explore Other Choices</h2>
                 <div id="service-carousel"
                      class="carousel slide carousel-fade"
                      data-ride="carousel"

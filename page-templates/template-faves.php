@@ -65,7 +65,7 @@ if ( is_front_page() ) {
                            href="https://www.facebook.com/ABWebSolutions.DigitalMarketing/"
                            target="_blank"
                         >
-                            Reach Out
+                            Visit Site
                         </a>
                     </div>
                 </div>
@@ -83,7 +83,7 @@ if ( is_front_page() ) {
                            href="https://brillianceincommerce.com/go/85/"
                            target="_blank"
                         >
-                            Get In Touch
+                            Visit Site
                         </a>
                     </div>
                     <div class="choices-container choices-container__image">
@@ -122,7 +122,7 @@ if ( is_front_page() ) {
         </section>
         <section class="books-page__section-4">
             <div class="service">
-                <h2 class="service-section__header heading animate" style="color: #FFFFEB">Explore Other Choices</h2>
+                <h2 class="service-section__header heading animate" >Explore Other Choices</h2>
                 <div id="service-carousel"
                      class="carousel slide carousel-fade"
                      data-ride="carousel"

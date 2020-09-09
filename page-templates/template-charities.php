@@ -61,7 +61,7 @@ if ( is_front_page() ) {
                            href="https://www.fwhope.org/"
                            target="_blank"
                         >
-                            Reach Out
+                            Learn More
                         </a>
                     </div>
                 </div>
@@ -79,13 +79,37 @@ if ( is_front_page() ) {
                            href="https://www.cenikor.org"
                            target="_blank"
                         >
-                            Get In Touch
+                            Learn More
                         </a>
                     </div>
                     <div class="choices-container choices-container__image">
                         <img class="about-image-left animate slide-right"
                              data-src="<?php echo get_template_directory_uri(); ?>/img/choices/cenikor.png"
-                             alt="ORU"
+                             alt="Cenikor"
+                        >
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="books-page__section-3">
+            <div class="about-body">
+                <div class="choices-page-container">
+                    <div class="choices-container choices-container__body">
+                        <h2 class="choices-page__body animate slide-right">Zurvita / Zeal Wellness</h2>
+                        <p class="about-paragraph-right choices-paragraph animate slide-right">
+                            Energy, Focus, Functional SuperFood  Zeal keeps me Healthy, Wealthy, Wise, Fit, Fabulous & FUN!
+                        </p>
+                        <a class="about__button__read-more about__button__read-more__about choice-page__button animate slide-right"
+                           href="https://zurvita.com/pages/zurvitagiving?als=charla&m=US"
+                           target="_blank"
+                        >
+                            Visit Site
+                        </a>
+                    </div>
+                    <div class="choices-container choices-container__image">
+                        <img class="about-image-left animate slide-left"
+                             data-src="<?php echo get_template_directory_uri(); ?>/img/choices/zurvita.png"
+                             alt="Zurvita / Zeal Wellness"
                         >
                     </div>
                 </div>
@@ -93,7 +117,7 @@ if ( is_front_page() ) {
         </section>
         <section class="books-page__section-4">
             <div class="service">
-                <h2 class="service-section__header heading animate" style="color: #FFFFEB">Explore Other Choices</h2>
+                <h2 class="service-section__header heading animate" >Explore Other Choices</h2>
                 <div id="service-carousel"
                      class="carousel slide carousel-fade"
                      data-ride="carousel"

@@ -44,18 +44,26 @@
     padding-bottom: 0;
   }
 }
+.product-page__section-1 {
+  position: relative;
+  background: linear-gradient(#FEFEFE, #A5C0C9, #7FAFBF);
+}
+.product-page__section-2 {
+  position: relative;
+  background: linear-gradient(#7FAFBF, #FAEBD6, #FCD9C3);
+}
 .books-page__section-1 {
   position: relative;
   background: linear-gradient(#FEFEFE, #A5C0C9, #7FAFBF);
 }
 .books-page__section-2 {
-  background: linear-gradient(#7FAFBF, #FAEBD6);
+  background: linear-gradient(#7FAFBF, #FCD9C3);
 }
 .charity-page__section-2 {
   background: linear-gradient(#7FAFBF, #FAEBD6, #FCD9C3);
 }
 .books-page__section-3 {
-  background: linear-gradient(#FAEBD6, #FCD9C3);
+  background: linear-gradient(#FCD9C3, #FCD9C3);
 }
 .books-page__section-4 {
   background: linear-gradient(#FCD9C3, #FCD9C3);

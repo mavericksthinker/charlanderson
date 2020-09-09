@@ -35,41 +35,17 @@ if ( is_front_page() ) {
                 </div>
             </div>
         </section>
-        <section class="books-page__section-1">
+        <section class="product-page__section-1">
             <img class="mega-menu__logo"
                  style="opacity: 0.04; z-index: 1"
                  data-src="<?php echo get_template_directory_uri(); ?>/img/miscellaneous/logo_background.png"
                  alt="Charla Anderson">
             <div class="about-body">
-	            <?php
-	            if ( function_exists('yoast_breadcrumb') ) {
-		            yoast_breadcrumb( '<p id="breadcrumbs">','</p>' );
-	            }
-	            ?>
-                <div class="choices-page-container">
-                    <div class="choices-container choices-container__image">
-                        <img class="about-image-left animate slide-left"
-                             data-src="<?php echo get_template_directory_uri(); ?>/img/choices/zurvita.png"
-                             alt="Zurvita / Zeal Wellness"
-                        >
-                    </div>
-                    <div class="choices-container choices-container__body">
-                        <h2 class="choices-page__body animate slide-right">Zurvita / Zeal Wellness</h2>
-                        <p class="about-paragraph-right choices-paragraph animate slide-right">
-                            Energy, Focus, Functional SuperFood  Zeal keeps me Healthy, Wealthy, Wise, Fit, Fabulous & FUN!
-                        </p>
-                        <a class="about__button__read-more about__button__read-more__about choice-page__button animate slide-right"
-                           href="https://www.zurvita.com/charla/en/us/"
-                           target="_blank"
-                        >
-                            Get In Touch
-                        </a>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <section class="books-page__section-2">
-            <div class="about-body">
+                <?php
+                if ( function_exists('yoast_breadcrumb') ) {
+                    yoast_breadcrumb( '<p id="breadcrumbs">','</p>' );
+                }
+                ?>
                 <div class="choices-page-container">
                     <div class="choices-container choices-container__body">
                         <h2 class="choices-page__body animate slide-left">All Things ZIGLAR</h2>
@@ -80,7 +56,7 @@ if ( is_front_page() ) {
                            href="https://www.ziglar.com/?a=85053&c=99"
                            target="_blank"
                         >
-                            Get In Touch
+                            Visit Site
                         </a>
                     </div>
                     <div class="choices-container choices-container__image">
@@ -92,7 +68,7 @@ if ( is_front_page() ) {
                 </div>
             </div>
         </section>
-        <section class="books-page__section-3">
+        <section class="product-page__section-2">
             <div class="about-body">
                 <div class="choices-page-container">
                     <div class="choices-container choices-container__image">
@@ -111,7 +87,7 @@ if ( is_front_page() ) {
                            href="https://bit.ly/34JIl8G"
                            target="_blank"
                         >
-                            Download
+                            View Catalog
                         </a>
                     </div>
                 </div>
@@ -119,7 +95,7 @@ if ( is_front_page() ) {
         </section>
         <section class="books-page__section-4">
             <div class="service">
-                <h2 class="service-section__header heading animate" style="color: #FFFFEB">Explore Other Choices</h2>
+                <h2 class="service-section__header heading animate" >Explore Other Choices</h2>
                 <div id="service-carousel"
                      class="carousel slide carousel-fade"
                      data-ride="carousel"
