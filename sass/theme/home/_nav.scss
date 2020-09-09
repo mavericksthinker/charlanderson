@@ -299,8 +299,8 @@
 }
 .logo-image {
   max-width: 140%;
-  -webkit-filter: drop-shadow(2px 2px 4px rgba(black , 0.5));
-  filter: drop-shadow(2px 2px 4px rgba(black , 0.5));
+  -webkit-filter: drop-shadow(2px 2px 2px rgba(black , 0.6));
+  filter: drop-shadow(2px 2px 2px rgba(black , 0.6));
 
   @media screen and (max-width : $medium) {
     max-width: 110%;

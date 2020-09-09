@@ -1,7 +1,7 @@
 .hero-section {
   margin-top: -9.5vh;
   margin-bottom: 3rem;
-  @media screen and (max-width: $small) {
+  @media screen and (max-width: $medium) {
     margin-top: 0;
     margin-bottom: 1.5rem;
   }
@@ -66,7 +66,7 @@
 .hero-header__text {
   color: $teal;
   font-size: 90px;
-  text-shadow: 1px 1px 2px rgba(black, 0.5);
+  text-shadow: 2px 2px 2px rgba(black, 0.5);
   @media screen and (max-width: $xlarge){
     font-size: 65px;
   }
@@ -130,7 +130,7 @@
   width: 100%;
   font-weight: bold;
   font-family: "Roboto", "Poppins", sans-serif;
-  text-shadow: 1px 1px 2px rgba(black, 0.3);
+  text-shadow: 2px 2px 2px rgba(black, 0.5);
   transform: translate(-50%, -40%);
   margin-left: .5rem;
   color: black;
