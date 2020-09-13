@@ -146,9 +146,6 @@ if ( is_front_page() ) {
                         allowfullscreen
                 >
                 </iframe>
-                <p class="youtube-paragraph">
-                    When Intriguing opportunities present themselves, AND YOU SAY YES, things show up
-                </p>
                 <a class="button__read-more button__view-more__youtube"
                    href="<?php echo esc_url( home_url( '/about-charla' ) ); ?>"
                 >
@@ -158,7 +155,7 @@ if ( is_front_page() ) {
         </section>
         <section class="service-section">
             <div class="service">
-                <h2 class="section-services__header heading animate" style="color: #FFFFEB">What Is Your Heart Seeking?</h2>
+                <h2 class="section-services__header heading animate" style="color: #FFFFEB">Intriguing Opportunities</h2>
                 <p class="service-section__paragraph heading animate">When intriguing opportunities present themselves, and you say YES, things show up!</p>
                 <h2 class="section-services__header heading animate" style="color: #FFFFEB; margin-top: 1.5em">YES-timonials</h2>
                 <div id="service-carousel"
