@@ -19,8 +19,10 @@ if ( is_front_page() ) {
 ?>
     <main class="main-body">
         <section class="about__hero-section hero">
-            <div class="about__hero-section__image">
-                <h1 class="header-text animate fadeInUp">Meet Charla</h1>
+            <div class="about-page__hero-section__image">
+                <div class="hero-header">
+                    <h1 class="coach-page-header__text animate fadeInUp">Inspired Speaker</h1>
+                </div>
             </div>
             <div class="header-scroll-for-more">
                 <div class="header-scroll-for-more__container">
