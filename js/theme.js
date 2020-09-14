@@ -16870,6 +16870,80 @@
     });
   };
 })(window.jQuery || window.Zepto);
+window.addEventListener('load', function () {
+  var glider = document.querySelector('.glider');
+  var glider1 = document.querySelector('.glider1');
+  var glider2 = document.querySelector('.glider2');
+  var glider3 = document.querySelector('.glider3');
+  var glider4 = document.querySelector('.glider4');
+  if (glider) new Glider(glider, {
+    slidesToShow: 1,
+    slidesToScroll: 1,
+    draggable: true,
+    dots: '.dots',
+    rewind: true,
+    arrows: {
+      prev: '.glider-prev',
+      next: '.glider-next'
+    }
+  });
+
+  if (glider1) {
+    new Glider(glider1, {
+      slidesToShow: 1,
+      slidesToScroll: 1,
+      draggable: true,
+      dots: '.dots',
+      rewind: true,
+      arrows: {
+        prev: '.glider-prev',
+        next: '.glider-next'
+      }
+    });
+  }
+
+  if (glider2) {
+    new Glider(glider2, {
+      slidesToShow: 1,
+      slidesToScroll: 1,
+      draggable: true,
+      dots: '.dots',
+      rewind: true,
+      arrows: {
+        prev: '.glider-prev',
+        next: '.glider-next'
+      }
+    });
+  }
+
+  if (glider3) {
+    new Glider(glider3, {
+      slidesToShow: 1,
+      slidesToScroll: 1,
+      draggable: true,
+      dots: '.dots',
+      rewind: true,
+      arrows: {
+        prev: '.glider-prev',
+        next: '.glider-next'
+      }
+    });
+  }
+
+  if (glider4) {
+    new Glider(glider4, {
+      slidesToShow: 1,
+      slidesToScroll: 1,
+      draggable: true,
+      dots: '.dots',
+      rewind: true,
+      arrows: {
+        prev: '.glider-prev',
+        next: '.glider-next'
+      }
+    });
+  }
+});
 /* global define */
 (function (factory) {
   typeof define === 'function' && define.amd ? define(factory) : typeof exports === 'object' ? module.exports = factory() : factory();
@@ -24819,21 +24893,8 @@ const popupContainer = document.querySelector('.popup__container');
 const body = document.querySelector('body');
 const popupContainerBlock = document.querySelector('.popup__container-block');
 const popupContainerClose = document.querySelector('.popup__close-container');
+const connectButton = document.querySelector('#connect-button');
 if (formTextarea) formTextarea.value = '';
-window.addEventListener('load', function () {
-  var glider = document.querySelector('.glider');
-  if (glider) new Glider(glider, {
-    slidesToShow: 1,
-    slidesToScroll: 1,
-    draggable: true,
-    dots: '.dots',
-    rewind: true,
-    arrows: {
-      prev: '.glider-prev',
-      next: '.glider-next'
-    }
-  });
-});
 
 function closePopupBox() {
   popupContainer.style.display = 'none';
@@ -24854,6 +24915,10 @@ $(document).ready(function () {
   if (popupContainerClose) popupContainerClose.addEventListener('click', function () {
     closePopupBox();
   });
+
+  if (document.location.pathname === '/contact-charla' || document.location.pathname === '/contact-charla/') {
+    connectButton.style.display = 'none';
+  }
 });
 /**
  * File skip-link-focus-fix.js.

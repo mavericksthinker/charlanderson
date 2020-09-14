@@ -60,6 +60,7 @@ $container = get_theme_mod( 'understrap_container_type' );
             <div class="menu_items">
 
                 <a class="button__call-to-action button__call-to-action__appointment"
+                   id="connect-button"
                    href="<?php echo esc_url( home_url( '/contact-charla' ) ); ?>"
                    style='font-family: "Apple Chancery", sans-serif; font-size: 1.4rem'
                 >
@@ -137,9 +138,9 @@ $container = get_theme_mod( 'understrap_container_type' );
                     <a class="social-media__links" href="https://www.facebook.com/CharlaArnold" target="_blank">Facebook</a>
                     <a class="social-media__links" href="https://www.linkedin.com/in/charlaa/" target="_blank">LinkedIn</a>
                     <a class="social-media__links" href="https://www.youtube.com/channel/UCRqjTKOQS5ImL7k707TIAAg" target="_blank">YouTube</a>
-                    <a class="social-media__links" href="https://twitter.com/charlaashow" target="_blank">Twitter</a>
-                    <a class="social-media__links" href="https://www.instagram.com/theyeslady/" target="_blank">Instagram</a>
-                    <a class="social-media__links" href="https://www.pinterest.com/CharlaAShow/" target="_blank">Pinterest</a>
+<!--                    <a class="social-media__links" href="https://twitter.com/charlaashow" target="_blank">Twitter</a>-->
+<!--                    <a class="social-media__links" href="https://www.instagram.com/theyeslady/" target="_blank">Instagram</a>-->
+<!--                    <a class="social-media__links" href="https://www.pinterest.com/CharlaAShow/" target="_blank">Pinterest</a>-->
                     <a class="social-media__links" href="mailto:Charla@CharlaAnderson.com" target="_blank">Email</a>
                 </div>
             </div>
@@ -216,7 +217,7 @@ $container = get_theme_mod( 'understrap_container_type' );
                     <div class="popup__close-container">
                         <svg class="popup__close" width="27" height="27" viewBox="0 0 27 27" fill="none" xmlns="http://www.w3.org/2000/svg">
     <!--                        <circle cx="13.5" cy="13.5" r="12.5" fill="none" stroke="#E5E5E5" stroke-width="2"/>-->
-                            <path fill="black" d="M14 14.408L17.836 18.244L18.508 17.572L14.686 13.736L18.508 9.9L17.836 9.228L14 13.064L10.178 9.228L9.492 9.914L13.328 13.736L9.492 17.572L10.178 18.244L14 14.408Z" fill="#E5E5E5"/>
+                            <path fill="black" d="M14 14.408L17.836 18.244L18.508 17.572L14.686 13.736L18.508 9.9L17.836 9.228L14 13.064L10.178 9.228L9.492 9.914L13.328 13.736L9.492 17.572L10.178 18.244L14 14.408Z"/>
                         </svg>
                     </div>
                     <h2 class="contact-section__header declaration-header">Charla’s Declarations...</h2>

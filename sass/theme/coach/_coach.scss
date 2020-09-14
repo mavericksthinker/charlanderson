@@ -134,7 +134,8 @@
 }
 .coach-page__hero-section__image,
 .speaker-page__hero-section__image,
-.about-page__hero-section__image {
+.about-page__hero-section__image,
+.choices-page__hero-section__image {
   height: 100%;
   width: 100%;
   background-size: cover;
@@ -152,6 +153,10 @@
 .about-page__hero-section__image {
   background-position: top center;
   background-image: url('../img/about/about_charla.jpg');
+}
+.choices-page__hero-section__image {
+  background-image: url('../img/choices/choices-bg.jpeg');
+  background-position: top center;
 }
 .speaker-button {
   @media screen and (max-width: 840px) {

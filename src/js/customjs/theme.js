@@ -9,28 +9,16 @@ const popupContainer = document.querySelector('.popup__container');
 const body = document.querySelector('body');
 const popupContainerBlock = document.querySelector('.popup__container-block');
 const popupContainerClose = document.querySelector('.popup__close-container');
+const connectButton = document.querySelector('#connect-button');
 if(formTextarea)
     formTextarea.value = '';
-window.addEventListener('load', function(){
-    var glider = document.querySelector('.glider');
-    if(glider)
-        new Glider(glider, {
-            slidesToShow: 1,
-            slidesToScroll: 1,
-            draggable: true,
-            dots: '.dots',
-            rewind: true,
-            arrows: {
-                prev: '.glider-prev',
-                next: '.glider-next'
-            }
-        })
-});
+
 function closePopupBox() {
     popupContainer.style.display = 'none';
     body.style.overflowY = 'auto';
 }
 $( document ).ready(function() {
+
     $('#downloadDeclaration').click(function () {
         popupContainer.style.display = 'flex';
         body.style.overflowY = 'hidden';
@@ -46,5 +34,8 @@ $( document ).ready(function() {
     if(popupContainerClose)
         popupContainerClose.addEventListener('click', function () {
             closePopupBox();
-        })
+        });
+    if(document.location.pathname === '/contact-charla' || document.location.pathname === '/contact-charla/') {
+        connectButton.style.display = 'none'
+    }
 });

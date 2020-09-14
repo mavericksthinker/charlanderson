@@ -8,9 +8,13 @@
     padding-bottom: 3rem;
   }
 }
+.main-choices-body {
+  background: linear-gradient(#FEFEFE, #A5C0C9, #7FAFBF, #448799, #FAEBD6);
+}
 .choices-page__books {
-  position: relative;
-  background: linear-gradient(#FEFEFE, #A5C0C9);
+  //position: relative;
+  z-index: 30;
+  //background: linear-gradient(#FEFEFE, #A5C0C9);
 }
 .choices-page__products {
   background: linear-gradient(#A5C0C9, #7FAFBF);
@@ -25,7 +29,7 @@
   background: linear-gradient(#FAEBD6, #FCD9C3);
 }
 .choices-page__paragraph {
-  background: linear-gradient(#FCD9C3, #FCD9C3);
+  //background: linear-gradient(#FCD9C3, #FCD9C3);
 }
 .choices-page__paragraph-container {
   display: flex;
