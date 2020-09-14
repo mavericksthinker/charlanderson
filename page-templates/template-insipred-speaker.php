@@ -39,7 +39,7 @@ if ( is_front_page() ) {
             <div class="about-section-body">
                 <figure>
                     <img class="coach-image-left animate slide-left"
-                         data-src="<?php echo get_template_directory_uri(); ?>/img/speaker/speaker1.png"
+                         data-src="<?php echo get_template_directory_uri(); ?>/img/speaker/speaker1.jpg"
                          alt="Meet Charla"
                     >
                 </figure>
@@ -61,7 +61,7 @@ if ( is_front_page() ) {
                 </p>
                 <figure>
                     <img class="coach-image-right animate slide-right"
-                         data-src="<?php echo get_template_directory_uri(); ?>/img/speaker/speaker2.png"
+                         data-src="<?php echo get_template_directory_uri(); ?>/img/speaker/speaker2.jpg"
                          alt="Meet Charla"
                     >
                 </figure>

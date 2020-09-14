@@ -119,8 +119,9 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  margin-top: 6rem;
 }
-@media screen and (max-width: 1024px){
+@media screen and (max-width: 1024px) {
   .primary-menu-container {
     justify-content: space-evenly;
     margin-bottom: 1rem;
