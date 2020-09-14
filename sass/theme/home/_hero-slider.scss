@@ -129,27 +129,28 @@
   left: 50%;
   width: 100%;
   font-weight: bold;
-  font-family: "Roboto", "Poppins", sans-serif;
-  text-shadow: 2px 2px 2px rgba(black, 0.5);
+  font-family: "Apple Chancery", "Roboto", "Poppins", sans-serif;
+  text-shadow: 2px 0 2px rgba(black, 0.5);
   transform: translate(-50%, -40%);
   margin-left: .5rem;
   color: black;
-  font-size: 20px;
+  font-size: 2rem;
 
   @media screen and (max-width: $large) {
-    font-size: 18px;
+    font-size: 20px;
   }
   @media screen and (max-width: $medium) {
     padding-left: 3rem;
     padding-right: 3rem;
-    font-size: 12px;
+    font-size: 14px;
   }
   @media screen and (max-width: $small) {
     margin-top: 1.5rem;
-    font-size: 9px;
+    font-size: 12px;
   }
   @media screen and (max-width: $xsmall) {
-    margin-top: .5rem;
+    font-size: 9px;
+    //margin-top: .5rem;
   }
 }
 .header-scroll-for-more {

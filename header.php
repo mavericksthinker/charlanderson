@@ -29,7 +29,7 @@ $container = get_theme_mod( 'understrap_container_type' );
     <meta property="og:description" content="Speaker | Coach | Author" />
     <meta property="og:url" content="https://www.charlaanderson.com/" />
     <meta property="og:site_name" content="Charla Anderson" />
-    <meta property="article:modified_time" content="2020-07-07T10:14:34+00:00" />
+    <meta property="article:modified_time" content="2020-09-15T10:14:34+00:00" />
     <meta property="og:image" content="<?php echo get_template_directory_uri(); ?>/img/miscellaneous/charla-fb-cover.jpg" />
 	<link rel="profile" href="http://gmpg.org/xfn/11">
     <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
@@ -68,8 +68,7 @@ $container = get_theme_mod( 'understrap_container_type' );
 
                 <a class="button__call-to-action button__call-to-action__appointment"
                    id="downloadDeclaration"
-                   href="#downloadFreeGift"
-                   style='font-family: "Roboto", "Poppins", sans-serif; font-weight: bold'
+                   style='font-family: "Apple Chancery", "Roboto", "Poppins", sans-serif; font-weight: bolder'
                 >
                     Thank You Gift
                 </a>
@@ -206,4 +205,94 @@ $container = get_theme_mod( 'understrap_container_type' );
             </a>
         </div>
     </div>
-
+    <div class="popup__container">
+        <div class="popup__container-block">
+            <div class="contact-section" id="downloadFreeGift">
+                <img class="contact-section__logo"
+                     style="opacity: 0.04; z-index: 29"
+                     data-src="<?php echo get_template_directory_uri(); ?>/img/miscellaneous/logo_background.png"
+                     alt="Charla Anderson">
+                <div class="home-contact">
+                    <div class="popup__close-container">
+                        <svg class="popup__close" width="27" height="27" viewBox="0 0 27 27" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <!--                        <circle cx="13.5" cy="13.5" r="12.5" fill="none" stroke="#E5E5E5" stroke-width="2"/>-->
+                            <path fill="black" d="M14 14.408L17.836 18.244L18.508 17.572L14.686 13.736L18.508 9.9L17.836 9.228L14 13.064L10.178 9.228L9.492 9.914L13.328 13.736L9.492 17.572L10.178 18.244L14 14.408Z" fill="#E5E5E5"/>
+                        </svg>
+                    </div>
+                    <h2 class="contact-section__header declaration-header">Charla’s Declarations...</h2>
+                    <p class="contact-section__paragraph">For Living a Joyful Life Of Intentional Significance</p>
+                    <div class="contact-section__body">
+<!--                        <figure>-->
+<!--                            <img class="contact-section__image"-->
+<!--                                 data-src="--><?php //echo get_template_directory_uri(); ?><!--/img/contacts/logo1.png"-->
+<!--                                 alt="Contact Charla"-->
+<!--                            >-->
+<!--                        </figure>-->
+                        <div class="contact-form__content">
+                            <span class="contact-form__content-heading">Enter your email address below and get these powerful declarations to help you live a joyful life</span>
+                            <div class="contact-form__container">
+                                <div role="form" class="wpcf7" style="margin: 0!important;" id="wpcf7-f60-o1" lang="en-US" dir="ltr">
+                                    <div class="screen-reader-response" role="alert" aria-live="polite"></div>
+                                    <form action="/#wpcf7-f60-o1" method="post" class="wpcf7-form init" novalidate="novalidate">
+                                        <div style="display: none;">
+                                            <input type="hidden" name="_wpcf7" value="60">
+                                            <input type="hidden" name="_wpcf7_version" value="5.2">
+                                            <input type="hidden" name="_wpcf7_locale" value="en_US">
+                                            <input type="hidden" name="_wpcf7_unit_tag" value="wpcf7-f60-o1">
+                                            <input type="hidden" name="_wpcf7_container_post" value="0">
+                                            <input type="hidden" name="_wpcf7_posted_data_hash" value="">
+                                        </div>
+                                        <div class="form">
+                                            <input type="text"
+                                                   name="your-name"
+                                                   size="40"
+                                                   class="contact-input-form wpcf7-form-control wpcf7-text wpcf7-validates-as-		required"
+                                                   aria-required="true"
+                                                   aria-invalid="false"
+                                                   required
+                                            >
+                                            <label class="form-label">
+                                                <span class="content-name">Name <span class="star required"> *</span></span>
+                                            </label>
+                                        </div>
+                                        <div class="form">
+                                            <input type="email"
+                                                   name="your-email"
+                                                   size="40"
+                                                   class="wpcf7-form-control wpcf7-text wpcf7-email wpcf7-validates-as-required wpcf7-validates-as-email contact-input-form email-field"
+                                                   aria-required="true"
+                                                   aria-invalid="false"
+                                                   required
+                                            >
+                                            <label class="form-label">
+                                                <span class="content-name">Email <span class=" star required"> *</span></span>
+                                            </label>
+                                            <input type="submit"
+                                                   value="Download"
+                                                   class="wpcf7-form-control wpcf7-submit home-contact-submit"
+                                            >
+                                        </div>
+                                        <span class="wpcf7-form-control-wrap charlas-declaration-152">
+                                        <input type="hidden"
+                                               name="charlas-declaration-152"
+                                               value="<?php echo get_template_directory_uri(); ?>/src/assets/charla-declaration.pdf"
+                                               size="40"
+                                               class="wpcf7-form-control wpcf7dtx-dynamictext wpcf7-dynamichidden"
+                                               aria-invalid="false"
+                                        >
+                                    </span>
+                                        <div class="wpcf7-response-output"
+                                             role="alert"
+                                             aria-hidden="true"
+                                        >
+                                        </div>
+                                    </form>
+                                </div>
+                            </div>
+                            <span class="contact-form__content-footer">Privacy Ensured Always</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>

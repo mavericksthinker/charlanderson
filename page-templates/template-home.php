@@ -146,6 +146,9 @@ if ( is_front_page() ) {
                         allowfullscreen
                 >
                 </iframe>
+                <p class="youtube-paragraph">
+<!--                    When Intriguing opportunities present themselves, AND YOU SAY YES, things show up-->
+                </p>
                 <a class="button__read-more button__view-more__youtube"
                    href="<?php echo esc_url( home_url( '/about-charla' ) ); ?>"
                 >
@@ -157,7 +160,7 @@ if ( is_front_page() ) {
             <div class="service">
                 <h2 class="section-services__header heading animate" style="color: #FFFFEB">Intriguing Opportunities</h2>
                 <p class="service-section__paragraph heading animate">When intriguing opportunities present themselves, and you say YES, things show up!</p>
-                <h2 class="section-services__header heading animate" style="color: #FFFFEB; margin-top: 1.5em">YES-timonials</h2>
+                <h2 class="section-services__header heading animate" style="color: #FFFFEB; margin-top: 1.5em">Yes-timonials</h2>
                 <div id="service-carousel"
                      class="carousel slide carousel-fade"
                      data-ride="carousel"
@@ -335,7 +338,7 @@ if ( is_front_page() ) {
                     <button aria-label="Next" class="glider-next">»</button>
                     <div role="tablist" class="dots"></div>
                 </div>
-                <a class="button__read-more button__read-more__about about-section__button"
+                <a class="button__read-more button__read-more__about button__read-more__blog"
                    href="<?php echo esc_url( home_url( '/charlas-blog' ) ); ?>"
                 >
                     Read More
@@ -344,4 +347,5 @@ if ( is_front_page() ) {
         </section>
     </main>
 <?php
+
 get_footer();
