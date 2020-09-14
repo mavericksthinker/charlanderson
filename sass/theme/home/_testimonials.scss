@@ -167,6 +167,10 @@
 .yestimonial-section__explore-button {
     border: 1px solid teal; color: #168284;
     margin-top: 12rem!important;
+  &:hover {
+    background: teal!important;
+    color: white!important;
+  }
   @media screen and (max-width: $medium) {
     margin-top: 2rem!important;
   }
