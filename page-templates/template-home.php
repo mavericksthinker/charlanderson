@@ -160,7 +160,7 @@ if ( is_front_page() ) {
             <div class="service">
                 <h2 class="section-services__header heading animate" style="color: #FFFFEB">Intriguing Opportunities</h2>
                 <p class="service-section__paragraph heading animate">When intriguing opportunities present themselves, and you say YES, things show up!</p>
-                <h2 class="section-services__header heading animate" style="color: #FFFFEB; margin-top: 1.5em">Yes-timonials</h2>
+                <h2 class="section-header heading animate" style="color: #FFFFEB; margin-top: 1.5em">Yes-timonials</h2>
                 <div id="service-carousel"
                      class="carousel slide carousel-fade"
                      data-ride="carousel"
