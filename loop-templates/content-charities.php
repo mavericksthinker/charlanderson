@@ -10,7 +10,7 @@ defined( 'ABSPATH' ) || exit;
 ?>
 
 <div class="blog-section__container" style="padding: 0">
-    <h2 class="section-header heading animate" style="color: white">Charla’s Charities</h2>
+    <h2 class="section-header heading animate">Charla’s Charities</h2>
     <div class="glider-contain">
         <div id="blog_carousel" class="glider4">
             <div class="blog-section__content">
