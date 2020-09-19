@@ -72,34 +72,34 @@ defined( 'ABSPATH' ) || exit;
                     </a>
                 </div>
             </div>
-            <div class="blog-section__content">
-                <div>
-                    <img class="blog__image animate slide-left"
-                         data-src="<?php echo get_template_directory_uri(); ?>/img/choices/grid365.png"
-                         style="box-shadow: none; -webkit-filter: drop-shadow(2px 2px 2px rgba(0, 0, 0, .6)); filter: drop-shadow(2px 2px 2px rgba(0, 0, 0, .6));"
-                         alt="Grid365"
-                    >
-                </div>
-                <div class="service-section__container blogs-section__container__block">
-                    <h3 class="service-section__container__header blogs-section__container__header slide-right animate"
-                        style="color: rgba(0, 0, 0, 1)"
-                    >
-                        Grid365
-                    </h3>
-                    <p class="service-section__container__paragraph blogs-section__paragraph slide-right animate"
-                       style="color: rgba(0, 0, 0 , 0.61)"
-                    >
-                        The cloud empowers, individuals and small businesses to instantly set up enterprise-class services enabling them to compete globally.
-                    </p>
-                    <a class="about__button__read-more about__button__read-more__about choice-page__button slide-right animate"
-                       style="z-index: 29; margin-top: 3rem; color:"
-                       target="_blank"
-                       href="https://www.Grid365.com"
-                    >
-                        Visit Site
-                    </a>
-                </div>
-            </div>
+<!--            <div class="blog-section__content">-->
+<!--                <div>-->
+<!--                    <img class="blog__image animate slide-left"-->
+<!--                         data-src="--><?php //echo get_template_directory_uri(); ?><!--/img/choices/grid365.png"-->
+<!--                         style="box-shadow: none; -webkit-filter: drop-shadow(2px 2px 2px rgba(0, 0, 0, .6)); filter: drop-shadow(2px 2px 2px rgba(0, 0, 0, .6));"-->
+<!--                         alt="Grid365"-->
+<!--                    >-->
+<!--                </div>-->
+<!--                <div class="service-section__container blogs-section__container__block">-->
+<!--                    <h3 class="service-section__container__header blogs-section__container__header slide-right animate"-->
+<!--                        style="color: rgba(0, 0, 0, 1)"-->
+<!--                    >-->
+<!--                        Grid365-->
+<!--                    </h3>-->
+<!--                    <p class="service-section__container__paragraph blogs-section__paragraph slide-right animate"-->
+<!--                       style="color: rgba(0, 0, 0 , 0.61)"-->
+<!--                    >-->
+<!--                        The cloud empowers, individuals and small businesses to instantly set up enterprise-class services enabling them to compete globally.-->
+<!--                    </p>-->
+<!--                    <a class="about__button__read-more about__button__read-more__about choice-page__button slide-right animate"-->
+<!--                       style="z-index: 29; margin-top: 3rem; color:"-->
+<!--                       target="_blank"-->
+<!--                       href="https://www.Grid365.com"-->
+<!--                    >-->
+<!--                        Visit Site-->
+<!--                    </a>-->
+<!--                </div>-->
+<!--            </div>-->
         </div>
         <button aria-label="Previous" id="faves-prev" class="glider-prev">«</button>
         <button aria-label="Next" id="faves-next" class="glider-next">»</button>

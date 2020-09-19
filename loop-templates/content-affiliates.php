@@ -37,7 +37,7 @@ defined( 'ABSPATH' ) || exit;
                        target="_blank"
                        href="https://bannerseason.com/CHARLA"
                     >
-                        Explore
+                        Visit Site
                     </a>
                 </div>
             </div>
