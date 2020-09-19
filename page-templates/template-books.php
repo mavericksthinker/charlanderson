@@ -76,9 +76,11 @@ if ( is_front_page() ) {
             <div class="about-body">
                 <div class="choices-page-container">
                     <div class="choices-container choices-container__body">
-                        <h2 class="choices-page__body animate slide-left">Split-Second Transformation</h2>
+                        <h2 class="choices-page__body animate slide-left">The Four Agreements, don Miguel Ruiz</h2>
                         <p class="about-paragraph-right choices-paragraph animate slide-left">
-                            Change Your Words, Change Your Life:  31 Daily Practices
+                            In The Four Agreements, bestselling author don Miguel Ruiz reveals the source of self-limiting beliefs that rob us of joy and create needless suffering.
+                            Based on ancient Toltec wisdom, The Four Agreements offer a powerful code of conduct that can rapidly transform our lives to a new experience of freedom,
+                            true happiness, and love.
                         </p>
                         <a class="about__button__read-more about__button__read-more__about choice-page__button animate slide-left"
                            href="#"

@@ -9,7 +9,7 @@
 defined( 'ABSPATH' ) || exit;
 ?>
 
-<div class="blog-section__container">
+<div class="blog-section__container" style="padding: 0">
     <h2 class="section-header heading animate">Books</h2>
     <div class="glider-contain">
         <div id="blog_carousel" class="glider4">
@@ -98,8 +98,8 @@ defined( 'ABSPATH' ) || exit;
                 </div>
             </div>
         </div>
-        <button aria-label="Previous" class="glider-prev">«</button>
-        <button aria-label="Next" class="glider-next">»</button>
+        <button aria-label="Previous" id="charities-prev" class="glider-prev">«</button>
+        <button aria-label="Next" id="charities-next" class="glider-next">»</button>
         <div role="tablist" class="dots"></div>
     </div>
 </div>

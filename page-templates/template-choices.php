@@ -32,10 +32,10 @@ if ( is_front_page() ) {
             </div>
         </section>
         <section class="choices-page__books position-relative">
-            <img class="mega-menu__logo"
-                 style="opacity: 0.04; z-index: 1"
-                 data-src="<?php echo get_template_directory_uri(); ?>/img/miscellaneous/logo_background.png"
-                 alt="Charla Anderson">
+<!--            <img class="mega-menu__logo"-->
+<!--                 style="opacity: 0.04; z-index: 1"-->
+<!--                 data-src="--><?php //echo get_template_directory_uri(); ?><!--/img/miscellaneous/logo_background.png"-->
+<!--                 alt="Charla Anderson">-->
            <?php get_template_part( 'loop-templates/content', 'books' ); ?>
         </section>
         <section class="choices-page__books">

@@ -37,9 +37,10 @@ if ( is_front_page() ) {
         </section>
         <section class="product-page__section-1">
             <img class="mega-menu__logo"
-                 style="opacity: 0.04; z-index: 1"
+                 style="opacity: 0.04; z-index: 1;"
                  data-src="<?php echo get_template_directory_uri(); ?>/img/miscellaneous/logo_background.png"
-                 alt="Charla Anderson">
+                 alt="Charla Anderson"
+            >
             <div class="about-body">
                 <?php
                 if ( function_exists('yoast_breadcrumb') ) {

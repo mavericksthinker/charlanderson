@@ -12,8 +12,8 @@ window.addEventListener('load', function(){
             dots: '.dots',
             rewind: true,
             arrows: {
-                prev: '.glider-prev',
-                next: '.glider-next'
+                prev: '#books-prev',
+                next: '#books-next'
             }
         });
     if(glider1){
@@ -24,8 +24,8 @@ window.addEventListener('load', function(){
             dots: '.dots',
             rewind: true,
             arrows: {
-                prev: '.glider-prev',
-                next: '.glider-next'
+                prev: '#product-prev',
+                next: '#product-next'
             }
         });
     }
@@ -37,8 +37,8 @@ window.addEventListener('load', function(){
             dots: '.dots',
             rewind: true,
             arrows: {
-                prev: '.glider-prev',
-                next: '.glider-next'
+                prev: '#affiliates-prev',
+                next: '#affiliates-next'
             }
         });
     }
@@ -50,8 +50,8 @@ window.addEventListener('load', function(){
             dots: '.dots',
             rewind: true,
             arrows: {
-                prev: '.glider-prev',
-                next: '.glider-next'
+                prev: '#faves-prev',
+                next: '#faves-next'
             }
         });
     }
@@ -63,8 +63,8 @@ window.addEventListener('load', function(){
             dots: '.dots',
             rewind: true,
             arrows: {
-                prev: '.glider-prev',
-                next: '.glider-next'
+                prev: '#charities-prev',
+                next: '#charities-next'
             }
         });
     }
