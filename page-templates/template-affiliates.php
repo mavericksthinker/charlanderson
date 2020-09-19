@@ -44,26 +44,26 @@ if ( is_front_page() ) {
 		            yoast_breadcrumb( '<p id="breadcrumbs">','</p>' );
 	            }
 	            ?>
-                <div class="choices-page-container">
-                    <div class="choices-container choices-container__image">
-                        <img class="about-image-left animate slide-left"
-                             data-src="<?php echo get_template_directory_uri(); ?>/img/choices/ride-share.png"
-                             alt="Gizmoh RideShare"
-                        >
-                    </div>
-                    <div class="choices-container choices-container__body">
-                        <h2 class="choices-page__body animate slide-right">Gizmoh RideShare! </h2>
-                        <p class="about-paragraph-right choices-paragraph animate slide-right">
-                            Drivers Keep 100%!  Globally!  Unmatched Benefits. Use Promo Code:  CHA8961
-                        </p>
-                        <a class="about__button__read-more about__button__read-more__about choice-page__button animate slide-right"
-                           href="https://gizmohrideshare.com/"
-                           target="_blank"
-                        >
-                            Visit Site
-                        </a>
-                    </div>
-                </div>
+<!--                <div class="choices-page-container">-->
+<!--                    <div class="choices-container choices-container__image">-->
+<!--                        <img class="about-image-left animate slide-left"-->
+<!--                             data-src="--><?php //echo get_template_directory_uri(); ?><!--/img/choices/ride-share.png"-->
+<!--                             alt="Gizmoh RideShare"-->
+<!--                        >-->
+<!--                    </div>-->
+<!--                    <div class="choices-container choices-container__body">-->
+<!--                        <h2 class="choices-page__body animate slide-right">Gizmoh RideShare! </h2>-->
+<!--                        <p class="about-paragraph-right choices-paragraph animate slide-right">-->
+<!--                            Drivers Keep 100%!  Globally!  Unmatched Benefits. Use Promo Code:  CHA8961-->
+<!--                        </p>-->
+<!--                        <a class="about__button__read-more about__button__read-more__about choice-page__button animate slide-right"-->
+<!--                           href="https://gizmohrideshare.com/"-->
+<!--                           target="_blank"-->
+<!--                        >-->
+<!--                            Visit Site-->
+<!--                        </a>-->
+<!--                    </div>-->
+<!--                </div>-->
             </div>
         </section>
         <section class="books-page__section-2">

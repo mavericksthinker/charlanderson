@@ -10,33 +10,63 @@ defined( 'ABSPATH' ) || exit;
 ?>
 
 <div class="blog-section__container" style="padding: 0">
-    <h2 class="section-header heading animate">Books</h2>
+    <h2 class="section-header heading animate" style="color: white">Faves</h2>
     <div class="glider-contain">
         <div id="blog_carousel" class="glider3">
             <div class="blog-section__content">
                 <div>
                     <img class="blog__image animate slide-left"
-                         data-src="<?php echo get_template_directory_uri(); ?>/img/blogs/split-second.jpg"
-                         alt="Courageous Coach"
+                         data-src="<?php echo get_template_directory_uri(); ?>/img/choices/ab-websolutions.png"
+                         style="box-shadow: none; -webkit-filter: drop-shadow(2px 2px 2px rgba(0, 0, 0, .6)); filter: drop-shadow(2px 2px 2px rgba(0, 0, 0, .6));"
+                         alt="AB Websolutions"
                     >
                 </div>
                 <div class="service-section__container blogs-section__container__block">
                     <h3 class="service-section__container__header blogs-section__container__header slide-right animate"
                         style="color: rgba(0, 0, 0, 1)"
                     >
-                        Split-Second Transformation
+                        AB Websolutions
                     </h3>
                     <p class="service-section__container__paragraph blogs-section__paragraph slide-right animate"
                        style="color: rgba(0, 0, 0 , 0.61)"
                     >
-                        Words matter. 
-                        You’ve heard it, but do you really believe it?   
-                        Actually, you Create your life with your words. 
-                        I’ll give you some simple tests to begin proving it to yourself....
+                        Creativity, reliability, and integrity are the hallmarks of every aspect of our work.
+                        AB Web Solutions provides results-oriented website design &  development, social media management &
+                        marketing, SEO and content writing designed to meet our clients’ business objectives.
                     </p>
-                    <a class="button__read-more button__read-more__service blogs-section__button slide-right animate"
-                       style="z-index: 29; margin-top: 3rem; color: rgba(0, 0, 0 , 0.61)"
-                       href="<?php echo esc_url( home_url( '/motivational/split-second-transformation' ) ); ?>"
+                    <a class="about__button__read-more about__button__read-more__about choice-page__button slide-right animate"
+                       style="z-index: 29; margin-top: 3rem;"
+                       target="_blank"
+                       href="https://www.facebook.com/ABWebSolutions.DigitalMarketing/"
+                    >
+                        Visit Site
+                    </a>
+                </div>
+            </div>
+            <div class="blog-section__content">
+                <div>
+                    <img class="blog__image animate slide-left"
+                         data-src="<?php echo get_template_directory_uri(); ?>/img/choices/brilliance_in_commerce.jpg"
+                         style="box-shadow: none; -webkit-filter: drop-shadow(2px 2px 2px rgba(0, 0, 0, .6)); filter: drop-shadow(2px 2px 2px rgba(0, 0, 0, .6));"
+                         alt="Brilliance In Commerce"
+                    >
+                </div>
+                <div class="service-section__container blogs-section__container__block">
+                    <h3 class="service-section__container__header blogs-section__container__header slide-right animate"
+                        style="color: rgba(0, 0, 0, 1)"
+                    >
+                        Brilliance In Commerce
+                    </h3>
+                    <p class="service-section__container__paragraph blogs-section__paragraph slide-right animate"
+                       style="color: rgba(0, 0, 0 , 0.61)"
+                    >
+                        Why negotiate, consolidate, reduce, settle or pay off your loan or credit card debt,
+                        when you can legally CANCEL it without bankruptcy?
+                    </p>
+                    <a class="about__button__read-more about__button__read-more__about choice-page__button slide-right animate"
+                       style="z-index: 29; margin-top: 3rem;"
+                       target="_blank"
+                       href="https://brillianceincommerce.com/go/85/"
                     >
                         Explore
                     </a>
@@ -45,55 +75,28 @@ defined( 'ABSPATH' ) || exit;
             <div class="blog-section__content">
                 <div>
                     <img class="blog__image animate slide-left"
-                         data-src="<?php echo get_template_directory_uri(); ?>/img/blogs/blogs3.jpg"
-                         alt="Ideas for Kids part 2"
+                         data-src="<?php echo get_template_directory_uri(); ?>/img/choices/grid365.png"
+                         style="box-shadow: none; -webkit-filter: drop-shadow(2px 2px 2px rgba(0, 0, 0, .6)); filter: drop-shadow(2px 2px 2px rgba(0, 0, 0, .6));"
+                         alt="Grid365"
                     >
                 </div>
                 <div class="service-section__container blogs-section__container__block">
                     <h3 class="service-section__container__header blogs-section__container__header slide-right animate"
                         style="color: rgba(0, 0, 0, 1)"
                     >
-                        Birthday Party
+                        Grid365
                     </h3>
                     <p class="service-section__container__paragraph blogs-section__paragraph slide-right animate"
                        style="color: rgba(0, 0, 0 , 0.61)"
                     >
-                        It’s been decades since I hosted my own children’s birthday parties!
-                        Yet, with my privilege to now host my precious GrandBlessings occasionally,
-                        it brought to mind some of the truly inspired ideas that I used for planning parties.
+                        The cloud empowers, individuals and small businesses to instantly set up enterprise-class services enabling them to compete globally.
                     </p>
-                    <a class="button__read-more button__read-more__service blogs-section__button slide-right animate"
-                       style="z-index: 29; margin-top: 3rem; color: rgba(0, 0, 0 , 0.61)"
-                       href="<?php echo esc_url( home_url( '/ideas-for-kids/birthday-party' ) ); ?>"
+                    <a class="about__button__read-more about__button__read-more__about choice-page__button slide-right animate"
+                       style="z-index: 29; margin-top: 3rem; color:"
+                       target="_blank"
+                       href="https://www.Grid365.com"
                     >
-                        Explore
-                    </a>
-                </div>
-            </div>
-            <div class="blog-section__content">
-                <div>
-                    <img class="blog__image animate slide-left"
-                         data-src="<?php echo get_template_directory_uri(); ?>/img/blogs/blogs4.jpg"
-                         alt="Ideas for Kids part 1"
-                    >
-                </div>
-                <div class="service-section__container blogs-section__container__block">
-                    <h3 class="service-section__container__header blogs-section__container__header slide-right animate"
-                        style="color: rgba(0, 0, 0, 1)"
-                    >
-                        Ideas for Kids, Part-1
-                    </h3>
-                    <p class="service-section__container__paragraph blogs-section__paragraph slide-right animate"
-                       style="color: rgba(0, 0, 0 , 0.61)"
-                    >
-                        Recently, two of my GrandBlessings, almost 8 & 10 years old, stayed with me for a week
-                        for the first time (they are a relatively new addition to our family 🥰).
-                    </p>
-                    <a class="button__read-more button__read-more__service blogs-section__button slide-right animate"
-                       style="z-index: 29; margin-top: 3rem; color: rgba(0, 0, 0 , 0.61)"
-                       href="<?php echo esc_url( home_url( '/ideas-for-kids/ideas-for-kids-part-1' ) ); ?>"
-                    >
-                        Explore
+                        Visit Site
                     </a>
                 </div>
             </div>

@@ -68,6 +68,9 @@
   color: $accent;
   font-size: 50px;
   margin-bottom: 1em;
+  @media screen and (max-width: 1100px) {
+    margin-top: 1.5rem;
+  }
   @media screen and (max-width: $xmedium) {
     font-size: 30px;
   }

@@ -32,9 +32,10 @@ defined( 'ABSPATH' ) || exit;
                     >
                         Books; Products; ​Training/Coaching; ​Ziglar Legacy Certified Training
                     </p>
-                    <a class="button__read-more button__read-more__service blogs-section__button slide-right animate"
-                       style="z-index: 29; margin-top: 3rem; color: rgba(0, 0, 0 , 0.61)"
-                       href="<?php echo esc_url( home_url( '/motivational/split-second-transformation' ) ); ?>"
+                    <a class="about__button__read-more about__button__read-more__about choice-page__button slide-right animate"
+                       style="z-index: 29; margin-top: 3rem;"
+                       target="_blank"
+                       href="https://www.ziglar.com/?a=85053&c=99"
                     >
                         Visit Site
                     </a>
@@ -59,8 +60,8 @@ defined( 'ABSPATH' ) || exit;
                         Fun; ​Stylish; Functional; Great Gift; NO DUSTING!  My silly Smart Pin Video from 2010.  YES, I've been wearing Smart Pins since 2008.
                         Download the catalogue
                     </p>
-                    <a class="button__read-more button__read-more__service blogs-section__button slide-right animate"
-                       style="z-index: 29; margin-top: 3rem; color: rgba(0, 0, 0 , 0.61)"
+                    <a class="about__button__read-more about__button__read-more__about choice-page__button slide-right animate"
+                       style="z-index: 29; margin-top: 3rem;"
                        target="_blank"
                        href="https://bit.ly/34JIl8G"
                     >

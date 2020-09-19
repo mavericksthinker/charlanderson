@@ -50,7 +50,7 @@ if ( is_front_page() ) {
                     <div class="choices-container choices-container__image">
                         <img class="about-image-left animate slide-left"
                              data-src="<?php echo get_template_directory_uri(); ?>/img/choices/ab-websolutions.png"
-                             style="box-shadow: none; max-width: 420px"
+                             style="box-shadow: none; -webkit-filter: drop-shadow(2px 2px 2px rgba(0, 0, 0, .6)); filter: drop-shadow(2px 2px 2px rgba(0, 0, 0, .6));"
                              alt="AB Websolutions"
                         >
                     </div>
