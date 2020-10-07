@@ -161,7 +161,7 @@ if ( ! function_exists( 'add_script_to_the_footer' ) ) {
         <script>
             document.addEventListener('wpcf7mailsent', function (event) {
                 console.log('Hello');
-                if ('17' === event.detail.contactFormId || '60' === event.detail.contactFormId) {
+                if ('7' === event.detail.contactFormId || '60' === event.detail.contactFormId) {
                     var inputs = event.detail.inputs;
 
                     if (inputs)

@@ -59,14 +59,14 @@ if ( is_front_page() ) {
                     </figure>
                     <div class="contact-page__content">
                         <div class="contact-form__container contact-form__container-contact-page">
-                            <div role="form" class="wpcf7" style="margin: 0!important;width: 100%" id="wpcf7-f61-o1" lang="en-US" dir="ltr">
+                            <div role="form" class="wpcf7" style="margin: 0!important;width: 100%" id="wpcf7-f6-o1" lang="en-US" dir="ltr">
                                 <div class="screen-reader-response" role="alert" aria-live="polite"></div>
-                                <form action="/contact-charla/#wpcf7-f61-o1" method="post" class="wpcf7-form init" novalidate="novalidate">
+                                <form action="/contact-charla/#wpcf7-f6-o1" method="post" class="wpcf7-form init" novalidate="novalidate">
                                     <div style="display: none;">
-                                        <input type="hidden" name="_wpcf7" value="61">
+                                        <input type="hidden" name="_wpcf7" value="6">
                                         <input type="hidden" name="_wpcf7_version" value="5.2">
                                         <input type="hidden" name="_wpcf7_locale" value="en_US">
-                                        <input type="hidden" name="_wpcf7_unit_tag" value="wpcf7-f61-o1">
+                                        <input type="hidden" name="_wpcf7_unit_tag" value="wpcf7-f6-o1">
                                         <input type="hidden" name="_wpcf7_container_post" value="0">
                                         <input type="hidden" name="_wpcf7_posted_data_hash" value="">
                                         <input type="hidden" name="_wpcf7_recaptcha_response" value="">
@@ -103,11 +103,10 @@ if ( is_front_page() ) {
                                         <input type="text"
                                                name="your-subject"
                                                size="40"
-                                               class="contact-input-form wpcf7-form-control wpcf7-text wpcf7-validates-as-		required"
+                                               class="contact-input-form__without-validity wpcf7-form-control wpcf7-text wpcf7-validates-as-		required"
                                                aria-required="true"
                                                aria-invalid="false"
                                                value=""
-                                               required
                                         >
                                         <label class="form-label">
                                             <span class="content-name">Subject</span>
@@ -117,17 +116,16 @@ if ( is_front_page() ) {
                                         <input type="text"
                                                name="zip-code"
                                                size="10"
-                                               class="contact-input-form wpcf7-form-control wpcf7-text wpcf7-validates-as-		required"
+                                               class="contact-input-form__without-validity wpcf7-form-control wpcf7-text wpcf7-validates-as-		required"
                                                aria-required="true"
                                                aria-invalid="false"
                                                value=""
-                                               required
                                         >
                                         <label class="form-label">
                                             <span class="content-name">ZipCode</span>
                                         </label>
                                     </div>
-                                    <p><label class="your-message"> Message <span class="required"> *</span><br>
+                                    <p><label class="your-message" style="color: teal"> Message <span class="required"> *</span><br>
                                             <span class="wpcf7-form-control-wrap ">
                                               <textarea name="your-message"
                                                         cols="40"
