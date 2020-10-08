@@ -139,6 +139,7 @@ if ( is_front_page() ) {
                                         </label>
                                     </p>
                                     <span class="contact-form__content-footer">Privacy Ensured Always</span>
+                                    <div class="wpcf7-form-control-wrap"></div>
                                     <div class="wpcf7-response-output" role="alert" aria-hidden="true"></div>
                                     <input type="submit"
                                            value="Submit"
