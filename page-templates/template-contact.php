@@ -139,15 +139,6 @@ if ( is_front_page() ) {
                                         </label>
                                     </p>
                                     <span class="contact-form__content-footer">Privacy Ensured Always</span>
-                                    <div class="wpcf7-form-control-wrap"><div data-sitekey="6Leg-9QZAAAAAHmS1z7vwhxIm8i9vLeIRqX2evm2" class="wpcf7-form-control g-recaptcha wpcf7-recaptcha contact-recaptcha" id="contact-recaptcha"><div style="width: 304px; height: 78px;"><div><iframe title="Captcha" src="https://www.google.com/recaptcha/api2/anchor?ar=1&amp;k=6Leg-9QZAAAAAHmS1z7vwhxIm8i9vLeIRqX2evm2&amp;co=aHR0cDovL3dvcmRwcmVzcy50ZXN0Ojgw&amp;hl=en&amp;v=48TunWH-ZrLteSwFVbw6tVnx&amp;size=normal&amp;cb=2uuzw8ufqe4v" width="304" height="78" role="presentation" name="a-5q38o414jcvg" frameborder="0" scrolling="no" sandbox="allow-forms allow-popups allow-same-origin allow-scripts allow-top-navigation allow-modals allow-popups-to-escape-sandbox"></iframe></div><textarea id="g-recaptcha-response" name="g-recaptcha-response" class="g-recaptcha-response" style="width: 250px; height: 40px; border: 1px solid rgb(193, 193, 193); margin: 10px 25px; padding: 0px; resize: none; display: none;"></textarea></div><iframe style="display: none;"></iframe></div>
-                                        <noscript>
-                                            <div class="grecaptcha-noscript">
-                                                <iframe title="Captcha" src="https://www.google.com/recaptcha/api/fallback?k=6Leg-9QZAAAAAHmS1z7vwhxIm8i9vLeIRqX2evm2" frameborder="0" scrolling="no" width="310" height="430">
-                                                </iframe>
-                                                <textarea name="g-recaptcha-response" rows="3" cols="40" placeholder="reCaptcha Response Here"></textarea>
-                                            </div>
-                                        </noscript>
-                                    </div>
                                     <div class="wpcf7-response-output" role="alert" aria-hidden="true"></div>
                                     <input type="submit"
                                            value="Submit"
