@@ -22,7 +22,7 @@ $container = get_theme_mod( 'understrap_container_type' );
     <meta name="robots" content="index, follow" />
     <meta name="googlebot" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1" />
     <meta name="bingbot" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1" />
-    <link rel="canonical" href="https://www.charlaanderson.com/" />
+    <link rel="canonical" href="https://charlaanderson.com/" />
     <meta property="og:locale" content="en_US" />
     <meta property="og:type" content="website" />
     <meta property="og:title" content="Charla Anderson" />
@@ -49,7 +49,7 @@ $container = get_theme_mod( 'understrap_container_type' );
 	<!-- ******************* The Navbar Area ******************* -->
 	<header id="wrapper-navbar" class="navigation">
 
-        <nav id="main-nav" class="main-navigation" aria-labelledby="main-nav-label">
+        <nav id="main-nav" class="main-navigation" aria-labelledby="main-nav">
             <div class="logo">
                 <a href="<?php echo esc_url( home_url( '/' ) ); ?>">
                     <img alt="Charla Anderson"
@@ -69,7 +69,7 @@ $container = get_theme_mod( 'understrap_container_type' );
 
                 <a class="button__call-to-action button__call-to-action__appointment"
                    id="downloadDeclaration"
-                   style='font-family: "Apple Chancery", "Roboto", "Poppins", sans-serif; font-weight: bolder'
+                   style='font-family: "Apple Chancery", "Roboto", "Poppins", sans-serif; font-weight: bolder; font-size: 1.2rem'
                 >
                     Thank You Gift
                 </a>
@@ -121,7 +121,7 @@ $container = get_theme_mod( 'understrap_container_type' );
 
         <div class="mega-menu">
             <img class="mega-menu__logo mega-menu__logo__translate-x"
-                 src="<?php echo get_template_directory_uri(); ?>/img/miscellaneous/logo_background.png"
+                 data-src="<?php echo get_template_directory_uri(); ?>/img/miscellaneous/logo_background.png"
                  alt="Charla Anderson">
             <div class="mega-menu__body">
                 <?php

@@ -134,9 +134,10 @@ if ( is_front_page() ) {
         </section>
         <section class="youtube-section">
             <div class="youtube">
-                <h6 class="section-youtube__header heading animate">Join me on this amazing journey through the sweet spot of life.
-                    - Charla Anderson</h6>
+                <h3 class="section-youtube__header heading animate">Join me on this amazing journey through the sweet spot of life.
+                    - Charla Anderson</h3>
                 <iframe class="featured-youtube"
+                        title="Featured Youtube"
                         width="80%"
                         height="515px"
                         loading="lazy"
@@ -158,7 +159,7 @@ if ( is_front_page() ) {
         </section>
         <section class="service-section">
             <div class="service">
-                <h2 class="section-services__header heading animate" style="color: #FFFFEB">Intriguing Opportunities</h2>
+                <h2 class="section-header heading heading animate" style="color: #FFFFEB">Intriguing Opportunities</h2>
                 <p class="service-section__paragraph heading animate">When intriguing opportunities present themselves, and you say YES, things show up!</p>
                 <h2 class="section-header heading animate" style="color: #FFFFEB; margin-top: 1.5em">Yes-timonials</h2>
                 <div id="service-carousel"
@@ -168,7 +169,7 @@ if ( is_front_page() ) {
                     <div class="carousel-inner"
                          role="listbox"
                     >
-                        <div class="carousel-item active service-image" style="background-image: url('<?php echo get_template_directory_uri(); ?>/img/services/services-bg.png')">
+                        <div aria-selected="true" role="listitem" class="carousel-item active service-image" style="background-image: url('<?php echo get_template_directory_uri(); ?>/img/services/services-bg.png')">
                             <div class="carousel-caption text-center">
                                 <div class="services">
                                     <figure>
@@ -186,7 +187,7 @@ if ( is_front_page() ) {
                                 </div>
                             </div>
                         </div>
-                        <div class="carousel-item service-image" style="background-image: url('<?php echo get_template_directory_uri(); ?>/img/services/services-bg.png')">
+                        <div aria-selected="true" role="listitem" class="carousel-item service-image" style="background-image: url('<?php echo get_template_directory_uri(); ?>/img/services/services-bg.png')">
                             <div class="carousel-caption text-center">
                                 <div class="services">
                                     <figure>
@@ -205,7 +206,7 @@ if ( is_front_page() ) {
                                 </div>
                             </div>
                         </div>
-                        <div class="carousel-item service-image" style="background-image: url('<?php echo get_template_directory_uri(); ?>/img/services/services-bg.png')">
+                        <div aria-selected="true" role="listitem" class="carousel-item service-image" style="background-image: url('<?php echo get_template_directory_uri(); ?>/img/services/services-bg.png')">
                             <div class="carousel-caption text-center">
                                 <div class="services">
                                     <figure>
@@ -248,7 +249,7 @@ if ( is_front_page() ) {
             <div class="blog-section__container">
                 <h2 class="section-header heading animate">Blogs and Blessings by Charla</h2>
                 <div class="glider-contain">
-                    <div id="blog_carousel" class="glider">
+                    <div id="blog_carousel" class="glider_blog">
                         <div class="blog-section__content">
                             <div>
                                 <img class="blog__image animate slide-left"
@@ -334,8 +335,8 @@ if ( is_front_page() ) {
                             </div>
                         </div>
                     </div>
-                    <button aria-label="Previous" class="glider-prev">«</button>
-                    <button aria-label="Next" class="glider-next">»</button>
+                    <button aria-label="Previous" id="glider-prev" class="glider-prev">«</button>
+                    <button aria-label="Next" id="glider-next" class="glider-next">»</button>
                     <div role="tablist" class="dots"></div>
                 </div>
                 <a class="button__read-more button__read-more__about button__read-more__blog"

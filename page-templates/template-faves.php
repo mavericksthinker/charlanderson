@@ -130,7 +130,7 @@ if ( is_front_page() ) {
                     <div class="carousel-inner"
                          role="listbox"
                     >
-                        <div class="carousel-item active service-image" style="background-image: url('<?php echo get_template_directory_uri(); ?>/img/services/services-bg.png')">
+                        <div aria-selected="true" role="listitem" class="carousel-item active service-image" style="background-image: url('<?php echo get_template_directory_uri(); ?>/img/services/services-bg.png')">
                             <div class="carousel-caption text-center">
                                 <div class="services">
                                     <figure>
@@ -163,7 +163,7 @@ if ( is_front_page() ) {
                                 </div>
                             </div>
                         </div>
-                        <div class="carousel-item service-image" style="background-image: url('<?php echo get_template_directory_uri(); ?>/img/services/services-bg.png')">
+                        <div aria-selected="true" role="listitem" class="carousel-item service-image" style="background-image: url('<?php echo get_template_directory_uri(); ?>/img/services/services-bg.png')">
                             <div class="carousel-caption text-center">
                                 <div class="services">
                                     <figure>
@@ -196,7 +196,7 @@ if ( is_front_page() ) {
                                 </div>
                             </div>
                         </div>
-                        <div class="carousel-item service-image" style="background-image: url('<?php echo get_template_directory_uri(); ?>/img/services/services-bg.png')">
+                        <div aria-selected="true" role="listitem" class="carousel-item service-image" style="background-image: url('<?php echo get_template_directory_uri(); ?>/img/services/services-bg.png')">
                             <div class="carousel-caption text-center">
                                 <div class="services">
                                     <figure>
@@ -230,7 +230,7 @@ if ( is_front_page() ) {
                                 </div>
                             </div>
                         </div>
-                        <div class="carousel-item service-image" style="background-image: url('<?php echo get_template_directory_uri(); ?>/img/services/services-bg.png')">
+                        <div aria-selected="true" role="listitem" class="carousel-item service-image" style="background-image: url('<?php echo get_template_directory_uri(); ?>/img/services/services-bg.png')">
                             <div class="carousel-caption text-center">
                                 <div class="services">
                                     <figure>

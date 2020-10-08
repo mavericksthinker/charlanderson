@@ -72,6 +72,7 @@ if ( is_front_page() ) {
         <div class="youtube">
             <h6 class="section-youtube__header heading animate">Invite Charla to Speak.  Online Webinar Keynote Inspire.</h6>
             <iframe class="featured-youtube"
+                    title="Youtube featured"
                     width="80%"
                     height="515px"
                     loading="lazy"
