@@ -61,7 +61,7 @@ if ( is_front_page() ) {
                         <div class="contact-form__container contact-form__container-contact-page">
                             <div role="form" class="wpcf7" style="margin: 0!important;width: 100%" id="wpcf7-f6-o1" lang="en-US" dir="ltr">
                                 <div class="screen-reader-response" role="alert" aria-live="polite"></div>
-                                <form action="<?php echo $_SERVER['REQUEST_URI'].'#wpcf7-f6-o1'?>" method="post" class="wpcf7-form init" novalidate="novalidate">
+                                <form action="/contact-charla/#wpcf7-f6-o1" method="post" class="wpcf7-form init" novalidate="novalidate">
                                     <div style="display: none;">
                                         <input type="hidden" name="_wpcf7" value="6">
                                         <input type="hidden" name="_wpcf7_version" value="5.2">
@@ -78,7 +78,6 @@ if ( is_front_page() ) {
                                                class="contact-input-form wpcf7-form-control wpcf7-text wpcf7-validates-as-		required"
                                                aria-required="true"
                                                aria-invalid="false"
-                                               required
                                         >
                                         <label class="form-label">
                                             <span class="content-name">Name <span class="star required"> *</span></span>
@@ -92,7 +91,6 @@ if ( is_front_page() ) {
                                                class="wpcf7-form-control wpcf7-text wpcf7-email wpcf7-validates-as-required wpcf7-validates-as-email contact-input-form email-field"
                                                aria-required="true"
                                                aria-invalid="false"
-                                               required
                                         >
                                         <label class="form-label">
                                             <span class="content-name">Email <span class=" star required"> *</span></span>
@@ -103,7 +101,7 @@ if ( is_front_page() ) {
                                         <input type="text"
                                                name="your-subject"
                                                size="40"
-                                               class="contact-input-form__without-validity wpcf7-form-control wpcf7-text wpcf7-validates-as-		required"
+                                               class="contact-input-form wpcf7-form-control wpcf7-text wpcf7-validates-as-		required"
                                                aria-required="true"
                                                aria-invalid="false"
                                                value=""
@@ -116,7 +114,7 @@ if ( is_front_page() ) {
                                         <input type="text"
                                                name="zip-code"
                                                size="10"
-                                               class="contact-input-form__without-validity wpcf7-form-control wpcf7-text wpcf7-validates-as-		required"
+                                               class="contact-input-form wpcf7-form-control wpcf7-text wpcf7-validates-as-		required"
                                                aria-required="true"
                                                aria-invalid="false"
                                                value=""
@@ -141,28 +139,16 @@ if ( is_front_page() ) {
                                         </label>
                                     </p>
                                     <span class="contact-form__content-footer">Privacy Ensured Always</span>
-                                    <div class="wpcf7-response-output" role="alert" aria-hidden="true"></div>
-                                    <div class="wpcf7-form-control-wrap catcha_button_combo">
-                                        <div data-sitekey="6LchZLoZAAAAACA6JjRudi4iivtSG2YCZzkNlKpa"
-                                             class="wpcf7-form-control g-recaptcha wpcf7-recaptcha contact-recaptcha"
-                                             id="contact-recaptcha">
-                                            <div style="width: 304px; height: 78px;">
-                                                <div>
-                                                    <iframe src="https://www.google.com/recaptcha/api2/anchor?ar=1&amp;k=6LchZLoZAAAAACA6JjRudi4iivtSG2YCZzkNlKpa&amp;co=aHR0cDovL3dvcmRwcmVzcy50ZXN0Ojgw&amp;hl=en&amp;v=AFBwIe6h0oOL7MOVu88LHld-&amp;size=normal&amp;cb=we2p19q0ve00" width="304" height="78" role="presentation" name="a-5ov3uwgecy22" frameborder="0" scrolling="no" sandbox="allow-forms allow-popups allow-same-origin allow-scripts allow-top-navigation allow-modals allow-popups-to-escape-sandbox"></iframe></div><textarea id="g-recaptcha-response" name="g-recaptcha-response" class="g-recaptcha-response" style="width: 250px; height: 40px; border: 1px solid rgb(193, 193, 193); margin: 10px 25px; padding: 0px; resize: none; display: none;"></textarea></div><iframe style="display: none;"></iframe></div>
+                                    <div class="wpcf7-form-control-wrap"><div data-sitekey="6Leg-9QZAAAAAHmS1z7vwhxIm8i9vLeIRqX2evm2" class="wpcf7-form-control g-recaptcha wpcf7-recaptcha contact-recaptcha" id="contact-recaptcha"><div style="width: 304px; height: 78px;"><div><iframe src="https://www.google.com/recaptcha/api2/anchor?ar=1&amp;k=6Leg-9QZAAAAAHmS1z7vwhxIm8i9vLeIRqX2evm2&amp;co=aHR0cDovL3dvcmRwcmVzcy50ZXN0Ojgw&amp;hl=en&amp;v=48TunWH-ZrLteSwFVbw6tVnx&amp;size=normal&amp;cb=2uuzw8ufqe4v" width="304" height="78" role="presentation" name="a-5q38o414jcvg" frameborder="0" scrolling="no" sandbox="allow-forms allow-popups allow-same-origin allow-scripts allow-top-navigation allow-modals allow-popups-to-escape-sandbox"></iframe></div><textarea id="g-recaptcha-response" name="g-recaptcha-response" class="g-recaptcha-response" style="width: 250px; height: 40px; border: 1px solid rgb(193, 193, 193); margin: 10px 25px; padding: 0px; resize: none; display: none;"></textarea></div><iframe style="display: none;"></iframe></div>
                                         <noscript>
                                             <div class="grecaptcha-noscript">
-                                                <iframe src="https://www.google.com/recaptcha/api/fallback?k=6LchZLoZAAAAACA6JjRudi4iivtSG2YCZzkNlKpa"
-                                                        frameborder="0"
-                                                        scrolling="no"
-                                                        width="300"
-                                                        height="430"
-                                                >
+                                                <iframe src="https://www.google.com/recaptcha/api/fallback?k=6Leg-9QZAAAAAHmS1z7vwhxIm8i9vLeIRqX2evm2" frameborder="0" scrolling="no" width="310" height="430">
                                                 </iframe>
-                                                <textarea name="g-recaptcha-response" rows="3" cols="40" placeholder="reCaptcha Response Here">
-		                                        </textarea>
+                                                <textarea name="g-recaptcha-response" rows="3" cols="40" placeholder="reCaptcha Response Here"></textarea>
                                             </div>
                                         </noscript>
                                     </div>
+                                    <div class="wpcf7-response-output" role="alert" aria-hidden="true"></div>
                                     <input type="submit"
                                            value="Submit"
                                            class="submit-button__contact-page"

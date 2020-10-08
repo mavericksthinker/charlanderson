@@ -73,6 +73,7 @@ $container = get_theme_mod( 'understrap_container_type' );
                                        value="Download"
                                        class="wpcf7-form-control wpcf7-submit home-contact-submit"
                                 >
+                                <span class="ajax-loader"></span>
                             </div>
                             <span class="wpcf7-form-control-wrap charlas-declaration-152">
                                         <input type="hidden"
