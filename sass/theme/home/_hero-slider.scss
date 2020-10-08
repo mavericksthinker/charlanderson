@@ -75,6 +75,7 @@
   }
   @media screen and (max-width: $medium){
     font-size: 45px;
+    text-shadow: 1px 0 1px rgba(black, 0.5);
   }
   @media screen and (max-width: $small){
     font-size: 35px;
@@ -143,6 +144,7 @@
     padding-left: 3rem;
     padding-right: 3rem;
     font-size: 14px;
+    text-shadow: 1px 0 1px rgba(black, 0.5);
   }
   @media screen and (max-width: $small) {
     margin-top: 1.5rem;

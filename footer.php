@@ -35,7 +35,7 @@ $container = get_theme_mod( 'understrap_container_type' );
                 <div class="contact-form__container">
                     <div role="form" class="wpcf7" style="margin: 0!important;" id="wpcf7-f7-o1" lang="en-US" dir="ltr">
                         <div class="screen-reader-response" role="alert" aria-live="polite"></div>
-                        <form action="/#wpcf7-f7-o1" method="post" class="wpcf7-form init" novalidate="novalidate">
+                        <form action="<?php echo $_SERVER['REQUEST_URI'].'#wpcf7-f7-o1'?>" method="post" class="wpcf7-form init" novalidate="novalidate">
                             <div style="display: none;">
                                 <input type="hidden" name="_wpcf7" value="7">
                                 <input type="hidden" name="_wpcf7_version" value="5.2">
