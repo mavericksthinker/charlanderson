@@ -38,12 +38,14 @@ defined( 'ABSPATH' ) || exit;
                     <div class="purchase-group" style="margin-top: 3rem">
                         <a class="about__button__read-more about__button__read-more__about choice-page__button purchase-button animate slide-right"
                            href="https://amzn.to/2JSGeUl"
+                           rel="noopener"
                            target="_blank"
                         >
                             Amazon
                         </a>
                         <a class="about__button__read-more about__button__read-more__about choice-page__button animate slide-right"
                            href="http://amzn.to/2BwA5ut"
+                           rel="noopener"
                            target="_blank"
                         >
                             Kindle

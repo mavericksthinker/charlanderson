@@ -103,6 +103,7 @@ if ( is_front_page() ) {
                      data-interval="6000">
                     <div class="carousel-inner"
                          role="listbox"
+                         aria
                     >
                         <div class="carousel-item active service-image" style="background-image: url('<?php echo get_template_directory_uri(); ?>/img/services/services-bg.png')">
                             <div class="carousel-caption text-center">

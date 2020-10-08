@@ -128,7 +128,7 @@ if ( is_front_page() ) {
                 <a class="button__read-more button__read-more__about about-section__button"
                    href="<?php echo esc_url( home_url( '/about-charla' ) ); ?>"
                 >
-                    Read More
+                    Meet Charla
                 </a>
             </div>
         </section>
@@ -152,7 +152,7 @@ if ( is_front_page() ) {
                 <a class="button__read-more button__view-more__youtube"
                    href="<?php echo esc_url( home_url( '/about-charla' ) ); ?>"
                 >
-                    View More
+                    Videos
                 </a>
             </div>
         </section>
@@ -341,7 +341,7 @@ if ( is_front_page() ) {
                 <a class="button__read-more button__read-more__about button__read-more__blog"
                    href="<?php echo esc_url( home_url( '/charlas-blog' ) ); ?>"
                 >
-                    Read More
+                    Blogs
                 </a>
             </div>
         </section>

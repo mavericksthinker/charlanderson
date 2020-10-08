@@ -24703,21 +24703,21 @@ typeof navigator !== "undefined" && function (root, factory) {
   var readyStateCheckInterval = setInterval(checkReady, 100);
   return lottie;
 });
-var paramsHero1 = {
+const paramsHero1 = {
   container: document.getElementById('lottie'),
   renderer: 'svg',
   loop: true,
   path: 'wp-content/themes/abwebsolutions/src/assets/hero1.json',
   autoplay: true
 };
-var paramsHero2 = {
+const paramsHero2 = {
   container: document.getElementById('lottie1'),
   renderer: 'svg',
   path: 'wp-content/themes/abwebsolutions/src/assets/coach.json',
   loop: true,
   autoplay: true
 };
-var paramsHero3 = {
+const paramsHero3 = {
   container: document.getElementById('lottie2'),
   renderer: 'svg',
   path: 'wp-content/themes/abwebsolutions/src/assets/speaker.json',
@@ -24726,7 +24726,7 @@ var paramsHero3 = {
 };
 
 if (document.location.pathname === '/') {
-  var anim, anim1, anim2;
+  let anim, anim1, anim2;
   anim = lottie.loadAnimation(paramsHero1);
   anim.setSpeed(.5);
   anim1 = lottie.loadAnimation(paramsHero2);

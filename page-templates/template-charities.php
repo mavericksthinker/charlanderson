@@ -59,6 +59,7 @@ if ( is_front_page() ) {
                         </p>
                         <a class="about__button__read-more about__button__read-more__about choice-page__button animate slide-right"
                            href="https://www.fwhope.org/"
+                           rel="noopener"
                            target="_blank"
                         >
                             Learn More
@@ -77,6 +78,7 @@ if ( is_front_page() ) {
                         </p>
                         <a class="about__button__read-more about__button__read-more__about choice-page__button animate slide-left"
                            href="https://www.cenikor.org"
+                           rel="noopener"
                            target="_blank"
                         >
                             Learn More
@@ -101,6 +103,7 @@ if ( is_front_page() ) {
                         </p>
                         <a class="about__button__read-more about__button__read-more__about choice-page__button animate slide-right"
                            href="https://zurvita.com/pages/zurvitagiving?als=charla&m=US"
+                           rel="noopener"
                            target="_blank"
                         >
                             Visit Site

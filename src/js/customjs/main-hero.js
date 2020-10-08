@@ -1,4 +1,4 @@
-var paramsHero1 = {
+const paramsHero1 = {
     container: document.getElementById('lottie'),
     renderer: 'svg',
     loop: true,
@@ -6,14 +6,14 @@ var paramsHero1 = {
     autoplay: true,
 };
 
-var paramsHero2 = {
+const paramsHero2 = {
     container: document.getElementById('lottie1'),
     renderer: 'svg',
     path : 'wp-content/themes/abwebsolutions/src/assets/coach.json',
     loop: true,
     autoplay: true,
 };
-var paramsHero3 = {
+const paramsHero3 = {
     container: document.getElementById('lottie2'),
     renderer: 'svg',
     path : 'wp-content/themes/abwebsolutions/src/assets/speaker.json',
@@ -23,7 +23,7 @@ var paramsHero3 = {
 
 if(document.location.pathname === '/') {
 
-    var anim, anim1, anim2;
+    let anim, anim1, anim2;
 
     anim = lottie.loadAnimation(paramsHero1);
     anim.setSpeed(.5);

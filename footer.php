@@ -136,6 +136,7 @@ $container = get_theme_mod( 'understrap_container_type' );
             <div class="footer-social-media-icons">
                 <a class="footer-social-media-icons__image"
                    href="https://www.facebook.com/CharlaArnold"
+                   rel="noopener"
                    target="_blank"
                 >
                     <img data-src="<?php echo get_template_directory_uri(); ?>/img/social-media-icons/facebook.png"
@@ -144,6 +145,7 @@ $container = get_theme_mod( 'understrap_container_type' );
                 </a>
                 <a class="footer-social-media-icons__image"
                    href="https://www.linkedin.com/in/charlaa/"
+                   rel="noopener"
                    target="_blank"
                 >
                     <img data-src="<?php echo get_template_directory_uri(); ?>/img/social-media-icons/linkedin.png"
@@ -152,6 +154,7 @@ $container = get_theme_mod( 'understrap_container_type' );
                 </a>
                 <a class="footer-social-media-icons__image"
                    href="https://www.youtube.com/channel/UCRqjTKOQS5ImL7k707TIAAg"
+                   rel="noopener"
                    target="_blank"
                 >
                     <img data-src="<?php echo get_template_directory_uri(); ?>/img/social-media-icons/youtube.png"
@@ -184,6 +187,7 @@ $container = get_theme_mod( 'understrap_container_type' );
 <!--                </a>-->
                 <a class="footer-social-media-icons__image"
                    href="mailto:Charla@CharlaAnderson.com"
+                   rel="noopener"
                    target="_blank"
                 >
                     <img data-src="<?php echo get_template_directory_uri(); ?>/img/social-media-icons/email.png"
