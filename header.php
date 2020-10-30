@@ -15,46 +15,6 @@ $container = get_theme_mod( 'understrap_container_type' );
 <!DOCTYPE html>
 <html <?php language_attributes(); ?> xmlns="http://www.w3.org/1999/xhtml">
 <head>
-<!-- Accessibility Code for "" -->
-<script>
-window.interdeal = {
-    "sitekey": "4944422a15e298305b5727e871427cfc",
-    "Position": "Left",
-    "Menulang": "EN",
-    "domains": {
-        "js": "https://cdn.equalweb.com/",
-        "acc": "https://access.equalweb.com/"
-    },
-    "btnStyle": {
-        "vPosition": [
-            "40px",
-            null
-        ],
-        "scale": [
-            "0.9",
-            null
-        ],
-        "icon": {
-            "type": 5,
-            "shape": "circle",
-            "outline": true
-        },
-        "color": {
-            "main": "#8000ff",
-            "second": "#ffffff"
-        }
-    }
-};
-(function(doc, head, body){
-	var coreCall             = doc.createElement('script');
-	coreCall.src             = 'https://cdn.equalweb.com/core/2.1.4/accessibility.js';
-	coreCall.defer           = true;
-	coreCall.integrity       = 'sha512-u8d8JJCpQ3N96oPNxrS5g/qXJEh6k9QbwpHTxjCR8ro/9EFiZCWVXNGckJpQHePetUg/UN6+QgF7ND6+MEX34w==';
-	coreCall.crossOrigin     = 'anonymous';
-	coreCall.setAttribute('data-cfasync', true );
-	body? body.appendChild(coreCall) : head.appendChild(coreCall);
-})(document, document.head, document.body);
-</script>	
 	<meta charset="<?php bloginfo( 'charset' ); ?>">
     <title>Charla Anderson</title>
     <meta name="description" content="Speaker | Coach | Author" />
