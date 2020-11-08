@@ -43,6 +43,7 @@ $container = get_theme_mod( 'understrap_container_type' );
                                 <input type="hidden" name="_wpcf7_unit_tag" value="wpcf7-f7-o1">
                                 <input type="hidden" name="_wpcf7_container_post" value="0">
                                 <input type="hidden" name="_wpcf7_posted_data_hash" value="">
+                                <input type="hidden" name="_wpcf7_recaptcha_response" value="">
                             </div>
                             <div class="form">
                                 <input type="text"
@@ -76,14 +77,14 @@ $container = get_theme_mod( 'understrap_container_type' );
                                 <span class="ajax-loader"></span>
                             </div>
                             <span class="wpcf7-form-control-wrap charlas-declaration-152">
-                                        <input type="hidden"
-                                               name="charlas-declaration-152"
-                                               value="<?php echo get_template_directory_uri(); ?>/src/assets/charla-declaration.pdf"
-                                               size="40"
-                                               class="wpcf7-form-control wpcf7dtx-dynamictext wpcf7-dynamichidden"
-                                               aria-invalid="false"
-                                        >
-                                    </span>
+                                <input type="hidden"
+                                       name="charlas-declaration-152"
+                                       value="<?php echo get_template_directory_uri(); ?>/src/assets/charla-declaration.pdf"
+                                       size="40"
+                                       class="wpcf7-form-control wpcf7dtx-dynamictext wpcf7-dynamichidden"
+                                       aria-invalid="false"
+                                >
+                            </span>
                             <div class="wpcf7-response-output"
                                  role="alert"
                                  aria-hidden="true"

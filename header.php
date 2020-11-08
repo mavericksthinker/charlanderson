@@ -246,6 +246,7 @@ $container = get_theme_mod( 'understrap_container_type' );
                                             <input type="hidden" name="_wpcf7_unit_tag" value="wpcf7-f58-o1">
                                             <input type="hidden" name="_wpcf7_container_post" value="0">
                                             <input type="hidden" name="_wpcf7_posted_data_hash" value="">
+                                            <input type="hidden" name="_wpcf7_recaptcha_response" value="">
                                         </div>
                                         <div class="form">
                                             <input type="text"
