@@ -38,7 +38,7 @@ $container = get_theme_mod( 'understrap_container_type' );
                         <form action="<?php echo $_SERVER['REQUEST_URI'].'#wpcf7-f7-o1'?>" method="post" class="wpcf7-form init" novalidate="novalidate">
                             <div style="display: none;">
                                 <input type="hidden" name="_wpcf7" value="7">
-                                <input type="hidden" name="_wpcf7_version" value="5.2">
+                                <input type="hidden" name="_wpcf7_version" value="5.3">
                                 <input type="hidden" name="_wpcf7_locale" value="en_US">
                                 <input type="hidden" name="_wpcf7_unit_tag" value="wpcf7-f7-o1">
                                 <input type="hidden" name="_wpcf7_container_post" value="0">
