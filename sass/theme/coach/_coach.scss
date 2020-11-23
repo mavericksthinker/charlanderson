@@ -153,6 +153,9 @@
 .about-page__hero-section__image {
   background-position: top center;
   background-image: url('../img/about/about_charla.jpg');
+  @media screen and (max-width: 940px) {
+    background-position: top right;
+  }
 }
 .choices-page__hero-section__image {
   background-image: url('../img/choices/choices-bg.jpeg');
