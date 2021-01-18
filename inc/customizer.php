@@ -160,16 +160,14 @@ if ( ! function_exists( 'add_script_to_the_footer' ) ) {
     { ?>
         <script>
             document.addEventListener('wpcf7mailsent', function (event) {
-                if ('7' === event.detail.contactFormId || '58' === event.detail.contactFormId) {
+
+                if ('36' === event.detail.contactFormId || '38' === event.detail.contactFormId) {
                     var inputs = event.detail.inputs;
 
                     if (inputs)
                         var downloadableFileUrl = inputs[2].value;
                     if (downloadableFileUrl)
                         window.location.href = downloadableFileUrl;
-                    // setTimeout(function () {
-                    //     location.reload();
-                    // }, 3000)
                 }
             });
             window.interdeal = {

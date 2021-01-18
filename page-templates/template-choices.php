@@ -53,9 +53,10 @@ if ( is_front_page() ) {
         <section class="choices-page__paragraph">
             <div class="choices-page__paragraph-container">
                 <p class="choices-page__paragraph-container__text heading animate">
-                    Affiliate, Charity, Faves info: These are a few of my favorite things… 
-                    Reach out to Charla at Charla@CharlaAnderson.com or leave a message at 888-788-4153. 
-                    I must really be a fan of and love using anything on this site!
+                    These are a few of my favorite things!  
+                    I must really be a fan and LOVE using anything on this site.
+                    Reach out to Charla@CharlaAnderson.com for information on my endorsements for Affiliates, Charities or Faves.
+
                 </p>
             </div>
         </section>
