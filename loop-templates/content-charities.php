@@ -81,7 +81,7 @@ defined( 'ABSPATH' ) || exit;
                     <h3 class="service-section__container__header blogs-section__container__header slide-right animate"
                         style="color: rgba(0, 0, 0, 1)"
                     >
-                        Zurvita / Zeal Wellness
+                        Zurvita Giving
                     </h3>
                     <p class="service-section__container__paragraph blogs-section__paragraph slide-right animate"
                        style="color: rgba(0, 0, 0 , 0.61)"
@@ -91,7 +91,7 @@ defined( 'ABSPATH' ) || exit;
                     <a class="about__button__read-more about__button__read-more__about choice-page__button slide-right animate"
                        style="z-index: 29; margin-top: 3rem;"
                        target="_blank"
-                       href="https://amzn.to/2qGVehM"
+                       href="https://zurvita.com/pages/zurvita-giving?m=US"
                     >
                         Explore
                     </a>
