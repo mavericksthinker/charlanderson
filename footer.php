@@ -33,14 +33,14 @@ $container = get_theme_mod( 'understrap_container_type' );
             <div class="contact-form__content">
                 <span class="contact-form__content-heading">Enter your email address below and get these powerful declarations to help you live a joyful life</span>
                 <div class="contact-form__container">
-                    <div role="form" class="wpcf7" style="margin: 0!important;" id="wpcf7-f7-o1" lang="en-US" dir="ltr">
+                    <div role="form" class="wpcf7" style="margin: 0!important;" id="wpcf7-f36-o1" lang="en-US" dir="ltr">
                         <div class="screen-reader-response" role="alert" aria-live="polite"></div>
-                        <form action="<?php echo $_SERVER['REQUEST_URI'].'#wpcf7-f7-o1'?>" method="post" class="wpcf7-form init" novalidate="novalidate">
+                        <form action="<?php echo $_SERVER['REQUEST_URI'].'#wpcf7-f36-o1'?>" method="post" class="wpcf7-form init" novalidate="novalidate">
                             <div style="display: none;">
-                                <input type="hidden" name="_wpcf7" value="7">
+                                <input type="hidden" name="_wpcf7" value="36">
                                 <input type="hidden" name="_wpcf7_version" value="5.3">
                                 <input type="hidden" name="_wpcf7_locale" value="en_US">
-                                <input type="hidden" name="_wpcf7_unit_tag" value="wpcf7-f7-o1">
+                                <input type="hidden" name="_wpcf7_unit_tag" value="wpcf7-f36-o1">
                                 <input type="hidden" name="_wpcf7_container_post" value="0">
                                 <input type="hidden" name="_wpcf7_posted_data_hash" value="">
                                 <input type="hidden" name="_wpcf7_recaptcha_response" value="">
